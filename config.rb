@@ -1,3 +1,4 @@
+page "CNAME", layout: false
 ###
 # Blog settings
 ###
@@ -6,6 +7,7 @@
 #
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.build_before = true
 end
 
 activate :blog do |blog|
@@ -34,6 +36,7 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
+page "/blog/*", layout:  "blog"
 
 configure :development do
   activate :livereload

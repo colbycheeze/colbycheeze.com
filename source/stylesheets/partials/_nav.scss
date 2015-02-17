@@ -6,11 +6,16 @@ nav {
     display: inline-block;
     margin-bottom: em(10);
   }
+
+  li {
+    display: inline-block;
+    padding-right: 20px;
+  }
 }
 
-.blog-title {
+.nav-link {
   font-size: 1.4em;
   font-weight: 700;
-  letterspacing: 4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }

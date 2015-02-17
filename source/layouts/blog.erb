@@ -6,15 +6,18 @@
       rel='stylesheet' type='text/css'>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>ColbyCheeZe.com - My Very Much 'in progress...' Personal Website</title>
+    <title><%= current_article.title + ' | ' unless current_article.nil? %>ColbyCheeZe</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
 
     <div id="main" role="main">
-      <%= partial "partials/nav" %>
-      <%= yield %>
-      <%= partial "partials/footer" %>
+      <%= partial "partials/blog/nav" %>
+      <article>
+        <%= yield %>
+      </article>
+      <%= partial "partials/blog/footer" %>
+
     </div>
 
   </body>
