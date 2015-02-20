@@ -12,12 +12,12 @@ per_page: 10
 
 <ul>
   <% page_articles.each_with_index do |article, i| %>
-    <li>
+    <article>
       <h3><%= link_to article.title, article %></h3>
-        <h5><%= article.date.strftime('%b %e') %></h5>
+        <h5><%= article.date.strftime('%b %e, %Y') %></h5>
         <p><%= article.summary %></p>
-        <%= link_to 'Read More', article %>
-    </li>
+        <%= link_to 'Read More...', article, class: 'read-more' %>
+    </article>
   <% end %>
 </ul>
 
