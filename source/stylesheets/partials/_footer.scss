@@ -2,4 +2,13 @@ footer {
   border-top: 3px solid $footer-border-color;
   margin: 2em 0;
   padding-top: 2em;
+
+  ul {
+    display: inline-block;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 10px;
+  }
 }

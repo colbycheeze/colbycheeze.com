@@ -3,7 +3,20 @@ article {
   margin-bottom: 1em;
   padding-bottom: 1em;
 
+  h1 {
+
+  }
+
+  ul {
+    @extend %default-ul;
+  }
+
+  ol {
+    @extend %default-ol;
+  }
+
   .read-more {
     margin-left: 1em;
+    color: orange;
   }
 }
