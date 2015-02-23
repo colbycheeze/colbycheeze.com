@@ -3,9 +3,6 @@ article {
   margin-bottom: 1em;
   padding-bottom: 1em;
 
-  h1 {
-
-  }
 
   ul {
     @extend %default-ul;
@@ -19,4 +16,5 @@ article {
     margin-left: 1em;
     color: orange;
   }
+
 }
