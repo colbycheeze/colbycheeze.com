@@ -60,3 +60,14 @@
 .vi { color: #008080 } /* Name.Variable.Instance */
 .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+pre a:first-of-type::before {
+  padding-top: 10px;
+}
+
+pre a:last-of-type::before {
+  padding-bottom: 10px;
+}
+
+pre a:only-of-type::before {
+  padding: 10px;
+}

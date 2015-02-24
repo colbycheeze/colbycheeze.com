@@ -133,3 +133,34 @@ pre a:last-of-type::before {
 pre a:only-of-type::before {
   padding: 10px;
 }
+pre {
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  border: solid 1px #ddd;
+  border-radius: 3px;
+  line-height: 23px;
+  margin-bottom: 30px;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  margin-left: -$base-spacing;
+  margin-right: -$base-spacing;
+}
+
+code {
+  padding: 0.5em 1em;
+  display: block;
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 90%;
+  line-height: 140%;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}

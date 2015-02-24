@@ -4,17 +4,16 @@ article {
   padding-bottom: 1em;
 
 
-  ul {
-    @extend %default-ul;
+  ul, ol {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
   }
-
-  ol {
-    @extend %default-ol;
-  }
+  ol { list-style-type: decimal; }
 
   .read-more {
     margin-left: 1em;
-    color: orange;
+    color: $orange;
   }
-
 }

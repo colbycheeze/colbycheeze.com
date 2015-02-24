@@ -7,11 +7,13 @@ activate :directory_indexes
 
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true,
-    :tables => true,
-    :smartypants => true,
-    :autolink => true
+               :tables => true,
+               :smartypants => true,
+               :autolink => true,
+               :highlight => true,
+               :with_toc_data => true
 
-activate :syntax, line_numbers: true
+activate :syntax
 
 activate :deploy do |deploy|
   deploy.method = :git
