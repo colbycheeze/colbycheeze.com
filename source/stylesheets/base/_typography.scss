@@ -17,25 +17,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: $base-font-size * 2.1;
   font-weight: 700;
 }
 
 h2 {
   font-size: 32px;
+  font-size: $base-font-size * 1.8;
   font-weight: 800;
 }
 
 h3 {
   font-size: 1.5em;
+  font-size: $base-font-size * 1.5;
   font-weight: 600;
 }
 
 h4 {
   color: $dark-gray;
-  font-size: 1em;
+  font-size: $base-font-size * 1.2;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+h5 {
+  font-weight: 300;
+  text-shadow: none;
+  font-style: italic;
+  margin-bottom: .5em;
+}
+
+h6 {
+  font-size: $base-font-size * 0.9;
 }
 
 p {
@@ -81,48 +94,4 @@ picture {
   max-width: 100%;
 }
 
-pre {
-  font-family: "Courier 10 Pitch", Courier, monospace;
-  border: solid 1px #ddd;
-  border-radius: 3px;
-  line-height: 23px;
-  margin-bottom: 30px;
-  white-space: pre;
-  overflow-x: auto;
-  word-break: inherit;
-  word-wrap: inherit;
-  white-space: pre;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -o-pre-wrap;
-}
 
-code {
-  padding: 0.5em 1em;
-  display: block;
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 90%;
-  line-height: 140%;
-  white-space: pre;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -o-pre-wrap;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
-// Styling for gutters...if I decide to use them
-// .gl {
-//   background: #fafafa;
-//   border-right: 1px solid #ddd;
-//   color: #999;
-// 
-//   /* Stop line numbers being visually selected */
-//   -webkit-touch-callout: none;
-//   -webkit-user-select: none;
-//   -khtml-user-select: none;
-//   -moz-user-select: none;
-//   -ms-user-select: none;
-//   user-select: none;
-// }
-// 

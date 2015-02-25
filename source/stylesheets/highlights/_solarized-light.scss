@@ -86,21 +86,21 @@ green     #859900  operators, other keywords
 .highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
 
-//Line Numbers
-pre {
-    counter-reset: line-numbering;
-    border: solid 1px #d9d9d9;
-    border-radius: 0;
-    background: #fff;
-    padding: 0;
-    line-height: 23px;
-    margin-bottom: 30px;
-    white-space: pre;
-    overflow-x: auto;
-    word-break: inherit;
-    word-wrap: inherit;
-}
-
+Line Numbers
+ pre {
+     counter-reset: line-numbering;
+     border: solid 1px #d9d9d9;
+     border-radius: 0;
+     background: #fff;
+     padding: 0;
+     line-height: 23px;
+     margin-bottom: 30px;
+     white-space: pre;
+     overflow-x: auto;
+     word-break: inherit;
+     word-wrap: inherit;
+ }
+ 
 pre a::before {
   content: counter(line-numbering);
   counter-increment: line-numbering;
@@ -140,13 +140,8 @@ pre {
   line-height: 23px;
   margin-bottom: 30px;
   white-space: pre;
-  overflow-x: auto;
-  word-break: inherit;
-  word-wrap: inherit;
+  overflow-x: scroll;
   white-space: pre;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -o-pre-wrap;
   margin-left: -$base-spacing;
   margin-right: -$base-spacing;
 }
@@ -158,9 +153,6 @@ code {
   font-size: 90%;
   line-height: 140%;
   white-space: pre;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -o-pre-wrap;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }

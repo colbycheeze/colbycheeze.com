@@ -1,7 +1,8 @@
 ---
 title: Quick Markdown Example
 date: 2015-02-18 14:20 UTC
-tags: example
+tags: example, formatting, design
+post_summary: This is a summary of the post yo.
 ---
 
 An H1 Header
@@ -106,9 +107,7 @@ Highlight with ==two equals signs.==
 
 1. First ordered list item
 2. Another item
-  * Unordered sub-list. 
 1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
 4. And another item.  
    
    Some text that should be aligned with the above item.
