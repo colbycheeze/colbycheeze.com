@@ -16,6 +16,7 @@ $heading-line-height: 1.3;
 $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
+$tiny-spacing: $small-spacing / 2;
 $base-z-index: 0;
 
 // Colors
@@ -41,7 +42,12 @@ $footer-border-color: $blue;
 $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
-// Nav
+// Header
 $nav-height: 60px;
 $nav-background-color: $orange;
-$nav-border-color: lighten($nav-background-color, 15%)
+$nav-border-color: lighten($nav-background-color, 15%);
+
+// Footer
+$footer-height: 150px;
+$footer-background-color: $nav-background-color;
+$footer-border-color: lighten($footer-background-color, 15%)

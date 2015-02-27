@@ -3,6 +3,7 @@ title: Quick Markdown Example
 date: 2015-02-18 14:20 UTC
 tags: example, formatting, design
 post_summary: This is a summary of the post yo.
+published: false
 ---
 
 An H1 Header

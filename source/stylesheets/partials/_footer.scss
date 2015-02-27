@@ -1,14 +1,28 @@
 footer {
-  border-top: 3px solid $footer-border-color;
-  margin: 2em 0;
-  padding-top: 2em;
+  @include linear-gradient(lighten($footer-background-color, 15%),
+  $footer-background-color);
 
-  ul {
-    display: inline-block;
-  }
+  padding: $base-spacing 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: $footer-height;
+}
+
+.footer-content {
 
   li {
     display: inline-block;
     padding-right: 10px;
   }
+}
+
+.footer-links {
+  @include span-columns(6);
+  @include shift(3);
+}
+
+.blog-info {
+  text-align: center;
 }

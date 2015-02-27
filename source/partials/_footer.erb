@@ -1,10 +1,17 @@
 
 <footer>
-  <ul class="large-column">
-    <li><%= link_to "Twitter", "http://www.twitter.com/colbycheeze", class: 'twitter', target: 'blank' %></li>
-    <li><%= link_to "LinkedIn", "https://www.linkedin.com/in/colbycheeze", class: 'linkedin', target: 'blank'  %></li>
-    <li><%= link_to "Github", "http://www.github.com/colbycheeze", class: 'github', target: 'blank'  %></li>
-    <li><%= link_to "Email", "mailto:colby@colbycheeze.com", class: 'email' %></li>
-    <li><%= link_to "Youtube", "http://www.youtube.com/colbycheeze", class: 'youtube', target: 'blank'  %></li>
-  </ul>
+  <div class="footer-content">
+    <section class="footer-links">
+      <ul>
+        <li><%= link_to "Twitter", "http://www.twitter.com/colbycheeze", class: 'twitter', target: 'blank' %></li>
+        <li><%= link_to "LinkedIn", "https://www.linkedin.com/in/colbycheeze", class: 'linkedin', target: 'blank'  %></li>
+        <li><%= link_to "Github", "http://www.github.com/colbycheeze", class: 'github', target: 'blank'  %></li>
+        <li><%= link_to "Email", "mailto:colby@colbycheeze.com", class: 'email' %></li>
+        <li><%= link_to "Youtube", "http://www.youtube.com/colbycheeze", class: 'youtube', target: 'blank'  %></li>
+      </ul>
+    </section>
+    <section class="blog-info">
+      <p>©2015 ColbyCheeze.com - This website was built using <%= link_to "Middleman", "https://middlemanapp.com/", target: 'blank' %></p>
+    </section>
+  </div>
 </footer>

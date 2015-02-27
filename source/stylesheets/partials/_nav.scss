@@ -1,7 +1,6 @@
 header {
   @include linear-gradient($nav-background-color, lighten($nav-background-color,
   15%));
-  width: 100%;
   margin-bottom: $base-spacing;
 }
 
@@ -15,6 +14,7 @@ nav {
   float:right;
   vertical-align: top;
   height: $nav-height;
+  
 
   ul {
     display: inline-block;
