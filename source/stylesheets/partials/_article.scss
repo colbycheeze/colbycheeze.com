@@ -1,5 +1,8 @@
 article {
+  @extend %large-column;
   border-bottom: $base-border;
+  // background-color: $content-background-color;
+  padding: $base-spacing;
 
   &:last-child {
     border: none;
@@ -16,29 +19,28 @@ article {
   }
   ol { list-style-type: decimal; }
 
+  .tags {
+    list-style-type: none;
+    font-size: $base-font-size * .8;
+    font-weight: bold;
+    margin-top: -$small-spacing;
+
+    li {
+      display: inline-block;
+      padding-right: $small-spacing / 2;
+
+      &:before {
+        content: "/ ";
+      }
+
+      &:first-child:before {
+        content: '';
+      }
+    }
+  }
 }
 
 .read-more {
   color: $orange;
 }
 
-.tags {
-  list-style-type: none;
-  font-size: $base-font-size * .8;
-  font-weight: bold;
-  margin-top: -$small-spacing;
-
-  li {
-    display: inline-block;
-    padding-right: $small-spacing / 2;
-
-    &:before {
-      content: "/ ";
-    }
-
-    &:first-child:before {
-      content: '';
-    }
-  }
-
-}

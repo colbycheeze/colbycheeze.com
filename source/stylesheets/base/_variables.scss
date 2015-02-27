@@ -21,6 +21,8 @@ $base-z-index: 0;
 
 // Colors
 $blue: #0D9FFF;
+$vibrant-blue: #0055bb;
+$light-blue: #bbeeff;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
@@ -29,7 +31,7 @@ $orange: #FF9B0D;
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $vibrant-blue;
 $heading-color: $base-font-color;
 $font-shadow-color: $light-gray;
 
@@ -44,10 +46,17 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 
 // Header
 $nav-height: 60px;
-$nav-background-color: $orange;
+$nav-background-color: $light-blue;
 $nav-border-color: lighten($nav-background-color, 15%);
+
+// Content Area
+$content-background-color: $light-gray;
 
 // Footer
 $footer-height: 150px;
 $footer-background-color: $nav-background-color;
-$footer-border-color: lighten($footer-background-color, 15%)
+$footer-border-color: lighten($footer-background-color, 15%);
+
+// Aside
+$aside-background-color: $light-gray;
+$aside-border-color: lighten($aside-background-color, 15%);

@@ -1,0 +1,10 @@
+aside {
+  @extend %small-column;
+
+  padding: $base-spacing;
+  // background-color: $aside-background-color;
+
+  .tag {
+
+  }
+}

@@ -13,12 +13,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $tiny-spacing;
-  //text-shadow: 0 2px 5px $font-shadow-color;
 }
 
 h1 {
   font-size: $base-font-size * 2.1;
   font-weight: 700;
+  text-shadow: 0 2px 5px $font-shadow-color;
 }
 
 h2 {

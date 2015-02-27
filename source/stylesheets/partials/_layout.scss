@@ -36,11 +36,4 @@ ol {
   }
 }
 
-.large-column {
-  @include span-columns(8 of 12);
-}
-
-.small-column {
-  @include span-columns(4 of 12);
-}
 

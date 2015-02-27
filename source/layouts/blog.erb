@@ -1,9 +1,8 @@
-
 <% wrap_layout :layout do %>
   <section class='article-list'>
     <article>
       <%= yield %>
-      <%= partial "partials/blog/footer" %>
     </article>
+  <%= partial "partials/blog/widgets" %>
   </section>
 <% end %>

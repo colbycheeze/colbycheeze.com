@@ -4,10 +4,14 @@
 @import "base/base";
 @import "neat";
 
+@import "mixins";
+@import "extends";
+
 @import "highlights/solarized-light";
 
 @import "partials/nav";
 @import "partials/layout";
 @import "partials/article";
+@import "partials/aside";
 @import "partials/footer";
 

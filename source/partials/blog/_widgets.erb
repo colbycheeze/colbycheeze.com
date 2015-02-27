@@ -1,30 +1,29 @@
-<footer>
-  <ul class="large-column">
+<aside>
+  <ul>
     <li><h5 class="heading">Recent Articles</h></li>
     <li>
       <ol>
         <% blog.articles[0...10].each do |article| %>
           <li>
             <%= link_to article.title, article %>
-            <span><%= article.date.strftime('%b %e') %></span>
           </li>
         <% end %>
       </ol>
     </li>
   </ul>
 
-  <ul class="small-column">
+  <ul>
     <li><h5 class="heading">Tags</h></li>
     <li>
       <ol>
         <% blog.tags.each do |tag, articles| %>
-          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+          <%= link_to "#{tag} (#{articles.size})", tag_path(tag), class: "tag" %>
         <% end %>
       </ol>
     </li>
   </ul>
   <ul>
-    <li><h2>By Year</h2></li>
+    <li><h5>By Year</h5></li>
     <li>
       <ol>
         <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
@@ -33,4 +32,4 @@
       </ol>
     </li>
   </ul>
-</footer>
+</aside>
