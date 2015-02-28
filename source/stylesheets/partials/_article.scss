@@ -10,35 +10,40 @@ article {
   ul, ol {
     list-style-type: disc;
     list-style-position: outside;
+    margin-left: $small-spacing;
     margin-bottom: $small-spacing;
     padding-left: 0;
   }
   ol { list-style-type: decimal; }
 
+  .read-more {
+    color: $orange;
+  }
+}
+
+
+.meta {
+  list-style-type: none;
+  font-size: $base-font-size * .8;
+  margin-left: 0;
+  margin-top: -$small-spacing;
+  margin-bottom: $base-spacing;
+
+  li {
+    display: inline-block;
+
+    &:after {
+      content: ", ";
+    }
+
+    &:last-child:after {
+      content: '';
+    }
+  }
+
   .date {
     font-style: italic;
     padding-right: $small-spacing;
   }
-  .meta {
-    list-style-type: none;
-    font-size: $base-font-size * .8;
-    margin-top: -$small-spacing;
-
-    li {
-      display: inline-block;
-
-      &:after {
-        content: ", ";
-      }
-
-      &:last-child:after {
-        content: '';
-      }
-    }
-  }
-}
-
-.read-more {
-  color: $orange;
 }
 

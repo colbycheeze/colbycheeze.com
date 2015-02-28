@@ -1,0 +1,25 @@
+<% wrap_layout :layout do %>
+  <div class="grid">
+    <% if current_article %>
+      <h1><%= current_article.title %></h1>
+      <ul class="meta">
+        <span class="date"><%= current_article.date.strftime('%b %e, %Y') %></span> 
+        <em>tags</em>: <% current_article.tags.each do |tag| %>
+        <li><%= link_to tag, tag_path(tag) %></li>
+      <% end %>
+      </ul>
+  <% else %>
+    <h1>Blog</h1>
+  <% end %>
+    <section class="blog-content">
+      <% if current_article %>
+        <article>
+      <%= yield %>
+        </article>
+      <% else %>
+        <%= yield %>
+      <% end %>
+    </section>
+    <%= partial "partials/blog/widgets" %>
+  </div>
+<% end %>
