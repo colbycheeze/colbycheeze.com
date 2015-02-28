@@ -2,7 +2,7 @@
 title: Building My Middleman Blog
 date: 2015-02-26 15:37 UTC
 tags: Design, How to, Middleman
-published: false
+published: true
 ---
 
 Building my own blog from scratch was a lot more work than I realized. There

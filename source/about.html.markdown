@@ -1,4 +1,4 @@
-## I am a challenge seeker and love writing code.
+# I am a challenge seeker and love writing code.
 ### My Past
 I've dabbled in programming since I was a kid, and have always enjoyed creating things. I've always been a self learner, as I love picking up books and resources and just figuring things out. Overcoming challenges has always been a big rush for me.
 

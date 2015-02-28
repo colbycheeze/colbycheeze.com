@@ -12,6 +12,7 @@ body {
 
 .main-content {
   padding-bottom: $footer-height;
+  @include outer-container;
 }
 
 .blog-content {
@@ -19,5 +20,4 @@ body {
 }
 
 .grid {
-  @include outer-container;
 }
