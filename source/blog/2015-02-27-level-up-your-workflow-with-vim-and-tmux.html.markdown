@@ -51,3 +51,16 @@ checking it out, as it would really suck to lose your local files and not have a
 backup! That said, here are [ my dotfiles
 ](https://github.com/colbycheeze/dotfiles).
 
+### Level Up!
+Now that you have a solid base, it's time to level up further by customizing and
+extending your setup. At this point, the sky is the limit. Here are some great
+ideas for what to try next.
+
+* This is a great [ list of plugins ](http://www.bestofvim.com/plugin/) to check out
+* Read the book [Learn Vimscript the hard
+  way](http://learnvimscriptthehardway.stevelosh.com/)
+* Watch these awesome talks by Ben Orenstein
+
+
+
+

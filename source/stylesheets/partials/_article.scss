@@ -1,7 +1,5 @@
 article {
-  @extend %large-column;
   border-bottom: $base-border;
-  // background-color: $content-background-color;
   padding: $base-spacing;
 
   &:last-child {
@@ -30,7 +28,7 @@ article {
       padding-right: $small-spacing / 2;
 
       &:before {
-        content: "/ ";
+        content: "/    ";
       }
 
       &:first-child:before {

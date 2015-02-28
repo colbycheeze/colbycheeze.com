@@ -17,7 +17,8 @@
     <li>
       <ol>
         <% blog.tags.each do |tag, articles| %>
-          <%= link_to "#{tag} (#{articles.size})", tag_path(tag), class: "tag" %>
+          <%# <%= link_to "#{tag} (#{articles.size})", tag_path(tag), class: "tag" %>
+          <%= link_to "#{tag}", tag_path(tag), class: "tag" %>
         <% end %>
       </ol>
     </li>

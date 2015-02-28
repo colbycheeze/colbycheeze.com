@@ -1,0 +1,10 @@
+<% wrap_layout :layout do %>
+  <div class="grid">
+    <div class="blog-post">
+      <article>
+        <%= yield %>
+      </article>
+    </div>
+    <%= partial "partials/blog/widgets" %>
+  </div>
+<% end %>

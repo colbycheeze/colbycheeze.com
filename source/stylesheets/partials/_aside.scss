@@ -4,7 +4,21 @@ aside {
   padding: $base-spacing;
   // background-color: $aside-background-color;
 
-  .tag {
+  ul {
+    @include clearfix;
+    margin-bottom: $small-spacing;
+  }
+  ol {
+    font-size: $small-font-size;
+  }
 
+  .tag {
+    padding: 2px $tiny-spacing 2px $tiny-spacing;
+    margin: 2px;
+    display: block;
+    float: left;
+
+    border: $base-border;
+    border-radius: $base-border-radius;
   }
 }

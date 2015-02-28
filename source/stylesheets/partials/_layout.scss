@@ -14,26 +14,15 @@ body {
   padding-bottom: $footer-height;
 }
 
-section {
+.blog-post,
+.blog-posts {
+  @extend %large-column;
+}
+
+.grid {
   @include outer-container;
 }
 
-ol {
-  font-size: 1em;
-  font-weight: 500;
-
-  li {
-    margin: .5em 0;
-
-    span {
-      display: inline-block;
-
-      &:before {
-        content: '/';
-        margin: 0 .3em;
-      }
-    }
-  }
+section {
 }
-
 
