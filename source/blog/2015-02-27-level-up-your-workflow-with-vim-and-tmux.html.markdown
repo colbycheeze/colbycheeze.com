@@ -10,9 +10,9 @@ think of it as going from hunt and peck typing to touch. The difference is night
 and day and you will be a happier developer because of it.  READMORE
 
 ### Learning
-As a new user of Vim, I highly recommend NOT just straight up copying
-someone else's massive dotfiles. Start from the basics and iteratively upgrade
-yourself.
+> As a new user of Vim, I highly recommend NOT just straight up copying
+> someone else's massive dotfiles. Start from the basics and iteratively upgrade
+> yourself.
 
 1. If you are just now learning Vim, the easiest way to get started is to simply
 open up your terminal and type in ==vimtutor==
@@ -32,28 +32,28 @@ videos alone.
 
 
 ### Setup
-If you are going to be using Vim / Tmux now, there are some basic defaults you
-will want to get set up such as copy paste support, color themes, etc.
+> If you are going to be using Vim / Tmux now, there are some basic defaults you
+> will want to get set up such as copy paste support, color themes, etc.
 
-First off, I suggest that if you have a Mac you use Thoughtbot's "laptop" setup
+1. First off, I suggest that if you have a Mac you use Thoughtbot's "laptop" setup
 which puts together some sensible defaults AND installs a ton of great apps for
 developing in Ruby. They have a [script that does that on github]( https://github.com/thoughtbot/laptop ).
 
-Once you have everything set up (or just skip to this step), you can [take a look
+2. Once you have everything set up (or just skip to this step), you can [take a look
 at their dotfiles.](https://github.com/thoughtbot/dotfiles) They have everything set up so that you add your own "local"
 changes to files appended with .local. I have followed this convention, just in
 case they update their repo in the future I can stay current without running
 into problems.
 
-These use something called [RCM](https://github.com/thoughtbot/rcm) to keep your dotfiles updated. I recommend
+3. Then use something called [RCM](https://github.com/thoughtbot/rcm) to keep your dotfiles updated. I recommend
 checking it out, as it would really suck to lose your local files and not have a
 backup! That said, here are [ my dotfiles
 ](https://github.com/colbycheeze/dotfiles).
 
 ### Level Up!
-Now that you have a solid base, it's time to level up further by customizing and
-extending your setup. At this point, the sky is the limit. Here are some great
-ideas for what to try next.
+> Now that you have a solid base, it's time to level up further by customizing and
+> extending your setup. At this point, the sky is the limit. Here are some great
+> ideas for what to try next.
 
 * This is a great [ list of plugins ](http://www.bestofvim.com/plugin/) to check out
 * Read the book [Learn Vimscript the hard

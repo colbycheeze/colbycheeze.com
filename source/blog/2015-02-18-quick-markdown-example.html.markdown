@@ -2,7 +2,7 @@
 title: Quick Markdown Example
 date: 2015-02-18 14:20 UTC
 tags: example, formatting, design
-published: false
+published: true
 ---
 
 Example Markdown so I can see how my styles look and how the markdown is
