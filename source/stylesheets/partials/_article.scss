@@ -1,13 +1,11 @@
 article {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  padding-right: $base-spacing;
   border-bottom: $base-border;
-  padding: $base-spacing;
-
   &:last-child {
     border: none;
   }
-
-  margin-bottom: 1em;
-  padding-bottom: 1em;
 
   ul, ol {
     list-style-type: disc;
@@ -17,21 +15,23 @@ article {
   }
   ol { list-style-type: decimal; }
 
-  .tags {
+  .date {
+    font-style: italic;
+    padding-right: $small-spacing;
+  }
+  .meta {
     list-style-type: none;
     font-size: $base-font-size * .8;
-    font-weight: bold;
     margin-top: -$small-spacing;
 
     li {
       display: inline-block;
-      padding-right: $small-spacing / 2;
 
-      &:before {
-        content: "/    ";
+      &:after {
+        content: ", ";
       }
 
-      &:first-child:before {
+      &:last-child:after {
         content: '';
       }
     }

@@ -14,15 +14,10 @@ body {
   padding-bottom: $footer-height;
 }
 
-.blog-post,
-.blog-posts {
+.blog-content {
   @extend %large-column;
 }
 
 .grid {
   @include outer-container;
 }
-
-section {
-}
-

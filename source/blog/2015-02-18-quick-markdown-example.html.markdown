@@ -2,17 +2,15 @@
 title: Quick Markdown Example
 date: 2015-02-18 14:20 UTC
 tags: example, formatting, design
-post_summary: This is a summary of the post yo.
 published: false
 ---
+
+Example Markdown so I can see how my styles look and how the markdown is
+generated with RedCarpet / Middleman Blog. READMORE
 
 An H1 Header
 ============
 
-
-This cheatsheet is copied from https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet credit goes to adam-p
-
-----
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
 
 This cheatsheet is specifically *Markdown Here's* version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a *Markdown Here* email, but it should be pretty close.

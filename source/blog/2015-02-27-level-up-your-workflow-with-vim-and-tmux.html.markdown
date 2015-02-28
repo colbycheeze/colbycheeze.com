@@ -4,11 +4,10 @@ date: 2015-02-27 09:53 CST
 tags: Tools, Vim, Tmux, Workflow
 ---
 
-Level up your workflow with Vim and Tmux
-========================================
-
-This is my list of resources to help learn and/or upgrade your Vim and Tmux
-workflow. Please let me know if you have any suggestions or questions.  READ MORE
+This is my list of resources to help learn, setup, and upgrade your Vim and Tmux
+workflow. It may not be as comfortable at first coming from a visual IDE, but
+think of it as going from hunt and peck typing to touch. The difference is night
+and day and you will be a happier developer because of it.  READMORE
 
 ### Learning
 As a new user of Vim, I highly recommend NOT just straight up copying

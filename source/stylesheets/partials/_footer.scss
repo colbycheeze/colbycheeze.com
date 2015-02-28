@@ -11,6 +11,7 @@ footer {
 }
 
 .footer-content {
+  padding-top: $base-spacing;
 
   li {
     display: inline-block;
@@ -19,9 +20,14 @@ footer {
 }
 
 .footer-links {
-  @include span-columns(6);
-  @include shift(3);
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  padding-bottom: $base-spacing;
+  transform: translate(-50%, -50%)
 }
+
 
 .blog-info {
   text-align: center;

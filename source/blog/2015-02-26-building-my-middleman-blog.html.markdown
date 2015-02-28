@@ -1,14 +1,14 @@
 ---
 title: Building My Middleman Blog
 date: 2015-02-26 15:37 UTC
-tags: Design, How to
+tags: Design, How to, Middleman
 published: false
 ---
 
 Building my own blog from scratch was a lot more work than I realized. There
 were so many things that I did not know how to do, and as simple as it sounded
 to me, "Oh hey, let's just put up a basic static site using Middleman" it really
-did not turn out that way. READ MORE
+did not turn out that way. READMORE
 
 When you build a blog with a framework like Wordpress things can be very simple.
 A lot of stuff is done for you, and you have a wide range of plugins which you

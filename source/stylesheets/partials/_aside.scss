@@ -1,7 +1,7 @@
 aside {
   @extend %small-column;
 
-  padding: $base-spacing;
+  padding-left: $base-spacing;
   // background-color: $aside-background-color;
 
   ul {
