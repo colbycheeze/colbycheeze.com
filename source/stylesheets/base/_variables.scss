@@ -1,8 +1,12 @@
 //$visual-grid: true;
 
 // Typography
-//$base-font-family: 'proxima-nova', $helvetica;
+// $base-font-family: 'proxima-nova', $helvetica;
 $base-font-family: "Roboto Slab", Georgia, serif;
+// $base-font-family: "Allan", $helvetica;
+// $heading-font-family: "Cardo", Times, Georgia, serif;
+// $base-font-family: "Lekton", $helvetica;
+// $heading-font-family: "Molengo", Times, Georgia, serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -23,6 +27,8 @@ $base-z-index: 0;
 // Colors
 $blue: #0D9FFF;
 $vibrant-blue: #0055bb;
+$teal: #44bbcc;
+$blue-green: #225533;
 $light-blue: #bbeeff;
 $dark-gray: #333;
 $medium-gray: #999;

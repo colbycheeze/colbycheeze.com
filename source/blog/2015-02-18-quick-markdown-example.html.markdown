@@ -5,8 +5,8 @@ tags: example, formatting, design
 published: true
 ---
 
-Example Markdown so I can see how my styles look and how the markdown is
-generated with RedCarpet / Middleman Blog. READMORE
+*Example Markdown so I can see how my styles look and how the markdown is
+generated with RedCarpet / Middleman Blog.* READMORE
 
 An H1 Header
 ============

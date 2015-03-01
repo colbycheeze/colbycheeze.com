@@ -86,21 +86,21 @@ green     #859900  operators, other keywords
 .highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
 
-Line Numbers
- pre {
-     counter-reset: line-numbering;
-     border: solid 1px #d9d9d9;
-     border-radius: 0;
-     background: #fff;
-     padding: 0;
-     line-height: 23px;
-     margin-bottom: 30px;
-     white-space: pre;
-     overflow-x: auto;
-     word-break: inherit;
-     word-wrap: inherit;
- }
- 
+// Line Numbers
+
+pre {
+  counter-reset: line-numbering;
+  border: solid 1px #d9d9d9;
+  border-radius: 0;
+  background: #fff;
+  line-height: 23px;
+  margin-bottom: 30px;
+  white-space: pre;
+  overflow-x: auto;
+  word-break: inherit;
+  word-wrap: inherit;
+}
+
 pre a::before {
   content: counter(line-numbering);
   counter-increment: line-numbering;
@@ -135,6 +135,7 @@ pre a:only-of-type::before {
 }
 pre {
   font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 110%;
   border: solid 1px #ddd;
   border-radius: 3px;
   line-height: 23px;
@@ -142,15 +143,15 @@ pre {
   white-space: pre;
   overflow-x: scroll;
   white-space: pre;
-  margin-left: -$base-spacing;
-  margin-right: -$base-spacing;
+  // margin-left: -$base-spacing;
+  // margin-right: -$base-spacing;
 }
 
 code {
-  padding: 0.5em 1em;
-  display: block;
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 90%;
+  padding: 0.5em 1em 0 0.5em;
+  margin-bottom: -0.4em;
+  display: inline-block;
+  // font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   line-height: 140%;
   white-space: pre;
   overflow-x: scroll;

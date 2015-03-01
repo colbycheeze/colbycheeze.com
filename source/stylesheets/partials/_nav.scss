@@ -7,18 +7,15 @@ header {
 .header-container {
   @include outer-container;
   @include user-select(none);
-  
 }
 
 nav {
   float:right;
   vertical-align: top;
   height: $nav-height;
-  
 
   ul {
     display: inline-block;
-    height: $nav-height;
   }
 
   li {
@@ -26,8 +23,14 @@ nav {
     display: block;
     float: left;
     vertical-align: text-top;
-    padding: 0 10px 0 10px; 
+    padding: 0 10px 0 10px;
     border-right: 1px solid $nav-border-color;
+    cursor: pointer;
+
+    a {
+      display: block;
+      height: $nav-height;
+    }
 
     &:last-child {
       padding-right: 0px;

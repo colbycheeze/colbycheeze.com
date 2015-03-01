@@ -4,10 +4,10 @@ date: 2015-02-27 09:53 CST
 tags: Tools, Vim, Tmux, Workflow
 ---
 
-This is my list of resources to help learn, setup, and upgrade your Vim and Tmux
+*This is my list of resources to help learn, setup, and upgrade your Vim and Tmux
 workflow. It may not be as comfortable at first coming from a visual IDE, but
 think of it as going from hunt and peck typing to touch. The difference is night
-and day and you will be a happier developer because of it.  READMORE
+and day and you will be a happier developer because of it.*  READMORE
 
 ### Learning
 > As a new user of Vim, I highly recommend NOT just straight up copying
@@ -15,7 +15,7 @@ and day and you will be a happier developer because of it.  READMORE
 > yourself.
 
 1. If you are just now learning Vim, the easiest way to get started is to simply
-open up your terminal and type in ==vimtutor==
+open up your terminal and type in `vimtutor`
 
 2. Next, I suggest doing at least the free levels in [Vim Adventures](http://vim-adventures.com/)
 
@@ -58,7 +58,7 @@ backup! That said, here are [ my dotfiles
 * This is a great [ list of plugins ](http://www.bestofvim.com/plugin/) to check out
 * Read the book [Learn Vimscript the hard
   way](http://learnvimscriptthehardway.stevelosh.com/)
-* Watch these awesome talks by Ben Orenstein
+* Watch these [ awesome talks ](http://confreaks.tv/presenters/ben-orenstein) by Ben Orenstein
 
 
 

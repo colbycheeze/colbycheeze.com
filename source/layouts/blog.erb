@@ -4,7 +4,7 @@
       <h1><%= current_article.title %></h1>
       <ul class="meta">
         <span class="date"><%= current_article.date.strftime('%b %e, %Y') %></span> 
-        <em>tags</em>: <% current_article.tags.each do |tag| %>
+        <em><strong>tags</strong></em>: <% current_article.tags.each do |tag| %>
         <li><%= link_to tag, tag_path(tag) %></li>
       <% end %>
       </ul>

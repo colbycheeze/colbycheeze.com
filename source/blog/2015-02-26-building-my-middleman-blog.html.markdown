@@ -5,10 +5,13 @@ tags: Design, How to, Middleman
 published: true
 ---
 
-Building my own blog from scratch was a lot more work than I realized. There
+*Building my own blog from scratch was a lot more work than I realized. There
 were so many things that I did not know how to do, and as simple as it sounded
 to me, "Oh hey, let's just put up a basic static site using Middleman" it really
-did not turn out that way. READMORE
+did not turn out that way.* READMORE
+
+**Note:** This post isn't really complete. I just have it live to get extra
+posts to show on the index page. I'll finish it up when I can though!
 
 When you build a blog with a framework like Wordpress things can be very simple.
 A lot of stuff is done for you, and you have a wide range of plugins which you
@@ -41,6 +44,7 @@ ideas of layout, and then browsing pages on Github that used clean practices,
 such as the Upcase website. My goal was to use Sass and clean practices in order
 to generate a codebase which was manageable as my website grows.
 
+**Feb 26**
 Current iteration of the site looks like this.
 ![Nav Complete Iteration](http://i.gyazo.com/5830729b9482927e7c6120ddbc31c10e.png "Nav Complete Iteration")
 Would you believe me if I told you it took me 2 hours just to get that top Nav
@@ -48,3 +52,8 @@ set up? I ran into a bunch of issues with getting things lined up, and figuring
 out positioning. Once I spent some time reading over the CSS, Bourbon, and Neat
 docs as well as examining how a few other sites did their headers, I was able to
 get everything complete.
+
+**Feb 28**
+I've been working on various things, and getting the spacing down. Also I
+changed out of that odd orange color. Here is the current iteration.
+[![Sidebar and Footer Complete](http://i.gyazo.com/86b71a1a6dbf7810d07fcf7a0fdb65ac.png)]
