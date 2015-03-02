@@ -167,6 +167,7 @@ http://www.colbycheeze.com/blog/2015/02/level-up-your-workflow-with-vim-and-tmux
 
 ### Tools and Utilities
   * [Rubular][] - A Ruby regular expression editor and tester
+  * [HTML Validator][] - Make sure your HTML is correct
   * [Ruby Toolbox][] - Complete list of the "best practice" Ruby tools
   * [Programmer Competency Matrix][pcm] - What is your competency level as a
     programmer?
@@ -186,6 +187,7 @@ http://www.colbycheeze.com/blog/2015/02/level-up-your-workflow-with-vim-and-tmux
   * [Middleman Presentation][mm-presentation] - Middleman Plugin for making
     awesome slides and presentations with Reveal.js
 
+[HTML Validator]: http://validator.w3.org/
 [Ruby Toolbox]: https://www.ruby-toolbox.com/
 [Rubular]: http://rubular.com/
 [pcm]: http://sijinjoseph.com/programmer-competency-matrix/

@@ -12,6 +12,10 @@ The way this will be structured is I will section off each month, which will
 contain the various links to the material that I covered, as well as my personal
 review of what I felt worked out, what I would do differently, etc.
 
+In addition to the summaries here, I write a more detailed (and more
+disorganized) breakdown every couple of days on my [ Dev Diary - "My Journey"
+](http://colbycheeze.blogspot.com/)
+
 ### Febuary 2015
 This month I moved over into focusing on front end development. I completed the
 majority of the HTML5/CSS3 section on The Odin Project, and a decent portion of
