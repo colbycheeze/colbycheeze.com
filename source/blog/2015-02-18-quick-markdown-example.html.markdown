@@ -23,7 +23,7 @@ You can play around with Markdown on our [live demo page](http://www.markdown-he
 [Lists](#lists)  
 [Links](#links)  
 [Images](#images)  
-[Code and Syntax Highlighting](#Code and Syntax Highlighting)  
+[Code and Syntax Highlighting](#code-and-syntax-highlighting)  
 [Tables](#tables)  
 [Blockquotes](#blockquotes)  
 [Inline HTML](#html)  

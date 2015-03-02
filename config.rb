@@ -1,4 +1,8 @@
+Time.zone = "US/Central"
+
 page "CNAME", layout: false
+page "/feed.xml", layout: false
+page "/blog/*", layout: "blog"
 
 set :relative_links, true
 activate :directory_indexes
@@ -15,6 +19,7 @@ set :markdown, :fenced_code_blocks => true,
 
 activate :syntax
 
+# Use git to deploy for gh pages
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
@@ -26,10 +31,9 @@ activate :blog do |blog|
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  blog.permalink = "/{year}/{month}/{title}.html"
 end
 
-page "/feed.xml", layout: false
-page "/blog/*", layout:  "blog"
 
 configure :development do
   activate :livereload

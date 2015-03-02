@@ -12,7 +12,7 @@ GEM
       bourbon (>= 3.2)
       sass (>= 3.2)
       thor
-    bourbon (4.2.0)
+    bourbon (4.2.1)
       sass (~> 3.4)
       thor
     builder (3.2.2)
@@ -22,7 +22,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.0)
+    coffee-script-source (1.9.1)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -56,14 +56,14 @@ GEM
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    middleman (3.3.8)
+    middleman (3.3.10)
       coffee-script (~> 2.2)
       compass (>= 1.0.0, < 2.0.0)
       compass-import-once (= 1.0.5)
       execjs (~> 2.0)
       haml (>= 4.0.5)
       kramdown (~> 1.2)
-      middleman-core (= 3.3.8)
+      middleman-core (= 3.3.10)
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
@@ -71,7 +71,7 @@ GEM
       addressable (~> 2.3.5)
       middleman-core (~> 3.2)
       tzinfo (>= 0.3.0)
-    middleman-core (3.3.8)
+    middleman-core (3.3.10)
       activesupport (~> 4.1.0)
       bundler (~> 1.1)
       erubis
@@ -91,7 +91,7 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    middleman-sprockets (3.4.1)
+    middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
       sprockets-helpers (~> 1.1.0)
