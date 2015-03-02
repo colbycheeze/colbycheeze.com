@@ -2,7 +2,6 @@
 title: The Mega Web Developer Learning Resources Page
 date: 2015-03-02 07:22 CST
 tags: Resources, Learning
-published: false
 ---
 
 *Throughout my time of learning web development I have come across a TON of great
