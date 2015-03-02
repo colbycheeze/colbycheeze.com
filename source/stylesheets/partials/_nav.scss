@@ -1,7 +1,11 @@
 header {
   @include linear-gradient($nav-background-color, lighten($nav-background-color,
   15%));
-  margin-bottom: $base-spacing;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header-container {

@@ -14,9 +14,8 @@ article {
   ul, ol {
     list-style-type: disc;
     list-style-position: outside;
-    margin-left: $small-spacing;
     margin-bottom: $small-spacing;
-    padding-left: 0;
+    padding-left: $base-spacing;
   }
   ol { list-style-type: decimal; }
 
@@ -29,6 +28,7 @@ article {
 .meta {
   list-style-type: none;
   font-size: $base-font-size * .8;
+  padding-left: 0;
   margin-left: 0;
   margin-top: -$small-spacing;
   margin-bottom: $base-spacing;

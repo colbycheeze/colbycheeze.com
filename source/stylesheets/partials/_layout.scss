@@ -6,11 +6,14 @@ body {
 }
 
 .wrapper {
+  padding-left: $small-spacing;
+  padding-right: $small-spacing;
   min-height: 100%;
   position: relative;
 }
 
 .main-content {
+  padding-top: em($nav-height) + $base-spacing;
   padding-bottom: $footer-height;
   @include outer-container;
 }

@@ -40,15 +40,57 @@ which puts together some sensible defaults AND installs a ton of great apps for
 developing in Ruby. They have a [script that does that on github]( https://github.com/thoughtbot/laptop ).
 
 2. Once you have everything set up (or just skip to this step), you can [take a look
-at their dotfiles.](https://github.com/thoughtbot/dotfiles) They have everything set up so that you add your own "local"
+at their dotfiles.](https://github.com/thoughtbot/dotfiles) They have everything structured so that you add your own "local"
 changes to files appended with .local. I have followed this convention, just in
 case they update their repo in the future I can stay current without running
 into problems.
 
-3. Then use something called [RCM](https://github.com/thoughtbot/rcm) to keep your dotfiles updated. I recommend
-checking it out, as it would really suck to lose your local files and not have a
-backup! That said, here are [ my dotfiles
-](https://github.com/colbycheeze/dotfiles).
+3. On a Mac, download iTerm2. This is MUCH better than the standard
+   terminal.app. This will make it much easier to get the color scheme set up
+also.
+
+### Customize
+> I recommend keeping your vimrc and plugins as light as possible while
+>    learning, and upgrade one thing at a time so that you are SURE to know what
+> you are doing. **Here are my [ my dotfiles
+> ](https://github.com/colbycheeze/dotfiles)**.
+
+That said, there ARE some important changes you should make in my opinion. 
+######The big ones for me were:
+
+  * [ NERDTree plugin ](https://github.com/scrooloose/nerdtree) for viewing directory structure
+
+```vim
+" Map ctrl+n to toggle NERDTree
+map <C-n> :NERDTreeToggle<cr>
+nnoremap <C-t> :call NumberToggle()<cr>
+```
+
+  * Enable mouse for Tmux and Vim
+
+```vim
+"Allow usage of mouse in iTerm
+set ttyfast
+set mouse=a
+set ttymouse=xterm2
+```
+
+  * Get copy and paste working between the system clipboard and Vim/Tmux.
+
+```vim
+"F2 before pasting to preserve indentation
+set pastetoggle=<F2> 
+
+"Ctrl+c in visual mode sends selection to clipboard
+vnoremap <C-c> "*y 
+```
+
+  * Easier nav between Tmux and Vim splits. [Instructions](
+http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits)
+
+Once you have things set up, make sure to  use [RCM](https://github.com/thoughtbot/rcm) to keep your dotfiles updated. I recommend
+checking it out, as it would really suck to lose your local files and not have
+backup!
 
 ### Level Up!
 > Now that you have a solid base, it's time to level up further by customizing and
