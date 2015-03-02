@@ -21,6 +21,7 @@ think this would be best shared with the world so, here you go!* READMORE
 [Vim](#vim)  
 [Tools and Utilities](#tools-and-utilities)  
 [Workflow Upgrades](#workflow-upgrades)  
+[Searching for a Job](#searching-for-a-job)
 
 ### Community Chats and Forums
   * [Codenewbie][] - Very active and enthusiastic community with chats, blog,
@@ -152,7 +153,10 @@ http://everydayutilitarian.com/essays/notes-on-the-odin-project/#title
 ### Linux / Bash
   * [Ryan's Tutorials][ryans] - Very high quality tutorials for learning Unix
     commands and Bash scripting
+  * [True Ability][] - A real-world, real-server test of Linux and DevOps
+    skills.
 
+[True Ability]: https://trueability.com/
 [ryans]: http://royanstutorials.net/
 
 ### Vim
@@ -214,6 +218,31 @@ http://www.colbycheeze.com/blog/2015/02/level-up-your-workflow-with-vim-and-tmux
 [tb-laptop]:
 https://robots.thoughtbot.com/laptop-setup-for-an-awesome-development-environment
 
+### Searching for a Job
+  * [Internship Recruiting Guide][intern-guide]
+  * [Front end developer interview questions][fei-qs]
+  * [Get a Job][tb-job] - Internal Document for Thoughtbot Apprentices with
+    advice for aquiring a job. Great read!
+  * [Find Remote Internships][remote-intern]
+  * [19 Ruby Interview Questions][ruby-job-qs]
+  * [Preparing for a Rails Interview][rails-prepare] - Very nice list of links
+    for job prep targeted at Rails developers
+  * [Coding for Interviews List][cfi-list] - Another resource page for job searches
+
+[rails-prepare]:
+http://www.psteiner.com/2013/02/preparing-for-ruby-on-rails-job.html
+[ruby-job-qs]:
+http://www.skilledup.com/articles/ruby-on-rails-interview-questions-answers/
+[cfi-list]: http://codingforinterviews.com/practice
+[fei-qs]:
+https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/README.md
+[remote-intern]: http://remoteinternships.com/
+[tb-job]:
+https://github.com/thoughtbot/apprenticeship/blob/master/markdown/get-a-job.md
+[intern-guide]:
+https://medium.com/@qrazhan/cs-internship-recruiting-guide-aebb68912808
+
 > Think I should add / edit anything on this page? Please let me know, as I would
 > like to keep it current. You can send me a [ Tweet ](http://www.twitter.com/colbycheeze), [ Email ](colby@colbycheeze.com), or create an issue on
 > my [ Github page ](https://github.com/colbycheeze/colbycheeze.com/tree/master).
+
