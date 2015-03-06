@@ -1,15 +1,11 @@
 article {
   margin-bottom: 1em;
-  padding-bottom: 1em;
-  padding-right: $base-spacing;
-  border-bottom: $base-border;
-  &:last-child {
-    border: none;
-  }
 
-  h3 {
-    color: $blue-green;
-  }
+  background-color: $content-background-color;
+  border-radius: $base-border-radius;
+  padding: $base-spacing;
+
+  @include section-shadow;
 
   ul, ol {
     list-style-type: disc;
@@ -18,10 +14,6 @@ article {
     padding-left: $base-spacing;
   }
   ol { list-style-type: decimal; }
-
-  .read-more {
-    color: $orange;
-  }
 }
 
 

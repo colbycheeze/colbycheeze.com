@@ -1,12 +1,19 @@
 aside {
   @extend %small-column;
 
-  padding-left: $base-spacing;
   // background-color: $aside-background-color;
 
   ul {
     @include clearfix;
-    margin-bottom: $small-spacing;
+    @include section-shadow;
+
+    background-color: $aside-background-color;
+    margin-bottom: $base-spacing;
+    padding: $base-spacing;
+
+    li {
+      margin-bottom: $small-spacing;
+    }
   }
   ol {
     font-size: $small-font-size;

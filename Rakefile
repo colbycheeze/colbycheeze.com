@@ -5,10 +5,9 @@ task :push, [:msg] do |t, args|
 
   puts "## Committing changes: "
   system("git commit -m #{args.msg}")
-end
 
-task :my_task, [:msg] do |t, msg|
-  puts "Message was: #{msg.msg}"
+  puts "## Pushing to Github: "
+  system("git push")
 end
 
 desc "Build Blog"
@@ -26,5 +25,5 @@ task :deploy do
 end
 
 desc "One Line deploy"
-task :default => [:build, :deploy] do
+task :default => [:push, :build, :deploy] do
 end

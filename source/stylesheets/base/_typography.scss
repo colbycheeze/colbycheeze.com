@@ -18,19 +18,22 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: $base-font-size * 2.1;
   font-weight: 700;
-  text-shadow: 0 2px 5px $font-shadow-color;
+  text-transform: uppercase;
+  letter-spacing: $base-letter-spacing;
+
+  text-shadow: 0 2px 5px $base-shadow-color;
 }
 
 h2 {
-  font-size: 32px;
-  font-size: $base-font-size * 1.8;
-  font-weight: 800;
+  font-size: $base-font-size * 2.0;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.5em;
   font-size: $base-font-size * 1.5;
   font-weight: 600;
+  color: $h3-color;
 }
 
 h4 {
@@ -41,9 +44,8 @@ h4 {
 }
 
 h5 {
-  font-weight: 300;
+  font-weight: 600;
   text-shadow: none;
-  font-style: italic;
   margin-bottom: .5em;
 }
 

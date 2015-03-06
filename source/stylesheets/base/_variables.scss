@@ -12,6 +12,7 @@ $heading-font-family: $base-font-family;
 // Font Sizes
 $base-font-size: 1.1em;
 $small-font-size: $base-font-size * 0.8;
+$base-letter-spacing: 0.1em;
 
 // Line height
 $base-line-height: 1.6;
@@ -30,20 +31,37 @@ $vibrant-blue: #0055bb;
 $teal: #44bbcc;
 $blue-green: #225533;
 $light-blue: #bbeeff;
+
 $dark-gray: #333;
 $medium-gray: #999;
-$light-gray: #ddd;
-$orange: #FF9B0D;
+$light-gray: darken(#fff, 5%);
+
+//Test Color Scheme
+$colors-blue-base: #323776;
+$colors-blue-light: #7E82B1;
+$colors-blue-medium-light: #545993;
+$colors-blue-medium-dark: #191E58;
+$colors-blue-dark: #080C3B;
+
+$colors-orange-base: #AA7739;
+$colors-orange-light: #FFD9AA;
+$colors-orange-medium-light: #D4A56A;
+$colors-orange-medium-dark: #805015;
+$colors-orange-dark: #552F00;
+
+$colors-yellow-base: #AA9E39;
+$colors-yellow-light: #FFF6AA;
+$colors-yellow-dark: #554C00;
 
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $vibrant-blue;
+$action-color: $colors-blue-medium-light;
 $heading-color: $base-font-color;
-$font-shadow-color: $light-gray;
+$h3-color: $colors-orange-medium-light;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $action-color;
 $base-border: 1px solid $base-border-color;
 $footer-border-color: $blue;
 
@@ -51,13 +69,19 @@ $footer-border-color: $blue;
 $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
+// Background
+$bg-color: $light-gray;
+$base-shadow-color: darken($bg-color, 5%);
+
 // Header
-$nav-height: 60px;
-$nav-background-color: $light-blue;
+$nav-height: 80px;
+$nav-background-color: $colors-blue-medium-dark;
 $nav-border-color: lighten($nav-background-color, 15%);
+$logo-color: $colors-orange-light;
 
 // Content Area
-$content-background-color: $light-gray;
+// $content-background-color: darken(#fff, 3%);
+$content-background-color: #fff;
 
 // Footer
 $footer-height: 150px;
@@ -65,5 +89,5 @@ $footer-background-color: $nav-background-color;
 $footer-border-color: lighten($footer-background-color, 15%);
 
 // Aside
-$aside-background-color: $light-gray;
+$aside-background-color: darken($bg-color, 5%);
 $aside-border-color: lighten($aside-background-color, 15%);

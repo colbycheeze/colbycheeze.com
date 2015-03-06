@@ -58,13 +58,13 @@ http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/
 http://www.reddit.com/r/learnprogramming/comments/218ca9/list_of_beginner_programs_that_can_be_done_in_any/
 
 ### Beginner / Hand Holding
-  * [Code Combat][] - Super fun game designed to help kids learn to code.
+  * [Code Combat][] - Fun game designed to help kids learn to code.
   * [Khan Academy][] - Learn Javascript, HTML, CSS in a fun and creative way
-  * [Code School][] - Super high quality videos, slides, and code walkthroughs
+  * [Code School][] - High quality videos, slides, and code walkthroughs
     for diving into learning code
   * [Codecademy][] - Comprehensive Code walkthroughs for learning the basics of
     several web dev languages
-  * [Team Treehouse][] - Subscription site for learning Front End
+  * [Team Treehouse][] - Subscription site for learning Front End and Back end
 
 [Code Combat]: http://codecombat.com
 [Khan Academy]: https://www.khanacademy.org/computing/computer-programming
@@ -244,5 +244,4 @@ https://medium.com/@qrazhan/cs-internship-recruiting-guide-aebb68912808
 
 > Think I should add / edit anything on this page? Please let me know, as I would
 > like to keep it current. You can send me a [ Tweet ](http://www.twitter.com/colbycheeze), [ Email ](colby@colbycheeze.com), or create an issue on
-> my [ Github page ](https://github.com/colbycheeze/colbycheeze.com/tree/master).
-
+> my [ Github page. ](https://github.com/colbycheeze/colbycheeze.com/tree/master)

@@ -34,6 +34,7 @@ nav {
     a {
       display: block;
       height: $nav-height;
+      color: #fff;
     }
 
     &:last-child {
@@ -59,10 +60,14 @@ nav {
 
 .logo {
   line-height: $nav-height;
-  font-size: 1.4em;
   letter-spacing: 1.5px;
   float: left;
   text-shadow: none;
   margin: 0;
   padding-left: 0;
+
+  a {
+    color: $logo-color;
+  }
+
 }

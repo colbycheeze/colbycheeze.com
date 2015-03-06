@@ -8,6 +8,14 @@ footer {
   left: 0;
   width: 100%;
   height: $footer-height;
+
+  a {
+    color: #fff;
+  }
+
+  p {
+    color: $colors-yellow-light;
+  }
 }
 
 .footer-content {
