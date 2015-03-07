@@ -1,10 +1,10 @@
 desc "Commit and push changes to Github"
 task :push, [:msg] do |t, args|
-  puts "## Adding all files: "
+  puts "## Adding all files (git add .)"
   system("git add .")
 
-  puts "## Committing changes: "
-  system("git commit -m #{args.msg}")
+  puts "## Committing changes (git commit -m '#{args.msg}')"
+  system("git commit -m '#{args.msg}'")
 
   puts "## Pushing to Github: "
   system("git push")
@@ -25,5 +25,6 @@ task :deploy do
 end
 
 desc "One Line deploy"
-task :default => [:push, :build, :deploy] do
+task :go, [:msg] => [:push, :build, :deploy] do |t, args|
 end
+

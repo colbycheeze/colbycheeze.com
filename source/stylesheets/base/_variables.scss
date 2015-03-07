@@ -5,7 +5,7 @@
 $base-font-family: "Roboto Slab", Georgia, serif;
 // $base-font-family: "Allan", $helvetica;
 // $heading-font-family: "Cardo", Times, Georgia, serif;
-// $base-font-family: "Lekton", $helvetica;
+// $heading-font-family: "Lekton", $helvetica;
 // $heading-font-family: "Molengo", Times, Georgia, serif;
 $heading-font-family: $base-font-family;
 
@@ -78,6 +78,7 @@ $nav-height: 80px;
 $nav-background-color: $colors-blue-medium-dark;
 $nav-border-color: lighten($nav-background-color, 15%);
 $logo-color: $colors-orange-light;
+$nav-link-color: #fff;
 
 // Content Area
 // $content-background-color: darken(#fff, 3%);

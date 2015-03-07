@@ -34,7 +34,13 @@ nav {
     a {
       display: block;
       height: $nav-height;
-      color: #fff;
+      color: $nav-link-color;
+
+      &:active,
+      &:hover,
+      &:focus {
+        color: lighten($nav-link-color, 15%);
+      }
     }
 
     &:last-child {
@@ -45,7 +51,7 @@ nav {
     &:active,
     &:hover,
     &:focus {
-      background: darken($nav-background-color, 5);
+      background: lighten($nav-background-color, 15%);
     }
   }
 }
@@ -68,6 +74,12 @@ nav {
 
   a {
     color: $logo-color;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: darken($logo-color, 15%);
+    }
   }
 
 }
