@@ -2,12 +2,13 @@
 
 // Typography
 // $base-font-family: 'proxima-nova', $helvetica;
-$base-font-family: "Roboto Slab", Georgia, serif;
+// $base-font-family: "Roboto Slab", Georgia, serif;
+$heading-font-family: "Open Sans", sans-serif, $helvetica;
 // $base-font-family: "Allan", $helvetica;
 // $heading-font-family: "Cardo", Times, Georgia, serif;
 // $heading-font-family: "Lekton", $helvetica;
 // $heading-font-family: "Molengo", Times, Georgia, serif;
-$heading-font-family: $base-font-family;
+$base-font-family: 'Arvo', serif, Georgia, Times;
 
 // Font Sizes
 $base-font-size: 1.1em;
