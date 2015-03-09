@@ -5,7 +5,7 @@ aside {
 
   ul {
     @include clearfix;
-    @include section-shadow;
+    @extend %section-shadow;
 
     background-color: $aside-background-color;
     margin-bottom: $base-spacing;

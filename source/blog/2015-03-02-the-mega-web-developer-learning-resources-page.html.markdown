@@ -4,9 +4,9 @@ date: 2015-03-02 07:22 CST
 tags: Resources, Learning
 ---
 
-*Throughout my time of learning web development I have come across a TON of great
+Throughout my time of learning web development I have come across a TON of great
 resources. I try to keep everything neat and organized in bookmarks, however I
-think this would be best shared with the world so, here you go!* READMORE
+think this would be best shared with the world so, here you go! READMORE
 
 ##### Table of Contents  
 [Community Chats and Forums](#community-chats-and-forums)  

@@ -1,0 +1,11 @@
+<li class="card">
+  <div class="card-image">
+    <%= image_tag current_page.data.header_image %>
+  </div>
+  <div class="card-header">
+    <%= link_to current_page.data.header, current_page.data.link, target: '_blank' %>
+  </div>
+  <div class="card-copy">
+    <%= current_page.data.copy_text %>
+  </div>
+</li>

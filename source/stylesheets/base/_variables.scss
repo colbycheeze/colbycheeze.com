@@ -1,4 +1,4 @@
-//$visual-grid: true;
+// $visual-grid: true;
 
 // Typography
 // $base-font-family: 'proxima-nova', $helvetica;
@@ -55,14 +55,15 @@ $colors-yellow-light: #FFF6AA;
 $colors-yellow-dark: #554C00;
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: $light-gray;
 $base-font-color: $dark-gray;
 $action-color: $colors-blue-medium-light;
 $heading-color: $base-font-color;
 $h3-color: $colors-orange-medium-light;
+$base-shadow-color: darken($base-background-color, 15%);
 
 // Border
-$base-border-color: $action-color;
+$base-border-color: darken($base-background-color, 15%);
 $base-border: 1px solid $base-border-color;
 $footer-border-color: $blue;
 
@@ -71,8 +72,6 @@ $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Background
-$bg-color: $light-gray;
-$base-shadow-color: darken($bg-color, 5%);
 
 // Header
 $nav-height: 80px;
@@ -91,5 +90,5 @@ $footer-background-color: $nav-background-color;
 $footer-border-color: lighten($footer-background-color, 15%);
 
 // Aside
-$aside-background-color: darken($bg-color, 5%);
+$aside-background-color: darken($base-background-color, 5%);
 $aside-border-color: lighten($aside-background-color, 15%);

@@ -5,10 +5,10 @@ tags: Design, How to, Middleman
 published: true
 ---
 
-*Building my own blog from scratch was a lot more work than I realized. There
+Building my own blog from scratch was a lot more work than I realized. There
 were so many things that I did not know how to do, and as simple as it sounded
 to me, "Oh hey, let's just put up a basic static site using Middleman" it really
-did not turn out that way.* READMORE
+did not turn out that way. READMORE
 
 When you build a blog with a framework like Wordpress things can be very simple.
 A lot of stuff is done for you, and you have a wide range of plugins which you
@@ -86,7 +86,7 @@ Bitters ](https://robots.thoughtbot.com/middleman-bourbon-walkthrough)
   - Created an "Inspiration" folder, and put any blog designs I found in there.
   - Read through the Bourbon docs a few times to get a feel of how it worked.
   - Completed the [ Sass fundamentals ](https://upcase.com/sass-fundamentals) trail on Upcase to get familiar with Sass
-  - Followed the [Upcase](https://upcase.com/design-for-developers). This really helped me put
+  - Followed the [Upcase - Design for Developers](https://upcase.com/design-for-developers) course. This really helped me put
 things in perspective and get at least a plan for moving forward.
 
 That's really it! I'll post updates below of how the design updates are coming
@@ -106,3 +106,11 @@ changed out of that odd orange color. The framing is completed, and I gave the
 tags a neat little box around them.
 
 ![Sidebar and Footer Complete](http://i.gyazo.com/86b71a1a6dbf7810d07fcf7a0fdb65ac.png)
+
+#### March 7 Iteration
+We are coming along! I've redone some colors, typography, and got things spaced
+and sectioned out into pretty little rectangles. I still hate the header, and I
+think there are a few more tweaks to do as well but I am getting there.
+
+![Pretty little boxes with
+shadows](http://i.gyazo.com/3a6bb5cab3c6bc445ec8ccfa8923f8ba.png)

@@ -53,6 +53,24 @@ h6 {
   font-size: $base-font-size * 0.9;
 }
 
+.line-behind {
+    display: table;
+    white-space: nowrap;
+    margin-top: $base-spacing;
+    margin-bottom: $base-spacing;
+
+    &:before, &:after {
+      border-top: $base-border;
+      content: '';
+      display: table-cell;
+      position: relative;
+      top: 0.6em;
+      width: 45%;
+    }
+    &:before { right: 1.5%; }
+    &:after { left: 1.5%; }
+}
+
 p {
   margin: 0 0 $small-spacing;
 }

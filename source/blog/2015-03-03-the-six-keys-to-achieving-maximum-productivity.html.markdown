@@ -4,11 +4,11 @@ date: 2015-03-03 05:28 CST
 tags: Productivity
 ---
 
-*I have always been really anal about improving my efficiency and
+I have always been really anal about improving my efficiency and
 producvity at work. Getting things done, and not wasting any time is always at
 the top of my mind. After years of trial and error, and many small tweaks, I feel that
 I am close to reaching maximum productivity, and I'd like to share with you
-how.*
+how.
 
 ### Having a clear objective is key.
 I don't know how many times I've

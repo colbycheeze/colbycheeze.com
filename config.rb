@@ -3,7 +3,7 @@ Time.zone = "US/Central"
 page "CNAME", layout: false
 page "/feed.xml", layout: false
 page "/blog/*", layout: "blog"
-page "/about.html", layout: "blog"
+# page "/about.html", layout: "blog"
 
 set :relative_links, true
 activate :directory_indexes

@@ -5,3 +5,17 @@
 %small-column {
   @include span-columns(4 of 12);
 }
+
+%portfolio-card {
+  @include span-columns(4);
+  @include omega(3);
+  height: 16em;
+}
+
+%section-shadow {
+  border-width: 1px; 
+  border-style: solid; 
+  border-color: $base-border-color; 
+  border-radius: $base-border-radius; 
+  box-shadow: 0px 1px 4px 0px #99a3ad, 0px 0px 40px #eeeeee; 
+}
