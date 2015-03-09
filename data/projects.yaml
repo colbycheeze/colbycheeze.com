@@ -1,0 +1,21 @@
+category:
+  - name: Large Projects / Games
+    project:
+      - name: CheeZeWorld.com
+        description: My original programming blog which was quite popular and had an active community following my open source projects
+        image: http://i.gyazo.com/9082655def65b163f4066fbbb9bfe0c7.png
+        url: http://web.archive.org/web/20121105211113/http://cheezeworld.com/
+      - name: Dance Dome
+        description: Dance Battle game commissioned by MTV for America's Best Dance Crew featuring a full 2D skeleton animation system
+        image: http://i.gyazo.com/99f4b5adaa462083b757a5b4eaf7ae85.gif
+        url: http://www.mtv.com/games/arcade/game/play.jhtml?arcadeGameId=10158535
+      - name: Break Ball
+        description: Challenge based game commissioned by Gimme5Games with fully featured level editor.
+        image: http://i.gyazo.com/99f4b5adaa462083b757a5b4eaf7ae85.gif
+        url: http://www.mtv.com/games/arcade/game/play.jhtml?arcadeGameId=10158535
+  - name: Ruby on Rails
+    project:
+      - name: Twitter Clone
+        description: Twitter-like Clone using custom auth, TDD, and Bootstrap
+        image: http://i.gyazo.com/481c724c9b4fbc5e5a6dc2ec86b9c03f.png
+        url: https://github.com/colbycheeze/twitter-clone
