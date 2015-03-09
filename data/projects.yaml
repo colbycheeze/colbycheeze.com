@@ -1,21 +1,53 @@
 category:
   - name: Large Projects / Games
     project:
-      - name: CheeZeWorld.com
-        description: My original programming blog which was quite popular and had an active community following my open source projects
-        image: http://i.gyazo.com/9082655def65b163f4066fbbb9bfe0c7.png
-        url: http://web.archive.org/web/20121105211113/http://cheezeworld.com/
+      - name: Open Source Game Library
+        description: A full game library with AI Flocking behavior, Fast Bitmap Cacing, Keyframe animation, Screens, and more.
+        image: flocking_demo.gif
+        url: https://code.google.com/p/cheezeworld/
       - name: Dance Dome
         description: Dance Battle game commissioned by MTV for America's Best Dance Crew featuring a full 2D skeleton animation system
         image: http://i.gyazo.com/99f4b5adaa462083b757a5b4eaf7ae85.gif
         url: http://www.mtv.com/games/arcade/game/play.jhtml?arcadeGameId=10158535
       - name: Break Ball
         description: Challenge based game commissioned by Gimme5Games with fully featured level editor.
-        image: http://i.gyazo.com/99f4b5adaa462083b757a5b4eaf7ae85.gif
-        url: http://www.mtv.com/games/arcade/game/play.jhtml?arcadeGameId=10158535
+        image: http://i.gyazo.com/65a204d718b9372a65667468a053e350.gif
+        url: http://www.gimme5games.com/play-game/break-ball
   - name: Ruby on Rails
     project:
       - name: Twitter Clone
         description: Twitter-like Clone using custom auth, TDD, and Bootstrap
         image: http://i.gyazo.com/481c724c9b4fbc5e5a6dc2ec86b9c03f.png
         url: https://github.com/colbycheeze/twitter-clone
+      - name: Flight Booker
+        description: Complex forms app. Book flights based on chosen criteria.
+        image: http://i.gyazo.com/87f3af30e9988e2c6ed4ea14323cbd9c.png
+        url: https://github.com/colbycheeze/flight-booker
+      - name: Blogger
+        description: Simple Blog with posts, comments, tagging, and image upload
+        image: http://i.gyazo.com/51489b4092149bb209b10f7acb322e97.png
+        url: https://github.com/colbycheeze/Rails-Blog
+  - name: Code Katas / Challenges
+    project:
+      - name: Exercism.io
+        description: Completed 20+ projects, mostly in Ruby and a few in Javascript.
+        image: http://i.gyazo.com/86c1b8d67f8b8b97e1052882035a677d.png
+        url: https://github.com/colbycheeze/exercism_solutions
+      - name: Test First Learning
+        description: Completed 10 TDD Ruby challenges
+        image: http://i.gyazo.com/54f34c2599e78ff66201efd082a4476b.png
+        url: http://i.gyazo.com/54f34c2599e78ff66201efd082a4476b.png
+      - name: Project Euler
+        description: Completed projects 1-5 in Javascript and Ruby
+        image: http://i.gyazo.com/f7c13ecc0345d90a39fcb7c708fac4fd.png
+        url: https://github.com/colbycheeze/euler
+  - name: Blogs / Content Creation
+    project:
+      - name: CheeZeWorld.com
+        description: My original programming blog which was quite popular and had an active community following my open source projects
+        image: http://i.gyazo.com/9082655def65b163f4066fbbb9bfe0c7.png
+        url: http://web.archive.org/web/20121105211113/http://cheezeworld.com/
+      - name: Youtube
+        description: A peak of 160K subscribers and over 48 million views across 1400+ videos. Tutorials, Reviews, and commentary for League of Legends and other games.
+        image: http://i.gyazo.com/06d05329ec6c29f5d1c46fb4a3a69dda.png
+        url: https://youtube.com/colbycheeze
