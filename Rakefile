@@ -1,12 +1,15 @@
-desc "Commit and push changes to Github"
-task :push, [:msg] do |t, args|
+desc "Add and commit any changes made"
+task :commit, [:msg] do |t, args|
   puts "## Adding all files (git add .)"
   system("git add .")
 
   commit_msg = args.to_a.join(', ')
   puts "## Committing chgnges (git commit -m '#{commit_msg}')"
   system("git commit -m '#{commit_msg}'")
+end
 
+desc "pushes up all staged changes"
+task :push
   puts "## Pushing to Github (git push)"
   system("git push")
 end
@@ -26,6 +29,9 @@ task :deploy do
 end
 
 desc "One Line deploy"
-task :go, [:msg] => [:push, :build, :deploy] do |t, args|
+task :go, [:msg] => [:commit, :push, :build, :deploy] do |t, args|
 end
+
+desc "One Line deploy --no files to commit"
+task :default => [:push, :build, :deploy]
 
