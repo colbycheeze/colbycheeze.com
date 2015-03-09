@@ -9,7 +9,7 @@ task :commit, [:msg] do |t, args|
 end
 
 desc "pushes up all staged changes"
-task :push
+task :push do
   puts "## Pushing to Github (git push)"
   system("git push")
 end
