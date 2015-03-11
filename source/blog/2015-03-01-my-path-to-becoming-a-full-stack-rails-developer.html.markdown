@@ -17,7 +17,13 @@ disorganized) breakdown every couple of days on my [ Dev Diary - "My Journey"
 ](http://colbycheeze.blogspot.com/)
 
 ### Febuary 2015
-This month I moved over into focusing on front end development. I completed the
+This month was another big change. I was developing on Linux with my PC, but I
+was able to find someone to buy my entire gaming PC and all of my Youtube
+equipment for 1600 bucks. I invested the other 400 into buying the new Macbook
+Pro. I lost about a week of time in shipping and getting set up, but I also
+switched from Sublime Text over to pure Tmux and Vim (SO GLAD)
+
+With that out of the way, I moved over into focusing on front end development. I completed the
 majority of the HTML5/CSS3 section on The Odin Project, and a decent portion of
 the Javascript track.
 
