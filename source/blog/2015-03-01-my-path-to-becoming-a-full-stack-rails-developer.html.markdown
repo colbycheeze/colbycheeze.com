@@ -84,7 +84,7 @@ system from [The Secret Weapon](http://www.thesecretweapon.org).
 
 
 ### December 2014
-Around the middle of the month is when I really hit my biggest win, which was
+This month is where I really hit my biggest win, which was
 discovering The Odin Project curriculum. Prior to this, I had NO idea where to
 go with my learning, and was discouraged at my lack of money to put towards
 joining a boot camp.
