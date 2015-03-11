@@ -58,9 +58,13 @@ resources and my focus began to drop quite a lot.
 One of the big hurdles and reasons I fell behind is that I bit off a HUGE chunk
 when I started the ["final
 project"](http://www.theodinproject.com/ruby-on-rails/final-project) for
-[TOP](http://www.theodinproject.com). I tried to cram in learning RSpec testing,
+[TOP](http://www.theodinproject.com) Rails section. I tried to cram in learning RSpec testing,
 Foundation CSS framework, and Devise Omniauth. I ran into a lot of road blocks
 that took several hours for a single feature or line of code.
+
+Overall I got a lot of the harder backend stuff, and some Ajax completed, but
+decided to put off polishing up the project until I learned more about how to do
+the front end side of things.
 
 Towards the end of the month, I was able to put together a great productivity
 system using [Kanbanflow](http://kanbanflow.com), and a slight mix of the GTD
@@ -80,8 +84,13 @@ system from [The Secret Weapon](http://www.thesecretweapon.org).
 
 
 ### December 2014
+Around the middle of the month is when I really hit my biggest win, which was
+discovering The Odin Project curriculum. Prior to this, I had NO idea where to
+go with my learning, and was discouraged at my lack of money to put towards
+joining a boot camp.
+
 My learning history for this month wasn't kept perfectly, but I do have a Trello
-board that I began around this time. I spent the majority of the month focused
+board that I began around this time. I spent the last two weeks of the month focused
 primarily on The Odin Project's Web Dev 101, Ruby, and Rails sections. [Check
 out
 the Trello board progress](https://trello.com/b/i5L13ALl/learn-programming) for
