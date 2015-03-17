@@ -13,6 +13,16 @@ category:
         description: Challenge based game commissioned by Gimme5Games with fully featured level editor.
         image: http://i.gyazo.com/65a204d718b9372a65667468a053e350.gif
         url: http://www.gimme5games.com/play-game/break-ball
+  - name: Meteor.js
+    project:
+      - name: Microscope
+        description: Clone of Telescope. A social link posting site with upvotes and comments on posts.
+        image: http://i.gyazo.com/14015116e50cf978acd3de371688d6c3.png 
+        url: https://github.com/colbycheeze/meteor-learning/tree/master/microscope
+      - name: Social Todos
+        description: Todos with OAuth login and commenting
+        image: http://i.gyazo.com/8e9de9a3daf6d425fad9d0bfbc7c39b7.png
+        url: https://github.com/colbycheeze/meteor-learning/tree/master/iron-todos
   - name: Ruby on Rails
     project:
       - name: Twitter Clone

@@ -6,7 +6,7 @@ tags: Learning, Recap
 
 Within this post I will be giving a chronological account of the articles,
   videos, books, and projects that I used on my path to learning Web Development
-  and beyond. READMORE
+as well as any other major stepping stones along the way. READMORE
 
 The way this will be structured is I will section off each month, which will
 contain the various links to the material that I covered, as well as my personal
