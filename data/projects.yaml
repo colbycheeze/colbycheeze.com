@@ -2,7 +2,7 @@ category:
   - name: Large Projects / Games
     project:
       - name: Open Source Game Library
-        description: A full game library with AI Flocking behavior, Fast Bitmap Cacing, Keyframe animation, Screens, and more.
+        description: A full game library with AI Flocking behavior, Fast Bitmap Caching, Keyframe animation, Screens, and more.
         image: flocking_demo.gif
         url: https://code.google.com/p/cheezeworld/
       - name: Dance Dome
