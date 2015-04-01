@@ -16,6 +16,43 @@ In addition to the summaries here, I write a more detailed (and more
 disorganized) breakdown every couple of days on my [ Dev Diary - "My Journey"
 ](http://colbycheeze.blogspot.com/)
 
+### March 2015
+Things got interesting in March. Along with applying for many positions, I was
+introduced to the world of Meteor on the 11th. After spending the entire next
+week reading an entire book, going through the docs, and creating 4 different
+toy apps, I was completely sold.
+
+I have pretty much benched Ruby on Rails completely at this point, and I am 100%
+dedicated to landing a Javascript based job (ideally using Meteor of course). I
+really feel like Meteor is the future of the web. I don't think I wasted too
+much in all of my past months learning Ruby and Rails, because a lot of the
+concepts transfer over so that's fine.
+
+In addition to that switch, I began getting a bit exhausted from my long hours
+of coding nonstop with no breaks (I honestly haven't taken a single break AT
+LEAST since the beginning of Feb). During week 4, I took a forced 'vacation'
+where I wasn't allowed to do programming or learning based on it.
+
+I spent time reflecting, planning, and just relaxing as well as a bit of playing
+around with Memorization and speed reading. Overall, I am super hyped up and
+ready to get back into building a capstone project in Meteor with much renewed
+focus. I realized that I need more balance, AND I have to limit the amount of
+time I allow myself to work.
+
+Going forward, I'll be only allowed to do the heavy coding work in the first 4
+hours of the morning, and only during 4 days of the week. 2 days will be spent
+doing creative work such as blogging and creating Youtube videos, and the final
+day is a free day to do what I want or side projects (as long as it isn't
+related to the other stuff I'm doing in the week).
+
+This limit should help me dramatically to focus on the 20% of the tasks that
+gain 80% of the results, while also not letting me burn out.
+
+The other great wins for this month, were that I joined some great communities
+such as Meteor club, a couple of Facebook groups, a book study, and some Slack
+chats. Overall I'm trying to meet as many people as possible and I already feel
+like it's paying off huge in the connections I'm making.
+
 ### Febuary 2015
 This month was another big change. I was developing on Linux with my PC, but I
 was able to find someone to buy my entire gaming PC and all of my Youtube

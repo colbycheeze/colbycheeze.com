@@ -1,11 +1,41 @@
----
----
-<article>
-  <h1>Welcome! Still working on my fancy landing page. :) </h1>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>ColbyCheeZe.com</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <%= javascript_include_tag 'skel.min', 'init' %>
+    <%= stylesheet_link_tag "index/style" %>
+  </head>
+  <body class="loading">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
 
-  <p>For now, you can read <%= link_to "my blog", "/blog" %> here, or check out <%= link_to "my dev diary", "http://colbycheeze.blogspot.com/" %>, to follow my progress in learning web development.</p>
-</article>
+        <!-- Header -->
+          <header id="header">
+            <h1>Colby Williams</h1>
+            <p>Full Stack Engineer &nbsp;&bull;&nbsp; Blogger &nbsp;&bull;&nbsp; Youtuber &nbsp;&bull;&nbsp; Challenge Seeker</p>
+            <nav>
+              <ul>
+                <li><a href="http://www.twitter.com/colbycheeze" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.linkedin.com/in/colbycheeze" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="http://www.github.com/colbycheeze" class="icon fa-github"><span class="label">Github</span></a></li>
+                <li><a href="http://www.youtube.com/colbycheeze" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+                <li><a href="mailto:colby@colbycheeze.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+              </ul>
+            </nav>
+            <h2><%= link_to 'View Blog', '/blog' %></h2>
+          </header>
 
+        <!-- Footer -->
+          <footer id="footer">
+            <span class="copyright">&copy; ColbyCheeZe.com </span>
+          </footer>
 
-
-
+      </div>
+    </div>
+  </body>
+</html>
