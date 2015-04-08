@@ -6,6 +6,9 @@
           <%= partial "partials/blog/title" %>
           <%= yield %>
         </article>
+        <section>
+          <%= disqus %>
+        </section>
       <% else %>
         <%= yield %>
       <% end %>

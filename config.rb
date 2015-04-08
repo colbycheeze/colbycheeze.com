@@ -39,8 +39,13 @@ activate :google_analytics do |ga|
 end
 
 
+
 configure :development do
   activate :livereload
+
+  activate :disqus do |d|
+    d.shortname = 'devcolbycheeze'
+  end
 end
 
 set :css_dir, 'stylesheets'
@@ -62,4 +67,8 @@ configure :build do
 
    #Use relative URLs
    activate :relative_assets
+
+   activate :disqus do |d|
+     d.shortname = 'colbycheeze'
+   end
 end

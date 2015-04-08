@@ -18,4 +18,5 @@ gem 'bitters'
 gem 'bourbon'
 gem 'neat'
 
+gem 'middleman-disqus'
 gem 'middleman-google-analytics'
