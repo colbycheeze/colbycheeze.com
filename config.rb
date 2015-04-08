@@ -9,8 +9,6 @@ page "/blog/*", layout: "blog"
 set :relative_links, true
 activate :directory_indexes
 
-# set :markdown_engine, :kramdown
-
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true,
                :tables => true,
@@ -34,6 +32,10 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
   blog.permalink = "/{year}/{month}/{title}.html"
+end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-16038536-1'
 end
 
 

@@ -17,3 +17,5 @@ gem 'nokogiri'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+
+gem 'middleman-google-analytics'

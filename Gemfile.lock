@@ -87,6 +87,9 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-google-analytics (1.1.0)
+      middleman-core (~> 3.2)
+      uglifier (>= 2.1, < 3.0)
     middleman-livereload (3.4.2)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -160,6 +163,7 @@ DEPENDENCIES
   middleman (~> 3.3.8)
   middleman-blog (~> 3.5.3)
   middleman-deploy (~> 1.0)
+  middleman-google-analytics
   middleman-livereload
   middleman-syntax (~> 2.0)
   neat
