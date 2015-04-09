@@ -22,24 +22,26 @@ So the first thing to do is to think about what type of problems that you would 
 You may come to the conclusion that you want to build games, or create smart home technology, or dive into security. Whatever it is that sounds interesting to you, focus on that space.
 
 ##### Languages used for various roles
-So here is a minimal list of areas you can focus on, and the popular languages associated with them. This is by NO means a comprehensive list, but it is can help you get started.
+So here is a minimal list of areas you can focus on, and the popular languages associated with them. This is by NO means a perfect or comprehensive list, but it is can help you get started.
 
   * Web development front end
-    - HTML, CSS, Javascript
+    - HTML, CSS, Javascript, JQuery
   * Web apps and backend
-    - Ruby, PHP, Python
+    - Ruby, PHP, Python, Node (Javascript)
   * iOS / Android apps
     - Swift, Java
+    - Convert web apps with Cordova / Phone Gap
   * Video Games
     - C++, C#, Java
-  * Big Data
-    - Go, functional languages
+    - HTML5 games are becoming popular (phaser.io)
+  * Big Data / Machine Learning
+    - R, Scala, & Go along with Python
   * Desktop apps
-    - Almost anything
+    - Almost anything...C++, Java, Node.js
   * Systems programming / Low level stuff
     - C, Go, Assembly
   * Robotics
-  * Machine Learning / AI
+    - I suggest learning functional languages...Clojure, Haskell etc.
 
 ### So many choices! How do I choose?
 So as a complete beginner, you may not even have an idea of what is interesting to you yet. For that, I'd say just start dabbling with things. You can spend a few days playing with Javascript, Ruby, Haskell, C, Python, or almost anything through free noobie websites and books. I got a good feel for what I enjoyed by going through some Code Academy and Khan Academy courses. Overall, just experiment and HAVE FUN!

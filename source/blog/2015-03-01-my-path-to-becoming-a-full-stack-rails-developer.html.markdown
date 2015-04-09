@@ -1,5 +1,5 @@
 ---
-title: My Path to Becoming a Full Stack Rails Developer
+title: My Path to Becoming a Full Stack Developer
 date: 2015-03-01 07:29 CST
 tags: Learning, Recap
 ---

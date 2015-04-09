@@ -32,6 +32,10 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
   blog.permalink = "/{year}/{month}/{title}.html"
+
+  blog.paginate = true
+  blog.page_link = "p{num}"
+  blog.per_page = 15
 end
 
 activate :google_analytics do |ga|
