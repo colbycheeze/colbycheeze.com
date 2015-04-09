@@ -53,6 +53,6 @@ If I were to start over from zero knowledge again, I would recommend beginning w
 ### Going forward
 No matter what you decide on, stick with that first language for a while and really get the hang of it. The great thing about learning to program is that once you get the fundamentals of one language down, it will be 10x easier to learn another one!
 
-I can pick up a new language and learn it to a usable level in a matter of days at this point. I've learned Actionscript 3, Java, C, C++, Ruby, Javascript, and Python. It only gets easier. If you want some resources to get you going with web development then be sure to check out my mega resource page.
+I can pick up a new language and learn it to a usable level in a matter of days at this point. I've learned Actionscript 3, Java, C, C++, Ruby, Javascript, and Python. It only gets easier. If you want some resources to get you going with web development then be sure to check out my [mega resource page](../../2015/03/the-mega-web-developer-learning-resources-page.html).
 
 
