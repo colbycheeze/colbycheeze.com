@@ -11,7 +11,7 @@ This is my attempt to help anyone else along the way that is just getting starte
 ### Find friends and mentors...NOW
 Man, teaching yourself to code can be a lonely and frustrating process if you don't have support. Don't be like me and try to take on the world alone. Trust me, take the time now to find some forums, chat rooms, and communities that you can get encouragement and help from. You are going to feel so stupid at times, and having someone to give you a pick-me-up is super important.
 
-Check out [Codenewbies.org](http://www.codenewbies.org), [Codebuddies.org](http://www.codebuddies.org), [Freecodecamp.com](http://www.freecodecamp.com), and definitely go to [Meetup.com](http://www.meetup.com) and search for local groups!
+Check out [Codenewbie.org](http://www.codenewbie.org), [Codebuddies.org](http://www.codebuddies.org), [Freecodecamp.com](http://www.freecodecamp.com), and definitely go to [Meetup.com](http://www.meetup.com) and search for local groups!
 
 ### Avoid distractions by focusing on what is minimally important
 Really, this could be the most important thing to you. There are going to be hundreds of suggestions of videos, articles, books, courses, and all kinds of stuff that will distract you. You are going to hear that you need to know Algorithms, Big Data, Databases, Sass, Less, Git, blah blah, omg so much stuff to learn overlooaaad!
