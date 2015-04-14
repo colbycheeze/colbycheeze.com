@@ -53,6 +53,10 @@ such as Meteor club, a couple of Facebook groups, a book study, and some Slack
 chats. Overall I'm trying to meet as many people as possible and I already feel
 like it's paying off huge in the connections I'm making.
 
+#### Books Read
+  * [Discover Meteor](https://www.discovermeteor.com/)
+  * [EventedMind](https://www.eventedmind.com/)
+
 ### Febuary 2015
 This month was another big change. I was developing on Linux with my PC, but I
 was able to find someone to buy my entire gaming PC and all of my Youtube
