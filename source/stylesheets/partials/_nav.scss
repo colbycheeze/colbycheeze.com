@@ -1,6 +1,6 @@
 header {
-  @include linear-gradient($nav-background-color, lighten($nav-background-color,
-  15%));
+  // @include linear-gradient($nav-background-color, lighten($nav-background-color, 15%));
+  @include linear-gradient($nav-background-color, $nav-background-color);
 
   position: absolute;
   top: 0;
