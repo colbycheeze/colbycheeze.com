@@ -1,0 +1,56 @@
+---
+title: pubs-subs
+date: 2015-04-14 08:10 CDT
+tags: Meteor
+---
+
+In the beginning, learning Meteor is fairly simple as all of your data stored in collections just shows up by default. This is great for getting started, but as you begin building out apps correctly you notice that it is recommended to turn off this feature. 
+
+`meteor remove autopublish`
+
+Learning "pubs/subs" (Publish and Subscribe) in Meteor can be a bit confusing at first, especially if you have never worked with MongoDB before. **It was for me!** No worries though, as I plan to demystify that for you today. READMORE
+
+### Where did all of the data go?
+So, after removing autopublish you may be wondering why you are no longer getting any data. What has happened is the server is no longer giving any data back to the client, even when you ask for it with a query.
+
+A query on something that doesn't exist will return nothing! This is where the idea of pubs and subs comes in.
+
+Now we have to explicitly 'subscribe' to specific information from the client side, while the server has to explicitly 'publish' the information we are allowed to see.
+
+### So why even remove autopublish?
+With autopublish, the server holding the data just hands over to the client the entire database. Think of it as a giant bucket of data, and when the client needs something the server says, "Here you go. Take what you need from this giant bucket."
+
+Now, you can only imagine how bad of idea this would be if this bucket was filled with thousands upon thousands of pieces of data. This could potentially cause massive load on the server, not to mention exposing EVERYONE's data.
+
+ Obviously, we need a better way to give only the relevant data. There is no point in getting information that we won't use, or **shouldn't** be allowed to use. The thing to keep in mind is that you always want just the minimal amount of data necessary.
+
+### How we should really be doing it.
+Now that you understand the why, let's look at what the correct way to publish and subscribe to data looks like. For the rest of this article, let's pretend we are developing for a large E-Commerce website.
+
+Even with `autopublish` removed, it is easy to give out way too much information. A simple example of potentially giving out way too much data would be:
+
+```javascript
+//On the server
+Meteor.publish('puchased_items', function ()  
+```
+
+Let's pretend our server is storing giant box of toys, and our client is a child looking for toys. When the child goes to get toys from this box, we don't want to dump all of the world's toys on her, so the box will have to be smart about it.
+
+##### The box will have to filter what the child sees based on a few criteria:
+  * Will only show toys that belongs to this child
+  * Will only show 5 toys at a time, until they are done playing with those and ask for more.
+  * The child also asking for the toys to be given out in order from smallest to largest
+
+Meteor uses MongoDB
+
+
+Show a bucket of stuff, and that is server.
+Publish, pulls specific data and puts it in smaller bucket, gives to client.
+
+Maybe do better with magazines
+
+Gives entire list of magazines
+
+client asks for specific magazine
+
+
