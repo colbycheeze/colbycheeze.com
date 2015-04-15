@@ -88,19 +88,6 @@ green     #859900  operators, other keywords
 
 // Line Numbers
 
-pre {
-  counter-reset: line-numbering;
-  border: solid 1px #d9d9d9;
-  border-radius: 0;
-  background: #fff;
-  line-height: 23px;
-  margin-bottom: 30px;
-  white-space: pre;
-  overflow-x: auto;
-  word-break: inherit;
-  word-wrap: inherit;
-}
-
 pre a::before {
   content: counter(line-numbering);
   counter-increment: line-numbering;
@@ -122,17 +109,6 @@ pre a::before {
   user-select: none;
 }
 
-pre a:first-of-type::before {
-  padding-top: 10px;
-}
-
-pre a:last-of-type::before {
-  padding-bottom: 10px;
-}
-
-pre a:only-of-type::before {
-  padding: 10px;
-}
 pre {
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 110%;
@@ -143,12 +119,17 @@ pre {
   white-space: pre;
   overflow-x: scroll;
   white-space: pre;
-  // margin-left: -$base-spacing;
-  // margin-right: -$base-spacing;
+  
+  code {
+    border: 0;
+  }
 }
 
 code {
-  padding: 0.5em 1em 0 0.5em;
+  border: solid 1px #ddd;
+  border-radius: 3px;
+  background-color: #fdf6e3; color: #586e75;
+  padding: 0.1em 0.5em 0 0.5em;
   margin-bottom: -0.4em;
   display: inline-block;
   // font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
