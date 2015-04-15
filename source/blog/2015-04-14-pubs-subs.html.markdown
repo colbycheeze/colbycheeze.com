@@ -2,6 +2,7 @@
 title: pubs-subs
 date: 2015-04-14 08:10 CDT
 tags: Meteor
+published: false
 ---
 
 In the beginning, learning Meteor is fairly simple as all of your data stored in collections just shows up by default. This is great for getting started, but as you begin building out apps correctly you notice that it is recommended to turn off this feature. 

@@ -2,6 +2,7 @@
 title: finding projects
 date: 2015-04-14 06:50 CDT
 tags: Learning
+published: false
 ---
 
 One of the best ways to learn quickly while also building your portfolio is to begin working on projects right away. The more you code, and the more personalized your code is to your own interests, the faster you will learn.
