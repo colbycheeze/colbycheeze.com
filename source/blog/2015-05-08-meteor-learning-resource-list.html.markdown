@@ -127,13 +127,15 @@ Learning alone can be hard! Join in with others and get help when you really nee
 [Meteor Pad]: http://meteorpad.com/
 
 ### Boilerplates
-These are great when you are still figuring out best practices for packages to use and what folder structures to use...or just getting started quickly!
+These are great when you are still figuring out best practices for packages to use and what folder structures to use...or just getting started quickly! Just remember these are opinionated so find one that works best for you or create your own!
 
   * [Meteor Starter][] - Make Meteor apps. Fast. Pure JS or Coffeescript versions. Woo!
   * [Differential Boilerplate][] - Includes iron-router, Bootstrap 3, Font Awesome, LESS, and more.
+  * [Base][] - A very large and opinionated boilerplate from the author of The Meteor Chef blog.
   * [Parlay Starter Pack][] - All of the 'Must Have' packages bundled into one! (The author also has a 'full pack' with even more).
   * [Go to Packages][] - Reddit post Q&A about recommended packages.
 
+[Base]: https://github.com/themeteorchef/base
 [Differential Boilerplate]: https://github.com/Differential/meteor-boilerplate
 [Parlay Starter Pack]: https://atmospherejs.com/parlay/starter-pack
 [Go to Packages]: https://www.reddit.com/r/Meteor/comments/3430xg/quick_question_what_are_the_your_goto_packages/
