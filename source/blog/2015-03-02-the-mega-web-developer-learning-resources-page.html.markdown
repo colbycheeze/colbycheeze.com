@@ -1,7 +1,7 @@
 ---
-title: The Mega Web Developer Learning Resources Page
+title: The Mega Web Rails Developer Learning Resources Page
 date: 2015-03-02 07:22 CST
-tags: Resources, Learning
+tags: Resources, Learning, Rails
 ---
 
 Throughout my time of learning web development I have come across a TON of great
