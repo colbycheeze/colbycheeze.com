@@ -1,9 +1,17 @@
 body {
   @include font-feature-settings("kern", "liga", "pnum");
   -webkit-font-smoothing: antialiased;
+  font-size: $base-font-size;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 0.7;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 0.5;
+  }
+
   color: $base-font-color;
   font-family: $base-font-family;
-  font-size: $base-font-size;
   line-height: $base-line-height;
 }
 
@@ -17,8 +25,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: $base-font-size * 2.1;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 1.7;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 1.3;
+  }
+
   font-weight: 700;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   letter-spacing: $base-letter-spacing;
 
   text-shadow: 0 2px 5px $base-shadow-color;
@@ -26,19 +42,42 @@ h1 {
 
 h2 {
   font-size: $base-font-size * 2.0;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 1.6;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 1.2;
+  }
+
   font-weight: 700;
 }
 
 h3 {
-  font-size: 1.5em;
   font-size: $base-font-size * 1.5;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 1.1;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 0.9;
+  }
+
   font-weight: 600;
   color: $h3-color;
 }
 
 h4 {
-  color: $dark-gray;
   font-size: $base-font-size * 1.2;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 0.9;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 0.6;
+  }
+
+  color: $dark-gray;
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -51,6 +90,13 @@ h5 {
 
 h6 {
   font-size: $base-font-size * 0.9;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 0.6;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 0.4;
+  }
 }
 
 .line-behind {
