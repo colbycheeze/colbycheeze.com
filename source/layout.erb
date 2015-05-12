@@ -2,13 +2,18 @@
 <html>
   <head>
     <%= stylesheet_link_tag "all" %>
-    <link href='http://fonts.googleapis.com/css?family=Arvo|Open+Sans' rel='stylesheet' type='text/css'>
+    <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=Arvo|Open+Sans" %>
+    <%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" %>
+    <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js' %>
+    <%= javascript_include_tag 'main' %>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "589de0f3-0631-4114-9018-eb39f91cab0b", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title><%= current_article.title + ' | 'unless current_article.nil? %>ColbyCheeZe</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <%= javascript_include_tag 'main' %>
   </head>
   <body>
 

@@ -4,7 +4,10 @@
       <% if current_article %>
         <article>
           <%= partial "partials/blog/title" %>
-          <%= yield %>
+          <%= partial "partials/blog/article_widgets" %>
+          <div class="body">
+            <%= yield %>
+          </div>
         </article>
         <section>
           <%= disqus %>
@@ -14,6 +17,6 @@
       <% end %>
     </section>
 
-    <%= partial "partials/blog/widgets" %>
+    <%= partial "partials/blog/blog_widgets" %>
   </div>
 <% end %>

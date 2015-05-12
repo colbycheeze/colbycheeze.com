@@ -1,6 +1,9 @@
-aside {
+.blog-widgets {
   @include span-columns(12 of 12);
 
+  @include media($tablet) {
+    @include span-columns(4 of 12);
+  }
   @include media($desktop) {
     @include span-columns(4 of 12);
   }

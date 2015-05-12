@@ -7,13 +7,9 @@
 $max-width: em(960);
 
 // Neat Breakpoints
-$small-screen: em(480);
-$medium-screen: em(640);
-$large-screen: em(860);
 $desktop: min-width 1120px;
-$tablet: min-width 750px;
-$tablet-only: max-width 749px;
-$mobile-only: max-width 480px;
+$tablet: min-width 730px;
+$mobile: min-width 480px;
+$tablet-only: max-width 729px;
+$mobile-only: max-width 479px;
 
-$medium-screen-up: new-breakpoint(min-width $medium-screen 8);
-$large-screen-up: new-breakpoint(min-width $large-screen 12);

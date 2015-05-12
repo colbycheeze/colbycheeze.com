@@ -1,6 +1,17 @@
 article {
-  margin-bottom: 1em;
+  @include clearfix;
+  .body {
+    @include span-columns(12 of 12);
 
+    @include media($tablet) {
+      @include span-columns(8 of 8);
+    }
+    @include media($desktop) {
+      @include span-columns(8 of 8);
+    }
+  }
+
+  margin-bottom: 1em;
   background-color: $content-background-color;
   border-radius: $base-border-radius;
   padding: $base-spacing;
@@ -21,12 +32,16 @@ article {
 }
 
 
+.article-widgets {
+  margin-bottom: $base-spacing;
+}
+
 .meta {
   list-style-type: none;
   font-size: $base-font-size * .8;
   padding-left: 0;
   margin-left: 0;
-  margin-top: -$small-spacing;
+  margin-top: $small-spacing;
   margin-bottom: $base-spacing;
 
   li {

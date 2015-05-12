@@ -1,7 +1,7 @@
 <h1><%= current_article.title %></h1>
 <ul class="meta">
-  <em><strong>Date</em></strong>: <span class="date"><%= current_article.date.strftime('%b %e, %Y') %></span> 
-  <em><strong>tags</strong></em>: <% current_article.tags.each do |tag| %>
+  <i class="fa fa-calendar"></i> <span class="date"><%= current_article.date.strftime('%b %e, %Y') %></span> 
+  <i class="fa fa-tags"></i> <% current_article.tags.each do |tag| %>
   <li><%= link_to tag, tag_path(tag) %></li>
 <% end %>
 </ul>

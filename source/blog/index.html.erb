@@ -8,14 +8,14 @@ per_page: 5
     <article>
       <h3><%= link_to article.title, article %></h3>
       <ul class="meta">
-        <em><strong>Date</strong></em>: <span class="date"><%= article.date.strftime('%b %e, %Y') %></span>
-         <em><strong>tags</strong></em>: <% article.tags.each do |tag| %>
+        <i class="fa fa-calendar"></i> <span class="date"><%= article.date.strftime('%b %e, %Y') %></span>
+        <i class="fa fa-tags"></i> <% article.tags.each do |tag| %>
         <li><%= link_to tag, tag_path(tag) %></li>
       <% end %>
-      </ul>
-      <p><%= article.summary %></p>
-    </article>
-  <% end %>
+    </ul>
+    <p><%= article.summary %></p>
+  </article>
+<% end %>
 </ul>
 
 <% if paginate && num_pages > 1 %>
