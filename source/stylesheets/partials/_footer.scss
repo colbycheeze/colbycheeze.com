@@ -11,10 +11,17 @@ footer {
 
   a {
     color: #fff;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: darken($nav-link-color, 15%);
+    }
   }
 
   p {
     color: $colors-yellow-light;
+    margin: $small-spacing;
   }
 }
 
@@ -23,7 +30,7 @@ footer {
 
   li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 20px;
   }
 }
 
@@ -32,8 +39,10 @@ footer {
   position: absolute;
   left: 50%;
   margin-right: -50%;
-  padding-bottom: $base-spacing;
-  transform: translate(-50%, -50%)
+  padding-top: $base-spacing;
+  padding-bottom: $base-spacing * 2;
+  transform: translate(-50%, -50%);
+
 }
 
 

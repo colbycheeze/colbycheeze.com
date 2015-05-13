@@ -3,15 +3,17 @@
   <div class="footer-content">
     <section class="footer-links">
       <ul>
-        <li><%= link_to "Twitter", "http://www.twitter.com/colbycheeze", class: 'twitter', target: 'blank' %></li>
-        <li><%= link_to "LinkedIn", "https://www.linkedin.com/in/colbycheeze", class: 'linkedin', target: 'blank'  %></li>
-        <li><%= link_to "Github", "http://www.github.com/colbycheeze", class: 'github', target: 'blank'  %></li>
-        <li><%= link_to "Email", "mailto:colby@colbycheeze.com", class: 'email' %></li>
-        <li><%= link_to "Youtube", "http://www.youtube.com/colbycheeze", class: 'youtube', target: 'blank'  %></li>
+        <li><a href="http://twitter.com/colbycheeze" target=_blank><i class="fa fa-2x fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/colbycheeze" target=_blank><i class="fa fa-2x fa-linkedin"></i></a></li>
+        <li><a href="http://www.github.com/colbycheeze" target: _blank><i class="fa fa-2x fa-github"></i></a></li>
+        <li><a href="mailto:colby@colbycheeze.com" target: _blank><i class="fa fa-2x fa-envelope-o"></i></a></li>
+        <li><a href="http://www.youtube.com/colbycheeze" target: _blank><i class="fa fa-2x fa-youtube"></i></a></li>
       </ul>
     </section>
+
     <section class="blog-info">
-      <p>©2015 Colby Williams - This website was built using <%= link_to "Middleman", "https://middlemanapp.com/", target: 'blank' %> | <%= link_to "View source on Github", "https://github.com/colbycheeze/colbycheeze.com/tree/master", target: 'blank' %></p>
+      <p>Design and code by Colby Williams</p>
+      <p><%= link_to "View source on Github", "https://github.com/colbycheeze/colbycheeze.com/tree/master", target: 'blank' %></p>
     </section>
   </div>
 </footer>
