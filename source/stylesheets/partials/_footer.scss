@@ -2,7 +2,7 @@ footer {
   @include linear-gradient(lighten($footer-background-color, 15%),
   $footer-background-color);
 
-  padding: $base-spacing 0;
+  padding: $small-spacing 0;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -25,24 +25,11 @@ footer {
   }
 }
 
-.footer-content {
-  padding-top: $base-spacing;
-
+.footer-links {
   li {
     display: inline-block;
     padding-right: 20px;
   }
-}
-
-.footer-links {
-  display: block;
-  position: absolute;
-  left: 50%;
-  margin-right: -50%;
-  padding-top: $base-spacing;
-  padding-bottom: $base-spacing * 2;
-  transform: translate(-50%, -50%);
-
 }
 
 
