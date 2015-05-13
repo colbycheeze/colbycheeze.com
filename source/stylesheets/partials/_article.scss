@@ -1,3 +1,6 @@
+.disqus {
+  padding: $base-spacing;
+}
 article {
   @include clearfix;
   .body {

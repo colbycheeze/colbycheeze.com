@@ -1,12 +1,13 @@
+// $footer-height: 150px;
+$footer-background-color: $nav-background-color;
+$footer-border-color: lighten($footer-background-color, 15%);
+
 footer {
   @include linear-gradient(lighten($footer-background-color, 15%),
   $footer-background-color);
 
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  padding: $base-spacing;
   width: 100%;
-  height: $footer-height;
   text-align: center;
 
   a {
@@ -33,13 +34,7 @@ footer {
 }
 
 .flex-container {
-  height: $footer-height;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.flex-aligner-item {
-  max-width: 50%;
-  flex: none;
 }

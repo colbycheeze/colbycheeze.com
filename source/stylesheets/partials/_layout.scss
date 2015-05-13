@@ -2,20 +2,20 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
   background-color: $base-background-color;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .wrapper {
-  padding-left: $small-spacing;
-  padding-right: $small-spacing;
   min-height: 100%;
   position: relative;
 }
 
 .main-content {
   padding-top: em($nav-height) + $base-spacing;
-  padding-bottom: $footer-height;
+  flex: 1;
   @include outer-container;
 }
 
