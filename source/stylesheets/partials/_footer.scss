@@ -2,12 +2,12 @@ footer {
   @include linear-gradient(lighten($footer-background-color, 15%),
   $footer-background-color);
 
-  padding: $small-spacing 0;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: $footer-height;
+  text-align: center;
 
   a {
     color: #fff;
@@ -21,7 +21,7 @@ footer {
 
   p {
     color: $colors-yellow-light;
-    margin: $small-spacing;
+    margin: $small-spacing / 2;
   }
 }
 
@@ -32,7 +32,14 @@ footer {
   }
 }
 
+.flex-container {
+  height: $footer-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.blog-info {
-  text-align: center;
+.flex-aligner-item {
+  max-width: 50%;
+  flex: none;
 }
