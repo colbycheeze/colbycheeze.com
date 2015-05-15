@@ -5,7 +5,7 @@ tags: confidence, soft skills
 published: false
 ---
 
-As a programmer, Imposter syndrome is something that we all face at one point in time or another. I thought I would be immune to it, but apparently not based on recent discovery. This is a terrifying thing that can strike at any skill level with programming.
+As a programmer, Imposter syndrome is something that we all face at one point in time or another. I thought I would be immune to it, however recently it has hit me hard. This is a terrifying thing that can strike at any skill level of programming.
 
 If not dealt with properly, it can cause a lot of stress and be really debilitating to you. So what do you do? READMORE
 
@@ -23,14 +23,14 @@ Recently I was doing a freelance project, in which I had to do some wonky workar
 Several hours later I'm sweating bullets because a lot of my assumptions about how simple it was got smashed like a watermelon at the mercy of Gallagher.
 ![My Confidence Smashed](http://cheeze-blog-images.s3.amazonaws.com/My_Confidence_Smashed.png)
 
-By the time I got everything solved and had to turn in my hours for the project the reply I got was, "Sweet, you're awesome!" The entire time I was expecting to be berated for taking too long or for having a crappy solution.
+When I turned in the hours that it took me to complete the work, the reply I got was, "Awesome!" And here I was thinking I was doing a terrible job for taking too long, or having a messy solution. (I later came back and made a quick edit that greatly improved the code, once I learned some new tricks!)
 
 ### Get some perspective
 Programming can be an extremely humbling experience, especially if you are very critical of yourself like I am. There is always someone better than you, and there is ALWAYS more to learn. Guess what though? Even experts face imposter syndrome all the time.
 
-Hey. Stop comparing yourself to others people. Focus on providing as much value as you can. How many people can benefit from your current skills?
+But hey, stop comparing yourself to others people. Focus on providing as much value as you can. How many people can benefit from your current skills?
 
-If you need a reminder of just how much more you know NOW than when you first began, just go take a peek at some of your early code. (You are keeping up with your early code right?) It's pretty easy to forget where you came from, and by recognizing that life is just a constant journey of self improvement it's easier to get perspective on where you are at.
+If you need a reminder of just how much more you know NOW than when you first began, just go take a peek at some of your early code. (You are keeping up with your early code right?) It's pretty easy to forget where you came from, and by recognizing that life is just a constant journey of self improvement it's easier to get perspective on where you're at.
 
 ### Get some support
 It's easy to internalize a lot of the struggles that we face, and that isn't healthy. Find someone to admit your feelings to. During my little mini crisis I asked a friend if he ever felt like I did at the moment, and he said "Oh yea every day." This is a guy that is many years beyond where I am now as well. I mean if he isn't over it, how can I expect more from myself?
@@ -46,4 +46,6 @@ The biggest takeaway here is that at some point you are inevitably going to feel
 If you let imposter syndrome beat you, then you are depriving the world of your unique talents...even if at the time you feel like you aren't qualified to share them.
 
 I'd love to hear about times you have dealt with these issues. Please feel free to share!
+
+Want to read more about this? I think David Walsh has an [amazing post here](http://davidwalsh.name/impostor-syndrome) about it.
 
