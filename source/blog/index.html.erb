@@ -5,7 +5,7 @@ per_page: 5
 
 <ul>
   <% page_articles.each do |article| %>
-    <article>
+    <article class="preview">
       <h3><%= link_to article.title, article %></h3>
       <ul class="meta">
         <i class="fa fa-calendar"></i> <span class="date"><%= article.date.strftime('%b %e, %Y') %></span>

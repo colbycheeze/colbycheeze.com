@@ -1,0 +1,70 @@
+@mixin animation-helper($delay, $type) {
+  @include animation($type 0.4s ease-in-out);
+  @include animation-iteration-count(1);
+  @include animation-fill-mode(both);
+  @include animation-delay(#{$delay}s);
+}
+
+@mixin material-shadow($depth) {
+  @if $depth < 1 {
+    box-shadow: none;
+  } @else if $depth > 5 {
+    @warn "Invalid $depth `#{$depth}` for mixin `card`.";
+  } @else {
+    box-shadow: bottom-shadow($depth), top-shadow($depth);  
+  }
+}
+
+@mixin animate-children($type) {
+  @for $i from 1 through 5 {
+    &:nth-child(#{$i}) {
+      @include animation-helper($i/10, $type);
+    }
+  }
+}
+
+@mixin fadein-keyframes {
+  @include keyframes(fadeIn) {
+    from {
+      opacity: 0.0;
+      @include transform(translateY(-10px))
+    }
+    to {
+      opacity: 1.0;
+      @include transform(translateY(0px))
+    }
+  }
+}
+
+@mixin bouncein-keyframes {
+  @include keyframes(bounceIn) {
+    0% {
+      opacity: 0.0;
+      @include transform(scale(1.05) translateY(10px) );
+    }
+    70% {
+      opacity: 0.7;
+      @include transform(scale(0.95) translateY(-10px));
+    }
+    100% {
+      opacity: 1.0;
+      @include transform(scale(1) translateY(0px));
+    }
+  }
+}
+
+@function top-shadow($depth) {
+  $primary-offset: nth(1.5 3 10 14 19, $depth) * 1px;
+  $blur: nth(1.5 3 10 14 19, $depth) * 4px;
+  $color: rgba(black, nth(.12 .16 .19 .25 .30, $depth));
+
+  @return 0 $primary-offset $blur $color;
+}
+
+@function bottom-shadow($depth) {
+  $primary-offset: nth(1.5 3 6 10 15, $depth) * 1px;
+  $blur: nth(1 3 3 5 6, $depth) * 4px;
+  $color: rgba(black, nth(.24 .23 .23 .22 .22, $depth));
+
+  @return 0 $primary-offset $blur $color;
+}

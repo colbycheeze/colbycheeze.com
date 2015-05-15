@@ -1,6 +1,17 @@
+.preview {
+  @include bouncein-keyframes;
+  @include animate-children(bounceIn);
+}
+
+.full-article {
+  @include fadein-keyframes;
+  @include animate-children(fadeIn)
+}
+
 .disqus {
   padding: $base-spacing;
 }
+
 article {
   @include clearfix;
   .body {
@@ -14,12 +25,15 @@ article {
     }
   }
 
+  @include fadein-keyframes;
+  @include animation(fadeIn 0.3s);
+
   margin-bottom: 1em;
   background-color: $content-background-color;
   border-radius: $base-border-radius;
   padding: $base-spacing;
 
-  @extend %section-shadow;
+  @include material-shadow(1);
 
   ul, ol {
     list-style-type: disc;

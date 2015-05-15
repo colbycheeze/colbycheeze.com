@@ -27,16 +27,17 @@
   $card-margin: 1em;
 
   @include flex-basis(18em);
-  // @include flex-grow(1);
   @include transition (all 0.2s ease-in-out);
+  @include material-shadow(1);
+  @include bouncein-keyframes;
+  @include animate-children(bounceIn);
   background-color: $card-background;
-  box-shadow: 0 2px 4px darken($base-background-color, 10%);
   cursor: pointer;
   margin: 0 $card-margin $base-spacing $card-margin;
   position: relative;
   position: relative;
 
-  @extend %section-shadow;
+
 
   a {
     color: $base-font-color;
@@ -75,16 +76,16 @@
       margin: 0 0 ($base-spacing / 2);
     }
   }
-  
+
   &:focus,
   &:hover {
     border-color: $card-hover-background;
-    box-shadow: 2px 2px 8px 2px #99a3ad, 0px 0px 50px #eeeeee; 
-    
+    @include material-shadow(2);
+
     .card-image img {
       background: $card-image-hover-background;
     }
-  
+
     .card-header {
       background-color: $card-hover-background;
     }

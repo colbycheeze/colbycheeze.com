@@ -1,11 +1,10 @@
 header {
-  @include linear-gradient($nav-background-color, $nav-background-color);
-
-  position: absolute;
-  top: 0;
-  left: 0;
+  @include position(fixed, 0 0 null 0);
+  z-index: 150;
+  background-color: $nav-background-color;
   width: 100%;
   padding-left: $base-spacing;
+  @include material-shadow(3);
 }
 
 .header-container {
@@ -24,13 +23,14 @@ header {
   $sliding-panel-color-hover: #fff;
   $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
+  z-index: 999999;
+
   @include media($desktop-only) {
     @include position(fixed, 0px auto 0px 0px);
     @include size(220px 100%);
     @include transform(translateX(-220px));
     @include transition(all 0.25s linear);
     background: $sliding-panel-background;
-    z-index: 999999;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 
@@ -62,6 +62,7 @@ header {
     }
 
     &.is-visible {
+      box-shadow: 6px -1px 12px -1px rgba(0,0,0,0.75);
       @include transform(translateX(0));
     }
 
@@ -117,7 +118,7 @@ header {
   background: black;
   opacity: 0;
   visibility: hidden;
-  z-index: 999998;
+  z-index: 99;
 
   &.is-visible {
     opacity: 0.4;
@@ -135,6 +136,8 @@ header {
   background: none;
 
   img {
+    @include transition (all 0.2s ease-in-out);
+    border-radius: 50%;
     height: 100%;
   }
 
@@ -143,6 +146,10 @@ header {
   &:hover,
   &:focus {
     background: none;
+
+    img {
+      @include material-shadow(2);
+    }
   }
 
   @include media($desktop) {

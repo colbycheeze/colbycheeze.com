@@ -8,11 +8,11 @@
     @include span-columns(4 of 12);
   }
 
-  // background-color: $aside-background-color;
-
   ul {
+    @include fadein-keyframes;
+    @include animate-children(fadeIn);
     @include clearfix;
-    @extend %section-shadow;
+    @include material-shadow(1);
 
     background-color: $aside-background-color;
     margin-bottom: $base-spacing;
