@@ -40,12 +40,12 @@
   @include keyframes(bounceIn) {
     0% {
       opacity: 0.0;
-      @include transform(scale(1.05) translateY(10px) );
+      @include transform(scale(1.05) translateY($base-spacing));
     }
-    70% {
-      opacity: 0.7;
-      @include transform(scale(0.95) translateY(-10px));
-    }
+    // 70% {
+    //   opacity: 0.7;
+    //   @include transform(scale(0.95));
+    // }
     100% {
       opacity: 1.0;
       @include transform(scale(1) translateY(0px));
