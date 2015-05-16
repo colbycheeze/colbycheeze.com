@@ -194,6 +194,9 @@ a {
   }
 
   h2 {
+    @media screen and (max-width: 479px) {
+      font-size: 1.4em;
+    }
     @media screen and (min-width: 480px) {
       font-size: 1.8em;
     }
@@ -202,6 +205,9 @@ a {
   }
 
   p {
+    @media screen and (max-width: 479px) {
+      font-size: 1.0em;
+    }
     @media screen and (min-width: 480px) {
       font-size: 1.25em;
     }
