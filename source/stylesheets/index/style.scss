@@ -11,12 +11,12 @@
 body, input, select, textarea {
   color: $color-fg;
   font-family: 'Helvetica', sans-serif;
-  @media(min-width: 480px) {
+  @media screen and (min-width: 480px) {
     font-size: 15pt;
   }
-  // @media(max-width: 479px) {
-  //   font-size: 12pt;
-  // }
+  @media screen and (max-width: 479px) {
+    font-size: 12pt;
+  }
   font-weight: 300 !important;
   letter-spacing: -0.025em;
   line-height: 1.75em;
@@ -171,7 +171,10 @@ a {
   vertical-align: middle;
   width: 90%;
 
-  -webkit-text-stroke: 1px black;
+  @media screen and (min-width 480px) {
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+  }
   text-shadow:
   3px 3px 0 #000,
   -1px -1px 0 #000,
@@ -179,9 +182,8 @@ a {
   -1px 1px 0 #000,
   1px 1px 0 #000;
 
-
   h1 {
-    @media(min-width: 480px) {
+    @media screen and (min-width: 480px) {
       font-size: 4.35em;
     }
     font-weight: 900;
@@ -189,7 +191,7 @@ a {
   }
 
   h2 {
-    @media(min-width: 480px) {
+    @media screen and (min-width: 480px) {
       font-size: 1.8em;
     }
     margin-top: 0.4em;
@@ -197,7 +199,7 @@ a {
   }
 
   p {
-    @media(min-width: 480px) {
+    @media screen and (min-width: 480px) {
       font-size: 1.25em;
     }
     font-family: "Source Sans Pro";
