@@ -7,17 +7,17 @@
 
     <nav class="js-menu sliding-panel-content">
       <ul>
-        <li>
+        <li class=<%= "is-active" if page_classes.include? "blog" %>>
           <%= link_to "Blog", "/blog/index.html", class: 'nav-link' %>
         </li>
-        <li>
+        <li class=<%= "is-active" if page_classes.include? "portfolio" %>>
           <%= link_to "Portfolio", "/portfolio.html", class: 'nav-link' %>
         </li>
-        <li>
+        <li class=<%= "is-active" if page_classes.include? "resume" %>>
           <%= link_to "Resume", "https://docs.google.com/document/d/1Ra4qSzt5JYJE25rt9srl_cXff_068EuwNYRkE8cxXBM/edit?usp=sharing",
             target: '_blank', class: 'nav-link' %>
         </li>
-        <li>
+        <li class=<%= "is-active" if page_classes.include? "about" %>>
           <%= link_to "About", "/about.html", class: 'nav-link' %>
         </li>
       </ul>

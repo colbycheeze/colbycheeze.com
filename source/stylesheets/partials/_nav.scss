@@ -1,3 +1,19 @@
+$nav-height: 80px;
+$nav-background-color: $colors-blue-base;
+$nav-border-color: $colors-blue-medium-light;;
+$logo-color: orange;
+$nav-link-color: #fff;
+
+$action-color: #477DCA !default;
+$dark-gray: #333 !default;
+$sliding-panel-border-color: $nav-border-color;
+$sliding-panel-background: $nav-background-color;
+$sliding-panel-color: #fff;
+$sliding-panel-border: 1px solid $sliding-panel-border-color;
+$sliding-panel-background-hover: $action-color;
+$sliding-panel-color-hover: #fff;
+$sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
+
 header {
   @include position(fixed, 0 0 null 0);
   z-index: 150;
@@ -7,22 +23,16 @@ header {
   @include material-shadow(3);
 }
 
+.is-active {
+  background-color: darken($nav-background-color, 5%);
+}
+
 .header-container {
   @include outer-container;
   @include user-select(none);
 }
 
 .sliding-panel-content {
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $sliding-panel-border-color: $dark-gray;
-  $sliding-panel-background: lighten($sliding-panel-border-color, 5%);
-  $sliding-panel-color: #fff;
-  $sliding-panel-border: 1px solid $sliding-panel-border-color;
-  $sliding-panel-background-hover: $action-color;
-  $sliding-panel-color-hover: #fff;
-  $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
-
   z-index: 999999;
 
   @include media($desktop-only) {
@@ -156,8 +166,6 @@ header {
     display: none;
   }
 }
-
-
 
 .nav-link {
   line-height: $nav-height;

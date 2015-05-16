@@ -65,14 +65,6 @@ $footer-border-color: $blue;
 $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
-// Header
-$nav-height: 80px;
-$nav-background-color: $colors-blue-base;
-// $nav-border-color: lighten($nav-background-color, 15%);
-$nav-border-color: $colors-blue-medium-light;;
-$logo-color: orange;
-$nav-link-color: #fff;
-
 // Content Area
 // $content-background-color: darken(#fff, 3%);
 $content-background-color: #fff;
