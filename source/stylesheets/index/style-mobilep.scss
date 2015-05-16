@@ -1,20 +1,34 @@
 /*
-	Aerial by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+Aerial by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ */
 
 @import 'vars';
 @import 'mixins';
 
 /* BG */
 
-	@include bg($bg-width * 0.275);
-	
+@include bg($bg-width * 0.275);
+
 /* Header */
-	
-	#header {
-		nav {
-			padding: 0 1em;
-		}
-	}
+
+#header {
+  nav {
+    padding: 0 1em;
+  }
+
+  h1 {
+    font-size: 3.35em;
+  }
+  p {
+    font-size: 1.0em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+}
+
+.copyright {
+  display: none;
+}

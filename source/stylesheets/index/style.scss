@@ -10,8 +10,13 @@
 
 body, input, select, textarea {
   color: $color-fg;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15pt;
+  font-family: 'Helvetica', sans-serif;
+  @media(min-width: 480px) {
+    font-size: 15pt;
+  }
+  // @media(max-width: 479px) {
+  //   font-size: 12pt;
+  // }
   font-weight: 300 !important;
   letter-spacing: -0.025em;
   line-height: 1.75em;
@@ -111,7 +116,13 @@ a {
 }
 
 #view-blog {
-  text-shadow: 0px 3px 10px #0A0100;
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 
 /* Main */
@@ -123,6 +134,7 @@ a {
   text-align: center;
   top: 0;
   width: 100%;
+
 
   &:before {
     content: '';
@@ -159,23 +171,39 @@ a {
   vertical-align: middle;
   width: 90%;
 
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+  3px 3px 0 #000,
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+
   h1 {
-    font-size: 4.35em;
+    @media(min-width: 480px) {
+      font-size: 4.35em;
+    }
     font-weight: 900;
     line-height: 1em;
   }
 
   h2 {
+    @media(min-width: 480px) {
+      font-size: 1.8em;
+    }
     margin-top: 0.4em;
-    font-size: 1.8em;
+    font-weight: 900;
   }
 
-
-
   p {
-    font-size: 1.25em;
+    @media(min-width: 480px) {
+      font-size: 1.25em;
+    }
+    font-family: "Source Sans Pro";
+    font-weight: 800;
     margin: 0.75em 0 0.25em 0;
-    opacity: 0.75;
+
   }
 
   nav {
@@ -205,6 +233,7 @@ a {
       -webkit-touch-callout: none;
       border: 0;
       display: inline-block;
+
 
       &:before {
         @include vendor-property('transition', 'all 0.2s ease-in-out');
