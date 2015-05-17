@@ -3,10 +3,26 @@
     <li><h5 class="heading">Recent Articles</h5></li>
     <li>
       <ol>
-        <% blog.articles[0...10].each do |article| %>
+        <% blog.articles[0...5].each do |article| %>
           <li>
             <%= link_to article.title, article %>
           </li>
+        <% end %>
+      </ol>
+    </li>
+  </ul>
+
+  <ul>
+    <li><h5>All articles</h5></li>
+    <li>
+      <ol>
+        <% blog.articles.group_by {|a| a.date.year }.each do |year, articlesByYear| %>
+          <li><%= year %></li>
+          <ol>
+            <% articlesByYear.group_by {|b| b.date.month }.each do |month, articles| %>
+              <li><%= link_to "#{month_to_name(month)} (#{articles.size})", blog_month_path(year, month) %></li>
+            <% end %>
+          </ol>
         <% end %>
       </ol>
     </li>
@@ -23,14 +39,5 @@
       </ol>
     </li>
   </ul>
-  <ul>
-    <li><h5>By Year</h5></li>
-    <li>
-      <ol>
-        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-        <% end %>
-      </ol>
-    </li>
-  </ul>
+
 </aside>

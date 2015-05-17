@@ -76,3 +76,10 @@ configure :build do
      d.shortname = 'colbycheeze'
    end
 end
+
+helpers do
+  def month_to_name num
+    months = [nil, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    months[num]
+  end
+end
