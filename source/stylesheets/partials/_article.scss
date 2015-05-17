@@ -54,6 +54,7 @@ article {
 }
 
 .meta {
+  text-transform: capitalize;
   list-style-type: none;
   font-size: $base-font-size * .8;
   padding-left: 0;
