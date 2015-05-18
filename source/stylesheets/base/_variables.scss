@@ -1,17 +1,18 @@
 // $visual-grid: true;
 
 // Typography
-$heading-font-family: "Open Sans", sans-serif, $helvetica;
-$base-font-family: 'Arvo', serif, Georgia, Times;
+$heading-font-family: "Arvo", serif, Georgia;
+$base-font-family: 'Open Sans', $helvetica, sans-serif, Georgia, Times;
+// $base-font-family: 'Arvo', serif, Georgia, Times;
 
 // Font Sizes
-$base-font-size: 1.1em;
+$base-font-size: 1.2em;
 $small-font-size: $base-font-size * 0.8;
 $base-letter-spacing: 0.1em;
 
 // Line height
 $base-line-height: 1.6;
-$heading-line-height: 1.3;
+$heading-line-height: 1.2;
 
 // Other Sizes
 $base-border-radius: 3px;

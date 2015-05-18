@@ -54,7 +54,6 @@ article {
 }
 
 .meta {
-  text-transform: capitalize;
   list-style-type: none;
   font-size: $base-font-size * .8;
   padding-left: 0;
@@ -74,8 +73,12 @@ article {
     }
   }
 
+  .tags {
+    font-variant: small-caps;
+    text-transform: lowercase;
+  }
+
   .date {
-    font-style: italic;
     padding-right: $small-spacing;
   }
 }

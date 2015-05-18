@@ -10,7 +10,7 @@ per_page: 5
       <ul class="meta">
         <i class="fa fa-calendar"></i> <span class="date"><%= article.date.strftime('%b %e, %Y') %></span>
         <i class="fa fa-tags"></i> <% article.tags.each do |tag| %>
-        <li><%= link_to tag, tag_path(tag) %></li>
+        <li class="tags"><%= link_to tag, tag_path(tag) %></li>
       <% end %>
     </ul>
     <p><%= article.summary %></p>

@@ -34,6 +34,8 @@
   }
 
   .tag {
+    font-variant: small-caps;
+    text-transform: lowercase;
     padding: 2px $small-spacing 2px $small-spacing;
     margin: 2px;
     display: block;
