@@ -177,11 +177,12 @@ header {
 
 .logo {
   line-height: $nav-height;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1em;
   float: left;
   text-shadow: none;
   margin: 0;
   padding-left: 0;
+  transform: scale(1,1.1);
 
   a {
     color: $logo-color;

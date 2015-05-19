@@ -24,47 +24,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: $base-font-size * 1.9;
+  font-size: $base-font-size * 2.5;
 
   @include media($tablet-only) {
-    font-size: $base-font-size * 1.7;
+    font-size: $base-font-size * 2.2;
   }
   @include media($mobile-only) {
-    font-size: $base-font-size * 1.4;
+    font-size: $base-font-size * 1.7;
   }
 
   font-weight: 700;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   letter-spacing: $base-letter-spacing;
 
   text-shadow: 0 2px 5px $base-shadow-color;
 }
 
-h2 {
-  font-size: $base-font-size * 1.8;
+h2, h3 {
+  font-size: $base-font-size * 2.0;
 
   @include media($tablet-only) {
-    font-size: $base-font-size * 1.6;
+    font-size: $base-font-size * 1.7;
   }
   @include media($mobile-only) {
-    font-size: $base-font-size * 1.2;
-  }
-
-  font-weight: 700;
-}
-
-h3 {
-  font-size: $base-font-size * 1.5;
-
-  @include media($tablet-only) {
     font-size: $base-font-size * 1.3;
-  }
-  @include media($mobile-only) {
-    font-size: $base-font-size * 1.1;
   }
 
   font-weight: 600;
-  color: $h3-color;
+}
+
+h2 {
+  background-color: $colors-blue-base;
+  color: white;
+  margin-left: -$small-spacing;
+  padding-left: $small-spacing;
+  margin-right: -$small-spacing;
+  border-radius: $base-border-radius $base-spacing 0 $base-border-radius;
+  width: 90%;
+
 }
 
 h4 {
