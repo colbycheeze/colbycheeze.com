@@ -52,7 +52,7 @@ category:
   - name: Code Katas & Challenges
     project:
       - name: Exercism.io
-        description: Completed 20+ projects, mostly in Ruby and a few in Javascript.
+        description: Completed 27+ projects in Javascript and Ruby.
         image: http://i.gyazo.com/86c1b8d67f8b8b97e1052882035a677d.png
         url: https://github.com/colbycheeze/exercism_solutions
       - name: Test First Learning
@@ -60,7 +60,7 @@ category:
         image: http://i.gyazo.com/54f34c2599e78ff66201efd082a4476b.png
         url: http://i.gyazo.com/54f34c2599e78ff66201efd082a4476b.png
       - name: Project Euler
-        description: Completed projects 1-5 in Javascript and Ruby
+        description: Completed problems 1-5 in Javascript and Ruby
         image: http://i.gyazo.com/f7c13ecc0345d90a39fcb7c708fac4fd.png
         url: https://github.com/colbycheeze/euler
   - name: Blogs & Content Creation
