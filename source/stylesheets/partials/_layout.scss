@@ -1,3 +1,8 @@
+$texture-top-background: lighten($base-background-color, 1%);
+$texture-bottom-background: darken($base-background-color, 10%);
+// $texture-top-background: lighten($colors-yellow-light, 1%);
+// $texture-bottom-background: darken($colors-yellow-light, 10%);
+
 html,
 body {
   margin: 0;
@@ -6,6 +11,9 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  @include texture(180deg, $texture-top-background, $texture-bottom-background, 9, 0);
+  @include texture(180deg, $texture-top-background, $texture-bottom-background, 3, 0);
+  @include texture(180deg, $texture-top-background, $texture-bottom-background, 12, 0);
 }
 
 .wrapper {
@@ -26,5 +34,3 @@ body {
     @include span-columns(8 of 12);
   }
 }
-
-
