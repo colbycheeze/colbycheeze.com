@@ -4,20 +4,19 @@
 $heading-font-family: "Roboto Condensed", sans-serif, Georgia;
 // $heading-font-family: "Open Sans", sans-serif, Georgia;
 $base-font-family: 'Open Sans', $helvetica, sans-serif, Georgia, Times;
-// $base-font-family: 'Arvo', serif, Georgia, Times;
 
 // Font Sizes
-$base-font-size: 1.1em;
+$base-font-size: 19px;
 $small-font-size: $base-font-size * 0.8;
-$base-letter-spacing: 0.1em;
+$base-letter-spacing: 1px;
 
 // Line height
-$base-line-height: 1.6;
+$base-line-height: 1.8;
 $heading-line-height: 1.2;
 
 // Other Sizes
 $base-border-radius: 3px;
-$base-spacing: $base-line-height * 1em;
+$base-spacing: $base-line-height * em(19);
 $small-spacing: $base-spacing / 2;
 $tiny-spacing: $small-spacing / 2;
 $base-z-index: 0;

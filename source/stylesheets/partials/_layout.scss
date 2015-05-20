@@ -14,7 +14,7 @@ body {
 }
 
 .main-content {
-  padding-top: em($nav-height) + $base-spacing;
+  padding-top: $nav-height;
   flex: 1;
   @include outer-container;
 }

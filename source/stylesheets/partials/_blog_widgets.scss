@@ -16,10 +16,10 @@
 
     background-color: $aside-background-color;
     margin-bottom: $base-spacing;
-    padding: $base-spacing;
+    padding: $small-spacing;
 
     li {
-      margin-bottom: $small-spacing;
+      margin-bottom: $tiny-spacing;
     }
   }
 
@@ -28,8 +28,8 @@
 
     ol {
       list-style-position: outside;
-      margin-bottom: $small-spacing;
-      padding-left: $base-spacing;
+      margin-bottom: $tiny-spacing;
+      padding-left: $small-spacing;
     }
   }
 

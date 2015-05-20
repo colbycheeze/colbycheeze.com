@@ -13,6 +13,13 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
   line-height: $base-line-height;
+
+  @include media($tablet-only) {
+    line-height: $base-line-height * 0.9;
+  }
+  @include media($mobile-only) {
+    line-height: $base-line-height * 0.7;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,7 +47,7 @@ h1 {
   text-shadow: 0 2px 5px $base-shadow-color;
 }
 
-h2, h3 {
+h2 {
   font-size: $base-font-size * 2.0;
 
   @include media($tablet-only) {
@@ -51,9 +58,6 @@ h2, h3 {
   }
 
   font-weight: 600;
-}
-
-h2 {
   background-color: $colors-blue-base;
   color: white;
   margin-left: -$small-spacing;
@@ -61,8 +65,22 @@ h2 {
   margin-right: -$small-spacing;
   border-radius: $base-border-radius $base-spacing 0 $base-border-radius;
   width: 90%;
-
 }
+
+h3 {
+  font-size: $base-font-size * 1.9;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 1.8;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 1.2;
+  }
+
+  font-weight: 600;
+}
+
+
 
 h4 {
   font-size: $base-font-size * 1.2;
@@ -76,23 +94,30 @@ h4 {
 
   color: $dark-gray;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: $base-font-size;
 }
 
 h5 {
   font-weight: 600;
   text-shadow: none;
-  margin-bottom: .5em;
+  margin-bottom: $base-font-size * 0.5;
+
+  @include media($tablet-only) {
+    font-size: $base-font-size * 0.9;
+  }
+  @include media($mobile-only) {
+    font-size: $base-font-size * 0.8;
+  }
 }
 
 h6 {
   font-size: $base-font-size * 0.9;
 
   @include media($tablet-only) {
-    font-size: $base-font-size * 0.8;
+    font-size: $base-font-size * 0.7;
   }
   @include media($mobile-only) {
-    font-size: $base-font-size * 0.6;
+    font-size: $base-font-size * 0.5;
   }
 }
 
@@ -125,9 +150,23 @@ em {
 blockquote {
   border-left: 4px solid $teal;
   color: $dark-gray;
-  font-style: italic;
   margin-left: 0;
-  padding-left: 1rem;
+
+  line-height: $base-line-height * 0.9;
+  font-size: $base-font-size * 0.9;
+  font-style: italic;
+  font-weight: 600;
+
+  padding-left: $base-font-size;
+
+  @include media($tablet-only) {
+    padding-left: $base-font-size * 0.8;
+    font-size: $base-font-size * 0.8;
+  }
+  @include media($mobile-only) {
+    padding-left: $base-font-size * 0.6;
+    font-size: $base-font-size * 0.6;
+  }
 }
 
 a {

@@ -19,7 +19,7 @@ header {
   z-index: 150;
   background-color: $nav-background-color;
   width: 100%;
-  padding-left: $base-spacing;
+  padding-left: $base-font-size;
   @include material-shadow(3);
 }
 
@@ -177,7 +177,7 @@ header {
 
 .logo {
   line-height: $nav-height;
-  letter-spacing: 0.1em;
+  letter-spacing: $base-font-size * 0.1;
   float: left;
   text-shadow: none;
   margin: 0;
