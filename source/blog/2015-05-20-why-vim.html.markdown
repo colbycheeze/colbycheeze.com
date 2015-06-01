@@ -5,10 +5,10 @@ tags: video, vim, workflow
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F6-phM56H-Q" frameborder="0" allowfullscreen></iframe>
-READMORE
 
 I talk about why you would want to use Vim as an editor, even if not as your main IDE.
 
+READMORE
 ##### Links from the video
  * [My article about Vim / Tmux](http://www.colbycheeze.com/blog/2015/02/level-up-your-workflow-with-vim-and-tmux.html)
  * [Vim Adventures](http://vim-adventures.com/)
