@@ -22,6 +22,7 @@ The interesting thing about this month, was that I themed it around "Discipline"
 #### Learning Resources
   * [Hack Design](http://hackdesign.org)
   * [Material Design](http://www.google.com/design/spec/material-design/introduction.html) (I read through the entire spec)
+  * [Responsive Web Design](http://abookapart.com/products/responsive-web-design)
 
 ### April 2015
 Apparently I forgot to write my recap here last month, so I am writing from what I can remember now and what I've written over at the 'My Journey' blog (at the end of May).
