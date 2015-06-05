@@ -20,9 +20,10 @@ I still haven't gotten a job, which is scary as hell but I feel 250% confident I
 The interesting thing about this month, was that I themed it around "Discipline" and so I created all of these strict habits to stick to including insanity workouts and meditations in the morning. Overall this was a great success and I am extremely excited to continue adding / tweaking these daily habits. Going into June I have some great ideas to ramp this up.
 
 #### Learning Resources
-  * [Hack Design](http://hackdesign.org)
+  * [Hack Design 1-7](http://hackdesign.org)
   * [Material Design](http://www.google.com/design/spec/material-design/introduction.html) (I read through the entire spec)
   * [Responsive Web Design](http://abookapart.com/products/responsive-web-design)
+  * [Mastering Meteor Workshop](https://meteorjs.club/learn)
 
 ### April 2015
 Apparently I forgot to write my recap here last month, so I am writing from what I can remember now and what I've written over at the 'My Journey' blog (at the end of May).
@@ -31,8 +32,9 @@ This month was spent really sharpening my skills with Meteor while building out 
 
 I also began to spend a bit more time on content creation for my blog, and began to remember how good it feels to get feedback on things I create.
 
-#### Books Read
+#### Learning Resources
   * [Meteor in Action](http://www.manning.com/hochhaus/)
+  * [8 Days of Meteor](https://meteorjs.club/8days)
 
 ### March 2015
 Things got interesting in March. Along with applying for many positions, I was introduced to the world of Meteor on the 11th. After spending the entire next week reading an entire book, going through the docs, and creating 4 different toy apps, I was completely sold.
