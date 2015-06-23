@@ -89,7 +89,7 @@ green     #859900  operators, other keywords
 
 pre {
   border-radius: $base-border-radius;
-  line-height: 23px;
+  line-height: 25px;
   margin-bottom: 30px;
   white-space: pre;
   overflow-x: auto;
@@ -99,9 +99,10 @@ pre {
 
 code {
   font-family: Consolas, Menlo, Monaco, "Courier 10 Pitch", Courier, monospace;
+  background-color: #fdf6e3;
+  color: #586e75;
   font-size: 90%;
-  margin-bottom: -0.4em;
-  display: inline-block;
+  padding: 5px;
   white-space: pre;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;

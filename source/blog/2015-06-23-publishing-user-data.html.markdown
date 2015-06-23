@@ -1,8 +1,7 @@
 ---
-title: Publishing User Data
-date: 2015-06-05 06:04 CDT
-tags: security, meteor, publications
-published: false
+title: The Right Way to Publish User Data
+date: 2015-06-23 06:04 CDT
+tags: security, meteor, publications, gravatar
 ---
 
 In Meteor, you will always receive the information for the current logged in user, but what happens when you want to display information from other users such as avatar images, names, or other profile specific info? READMORE
@@ -39,7 +38,9 @@ Ah yes, much better. Now all we will receive is the `_id` and the data within th
 
 Another cool trick that I didn't know when first starting, is that you can drill down further and ask for specific fields within the profile by using a string, such as: `{fields: {'profile.specificData': 1}}`
 
-### Bonus round!
+Well, it's that simple! There isn't much more to say, but hopefully this saves someone some time because it was a pain for me when first getting started.
+
+## Bonus round! Gravatars
 Alright, so what happens if you need to display a Gravatar image which requires the user's e-mail? You COULD publish the `'services.emails'` field, but that is a no-no also. Not everybody wants their e-mail to be public.
 
 #####Well there are two options here:
