@@ -1,8 +1,7 @@
 ---
 title: Achieving the Impossible with Simple Habits and Discipline
-date: 2015-06-06 06:11 CDT
+date: 2015-07-15 06:11 CDT
 tags: discipline, habits, soft skills
-published: false
 ---
 
 Have you ever been overwhelmed by the idea of becoming truly great at programming, and accomplishing some of the things that the people you look up to do? I've spent some time really deconstructing how best to take myself from zero to hero and I'd love to discuss what I've discovered over the years. READMORE
