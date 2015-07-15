@@ -10,6 +10,22 @@ The way this will be structured is I will section off each month, which will con
 
 In addition to the summaries here, I write a more detailed (and more disorganized) breakdown every couple of days on my [ Dev Diary - "My Journey" ](http://colbycheeze.blogspot.com/)
 
+### June 2015
+I've done it! I got a job. I was offered two jobs, and accepted one at IBM Design studio starting in Sept. I also have been freelancing for a decent rate which is keeping me going in the meantime.
+
+It's funny, because in January I had written down that my goal was to have a job offer by the end of June and...what do you know? Good estimate huh?
+
+I had a bit of stress/burnout this month so I wasn't SUPER intense like the previous 6 months. I mostly enjoyed myself, finally watched some TV shows, and spent time with friends. Overall, I was okay with this because I was contacted early on about the job opportunities and interviews which I had a feeling I would do well in.
+
+This is going to be the last post for this series. I may start another 'recap' type for my next goal once I decide what that is lol. Overall, I'm happy with the results. I worked hard as fuck for 6 months, and avoided the costs of a bootcamp / college and got an amazing job offer. I learned a lot, and actually had a lot of fun!
+
+I believe I may actually be interested in continuing the habit of really deep focus on learning, because looking back I have no regrets about not playing lots of video games, watching TV, and lazing around all day like I have done all my life. I'm ready to start a new journey of success going forward from this year.
+
+Hopefully someone finds this little log and is inspired. Feel free to message me if you have any questions!
+
+#### Learning Resources
+  * [Hack design 8](http://hackdesign.org)
+
 ### May 2015
 May has been interesting for me, and as for learning web development I put a lot of focus on learning more design / UX related things. I made quite a few strides with improvement my website look and feel as well as making it fully responsive.
 
