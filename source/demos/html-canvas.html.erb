@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>ColbyCheeZe.com | Html on Canvas Demo</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+
+
+    <%= javascript_include_tag 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js' %>
+    <%= javascript_include_tag 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/easing/EasePack.min.js' %>
+    <%= javascript_include_tag 'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js' %>
+    <%= javascript_include_tag 'http://a-jie.github.io/Proton/build/proton-1.0.0.min.js' %>
+    <%= javascript_include_tag 'demos/html-on-canvas/main' %>
+    <%= stylesheet_link_tag 'demos/html-on-canvas/main' %>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <h1 id="test">Test text yeaaa!</h1>
+
+
+          <%= google_analytics_tag %>
+      </div>
+    </div>
+  </body>
+</html>

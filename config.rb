@@ -3,6 +3,7 @@ Time.zone = "US/Central"
 page "CNAME", layout: false
 page "index.html", layout: false
 page "/feed.xml", layout: false
+page "/demos/*", layout: false
 page "/blog/*", layout: "blog"
 # page "/about.html", layout: "blog"
 

@@ -60,10 +60,8 @@ http://www.reddit.com/r/learnprogramming/comments/218ca9/list_of_beginner_progra
 ### Beginner / Hand Holding
   * [Code Combat][] - Fun game designed to help kids learn to code.
   * [Khan Academy][] - Learn Javascript, HTML, CSS in a fun and creative way
-  * [Code School][] - High quality videos, slides, and code walkthroughs
-    for diving into learning code
-  * [Codecademy][] - Comprehensive Code walkthroughs for learning the basics of
-    several web dev languages
+  * [Code School][] - High quality videos, slides, and code walkthroughs for diving into learning code
+  * [Codecademy][] - Comprehensive Code walkthroughs for learning the basics of several web dev languages
   * [Team Treehouse][] - Subscription site for learning Front End and Back end
 
 [Code Combat]: http://codecombat.com
@@ -73,24 +71,20 @@ http://www.reddit.com/r/learnprogramming/comments/218ca9/list_of_beginner_progra
 [Codecademy]: http://www.codecademy.com/learn
 
 ### Full Courses, Moocs, and Bootcamps
-  * [The Odin Project][TOP] - Extremely comprehensive resource for going from
-    zero to Jr Rails developer. **Highly Recommended**
-    - [An extension to TOP][TOP-extended] - Some tweaks and notes on going
-      through TOP curriculum
-  * [Coursera][] - Free college level courses you can take live and receive
-    grades on
+  * [Free Code Camp][FCC] - Best Free Learning resource for Javascript / Front End
+  * [The Odin Project][TOP] - Extremely comprehensive resource for going from zero to Jr Rails developer. **Highly Recommended**
+    - [An extension to TOP][TOP-extended] - Some tweaks and notes on going through TOP curriculum
+  * [Coursera][] - Free college level courses you can take live and receive grades on
   * [MIT Computer Science][mit] - Free MIT Comp Sci lectures / class work
   * [Bootcampr][] - Great website for finding specific bootcamps
   * [Skilledup Comprehensive List of Bootcamps][skilledup-list]
 
-[Coursera]:
-https://www.coursera.org/courses?languages=en&categories=cs-ai,cs-programming,cs-systems,cs-theory
+[FCC]: http://www.freecodecamp.com
+[Coursera]: https://www.coursera.org/courses?languages=en&categories=cs-ai,cs-programming,cs-systems,cs-theory
 [Bootcampr]: http://bootcamper.io/schools
-[skilledup-list]:
-http://www.skilledup.com/articles/the-ultimate-guide-to-coding-bootcamps-the-exhaustive-list/
+[skilledup-list]: http://www.skilledup.com/articles/the-ultimate-guide-to-coding-bootcamps-the-exhaustive-list/
 [TOP]: http://www.theodinproject.com/home
-[TOP-extended]:
-http://everydayutilitarian.com/essays/notes-on-the-odin-project/#title
+[TOP-extended]: http://everydayutilitarian.com/essays/notes-on-the-odin-project/#title
 [mit]: http://ocw.mit.edu/courses/#electrical-engineering-and-computer-science
 
 ### Intermediate / Advanced Learning
