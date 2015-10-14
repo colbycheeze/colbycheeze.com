@@ -5,6 +5,15 @@ tags: recap
 published: true
 ---
 
+I often get asked what caused me to give up being a "Youtube celebrity" and a
+life of playing video games for a living to go work at IBM. 
+
+Well, discussing reasoning behind some of my life decisions could be a conversation of it's own,
+but for now I'd love to share the story of my journey from having no idea what I was
+doing to landing one of the most amazing jobs I could ever ask for. READMORE
+
+-----------
+
 ### Table of Contents  
 [Recap](#recap)  
 [Resarch / Exploration Phase](#research-/-exploration-phase)  
@@ -16,12 +25,6 @@ published: true
 
 -------------
 
-I often get asked what caused me to give up being a "Youtube celebrity" and a
-life of playing video games for a living to go work at IBM. 
-
-Well, discussing reasoning behind some of my life decisions could be a conversation of it's own,
-but for now I'd love to share the story of my journey from having no idea what I was
-doing to landing one of the most amazing jobs I could ever ask for.
 
 ## Recap:
 
