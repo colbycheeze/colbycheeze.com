@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="../../../stylesheets/all-4712ad66.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+    <script src="../../../javascripts/main-042ae7f9.js" type="text/javascript"></script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "589de0f3-0631-4114-9018-eb39f91cab0b", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />
+
+    <title>The Right Way to Publish User Data | ColbyCheeZe</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+  </head>
+  <body class="blog blog_2015 blog_2015_06 blog_2015_06_publishing-user-data">
+
+    <div class="wrapper">
+      <header>
+  <div class="header-container">
+
+    <h3 class="logo">
+      <a href="../../../">ColbyCheeZe</a>
+    </h3>
+
+    <nav class="js-menu sliding-panel-content">
+      <ul>
+        <li class=is-active>
+          <a class="nav-link" href="../../">Blog</a>
+        </li>
+        <li class=>
+          <a class="nav-link" href="../../../portfolio/">Portfolio</a>
+        </li>
+        <li class=>
+          <a target="_blank" class="nav-link" href="https://docs.google.com/document/d/1Ra4qSzt5JYJE25rt9srl_cXff_068EuwNYRkE8cxXBM/edit?usp=sharing">Resume</a>
+        </li>
+        <li class=>
+          <a class="nav-link" href="../../../about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button type="button" class="js-menu-trigger sliding-panel-button">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/menu-white.png" alt="Menu Icon">
+    </button>
+
+
+  </div>
+</header>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
+
+
+      <section class="main-content" role="main">
+          <div class="grid">
+    <section class="blog-content">
+        <article class="full-article">
+          <h1>The Right Way to Publish User Data</h1>
+<ul class="meta">
+  <i class="fa fa-calendar"></i> <span class="date">Jun 23, 2015</span> 
+    <i class="fa fa-tags"></i> 
+  <li class="tags"><a href="../../tags/security.html">security</a></li>
+
+  <li class="tags"><a href="../../tags/meteor.html">meteor</a></li>
+
+  <li class="tags"><a href="../../tags/publications.html">publications</a></li>
+
+  <li class="tags"><a href="../../tags/gravatar.html">gravatar</a></li>
+</ul>
+
+          <div class="body">
+            <p>In Meteor, you will always receive the information for the current logged in user, but what happens when you want to display information from other users such as avatar images, names, or other profile specific info? </p>
+
+<p>This isn&rsquo;t immediately obvious with Meteor, and my own confusion when first trying to do this is the reason I&rsquo;m writing this post.</p>
+
+<p>There are several ways of obtaining the information for non-logged in users, however you also have to consider a few security and privacy issues along the way which are very important.</p>
+
+<p>You need to keep in mind that it is important to only publish the very minimal amount of information necessary to achieve your desired result.</p>
+
+<p>Let&rsquo;s start by asking for the user&rsquo;s profile. First we have to actually create a publication for this.</p>
+
+<h5 id="publishing-user-data-is-as-simple-as...">Publishing user data is as simple as&hellip;</h5>
+<pre class="highlight javascript"><code><span class="nx">Meteor</span><span class="p">.</span><span class="nx">publish</span><span class="p">(</span><span class="s1">'userData'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">Meteor</span><span class="p">.</span><span class="nx">users</span><span class="p">.</span><span class="nx">find</span><span class="p">();</span>
+<span class="p">});</span>
+</code></pre>
+
+<p><img alt="Publishing too much data" src="http://cheeze-blog-images.s3.amazonaws.com/Publish_private_data.png" /></p>
+
+<p><mark>Whoa, Danger!</mark> We definitely don&rsquo;t want to be publishing everyone&rsquo;s password hash, email, and whatever other personal info that our app may be storing!</p>
+
+<p>Let&rsquo;s try that again. This time we need to be specific with what we need. For that we can pass in a <code>fields</code> object to our publication.</p>
+
+<h5 id="the-right-way">The right way</h5>
+<pre class="highlight javascript"><code><span class="nx">Meteor</span><span class="p">.</span><span class="nx">publish</span><span class="p">(</span><span class="s1">'userData'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">Meteor</span><span class="p">.</span><span class="nx">users</span><span class="p">.</span><span class="nx">find</span><span class="p">({},</span> <span class="p">{</span><span class="na">fields</span><span class="p">:</span> <span class="p">{</span><span class="na">profile</span><span class="p">:</span> <span class="mi">1</span><span class="p">}});</span>
+<span class="p">});</span>
+</code></pre>
+
+<p>Ah yes, much better. Now all we will receive is the <code>_id</code> and the data within their profile.</p>
+
+<p>Another cool trick that I didn&rsquo;t know when first starting, is that you can drill down further and ask for specific fields within the profile by using a string, such as: <code>{fields: {&#39;profile.specificData&#39;: 1}}</code></p>
+
+<p>Well, it&rsquo;s that simple! There isn&rsquo;t much more to say, but hopefully this saves someone some time because it was a pain for me when first getting started.</p>
+
+<h2 id="bonus-round!-gravatars">Bonus round! Gravatars</h2>
+
+<p>Alright, so what happens if you need to display a Gravatar image which requires the user&rsquo;s e-mail? You COULD publish the <code>&#39;services.emails&#39;</code> field, but that is a no-no also. Not everybody wants their e-mail to be public.</p>
+
+<h5 id="well-there-are-two-options-here:">Well there are two options here:</h5>
+
+<ol>
+<li>We store a hash of the e-mail, which can then be sent to the API</li>
+<li>We take care of the API call on user creation, and store the actual Gravatar URL in the profile.</li>
+</ol>
+
+<p>Well, I&rsquo;d have to say <strong>BINGO!</strong> with number 2. That&rsquo;s the &ldquo;Mongo&rdquo; way. Denormalization as they call it. This also reduces the load times because we aren&rsquo;t making dozens of API calls to Gravatar each time our page loads up.</p>
+
+<p>One thing to keep in mind, is that you may have to create a hook that updates that gravatar url when the e-mail changes. Sacha, the author of Discover Meteor, recently wrote an amazing article about collection hooks and denormalization which you can <a href="https://www.discovermeteor.com/blog/a-look-at-meteor-collection-hooks/">read on his blog here</a>.</p>
+
+<p>Okay, so here is the snippet of code that can handle converting not only a generic e-mail login into an Avatar, but also handle a Google login. This could be extended to other services as well of course.</p>
+<pre class="highlight javascript"><code><span class="nx">Accounts</span><span class="p">.</span><span class="nx">onCreateUser</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">options</span><span class="p">,</span> <span class="nx">user</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">attachData</span><span class="p">,</span> <span class="nx">email</span><span class="p">,</span> <span class="nx">picture</span><span class="p">,</span> <span class="nx">profileImageUrl</span><span class="p">,</span> <span class="nx">profilePicture</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">service</span><span class="p">,</span> <span class="nx">allEmails</span><span class="p">,</span> <span class="nx">firstEmail</span><span class="p">;</span>
+  <span class="nx">profileImageUrl</span> <span class="o">=</span> <span class="kc">undefined</span><span class="p">;</span>
+  <span class="nx">user</span><span class="p">.</span><span class="nx">profile</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">profile</span> <span class="o">||</span> <span class="p">{};</span>
+
+  <span class="c1">//If the google service exists</span>
+  <span class="k">if</span> <span class="p">((</span><span class="nx">service</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">services</span><span class="p">)</span> <span class="o">!==</span> <span class="kc">undefined</span> <span class="p">?</span> <span class="nx">service</span><span class="p">.</span><span class="nx">google</span> <span class="p">:</span> <span class="kc">undefined</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">user</span><span class="p">.</span><span class="nx">emails</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="na">address</span><span class="p">:</span> <span class="nx">user</span><span class="p">.</span><span class="nx">services</span><span class="p">.</span><span class="nx">google</span><span class="p">.</span><span class="nx">email</span><span class="p">,</span>
+        <span class="na">verified</span><span class="p">:</span> <span class="kc">true</span>
+      <span class="p">}</span>
+    <span class="p">];</span>
+    <span class="nx">user</span><span class="p">.</span><span class="nx">profile</span><span class="p">.</span><span class="nx">firstName</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">services</span><span class="p">.</span><span class="nx">google</span><span class="p">.</span><span class="nx">given_name</span><span class="p">;</span>
+    <span class="nx">user</span><span class="p">.</span><span class="nx">profile</span><span class="p">.</span><span class="nx">lastName</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">services</span><span class="p">.</span><span class="nx">google</span><span class="p">.</span><span class="nx">family_name</span><span class="p">;</span>
+    <span class="nx">user</span><span class="p">.</span><span class="nx">profile</span><span class="p">.</span><span class="nx">avatar</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">services</span><span class="p">.</span><span class="nx">google</span><span class="p">.</span><span class="nx">picture</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="c1">//No avatar defined from Google service? Okay let's get a Gravatar</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">user</span><span class="p">.</span><span class="nx">profile</span><span class="p">.</span><span class="nx">avatar</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">email</span> <span class="o">=</span> <span class="p">((</span><span class="nx">allEmails</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">emails</span><span class="p">)</span> <span class="o">!==</span> <span class="kc">undefined</span> <span class="p">?</span> <span class="p">(</span><span class="nx">firstEmail</span> <span class="o">=</span> <span class="nx">allEmails</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">!==</span> <span class="kc">undefined</span> <span class="p">?</span> <span class="nx">firstEmail</span><span class="p">.</span><span class="nx">address</span> <span class="p">:</span> <span class="kc">undefined</span> <span class="p">:</span> <span class="kc">undefined</span><span class="p">)</span> <span class="o">||</span> <span class="s1">''</span><span class="p">;</span>
+    <span class="nx">url</span> <span class="o">=</span> <span class="nx">Gravatar</span><span class="p">.</span><span class="nx">imageUrl</span><span class="p">(</span><span class="nx">Gravatar</span><span class="p">.</span><span class="nx">hash</span><span class="p">(</span><span class="nx">email</span><span class="p">));</span>
+    <span class="nx">user</span><span class="p">.</span><span class="nx">profile</span> <span class="o">=</span> <span class="p">{</span> <span class="na">avatar</span><span class="p">:</span> <span class="nx">url</span> <span class="p">};</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">user</span><span class="p">;</span>
+<span class="p">});</span>
+</code></pre>
+
+<p>So that&rsquo;s it! Want to learn more gotchas around Meteor security? Josh Owens has a great set of posts that really dives into this topic that I suggest you <a href="http://joshowens.me/meteor-security-201/">check out on his blog here</a>.</p>
+
+          </div>
+          <div class="article-widgets">
+  <span class='st_reddit_large' displayText='Reddit'></span>
+  <span class='st_facebook_large' displayText='Facebook'></span>
+  <span class='st_twitter_large' displayText='Tweet'></span>
+  <span class='st_linkedin_large' displayText='LinkedIn'></span>
+  <span class='st_sharethis_large' displayText='ShareThis'></span>
+</div>
+
+        </article>
+        <section class="disqus widget">
+          <div id="disqus_thread"></div>
+<script type="text/javascript">
+//<![CDATA[
+                  var disqus_shortname = 'colbycheeze';
+          
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+//]]>
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        </section>
+    </section>
+
+    <aside class="blog-widgets">
+  <ul class="widget">
+    <li><h5 class="heading">Recent Articles</h5></li>
+    <li>
+      <ol>
+          <li>
+            <a href="../10/zero-to-developer.html">My Journey from Zero to Developer</a>
+          </li>
+          <li>
+            <a href="../07/discipline-and-habits.html">Achieving the Impossible with Simple Habits and Discipline</a>
+          </li>
+          <li>
+            <a href="publishing-user-data.html">The Right Way to Publish User Data</a>
+          </li>
+          <li>
+            <a href="managing-brain-fog.html">Managing Brain Fog When Programming</a>
+          </li>
+          <li>
+            <a href="vim-as-an-ide.html">Vim as an IDE</a>
+          </li>
+      </ol>
+    </li>
+  </ul>
+
+  <ul class="widget">
+    <li><h5>All articles</h5></li>
+    <li>
+      <ol>
+          <li>2015</li>
+          <ol>
+              <li><a href="../10.html">October (1)</a></li>
+              <li><a href="../07.html">July (1)</a></li>
+              <li><a href="../06.html">June (4)</a></li>
+              <li><a href="../05.html">May (5)</a></li>
+              <li><a href="../04.html">April (5)</a></li>
+              <li><a href="../03.html">March (5)</a></li>
+              <li><a href="../02.html">February (2)</a></li>
+          </ol>
+      </ol>
+    </li>
+  </ul>
+
+  <ul class="widget">
+    <li><h5 class="heading">Tags</h5></li>
+    <li>
+      <ol>
+          <a class="tag" href="../../tags/design.html">Design</a>
+          <a class="tag" href="../../tags/how-to.html">How to</a>
+          <a class="tag" href="../../tags/middleman.html">Middleman</a>
+          <a class="tag" href="../../tags/tools.html">Tools</a>
+          <a class="tag" href="../../tags/vim.html">Vim</a>
+          <a class="tag" href="../../tags/tmux.html">Tmux</a>
+          <a class="tag" href="../../tags/workflow.html">Workflow</a>
+          <a class="tag" href="../../tags/learning.html">Learning</a>
+          <a class="tag" href="../../tags/recap.html">Recap</a>
+          <a class="tag" href="../../tags/resources.html">Resources</a>
+          <a class="tag" href="../../tags/rails.html">Rails</a>
+          <a class="tag" href="../../tags/productivity.html">Productivity</a>
+          <a class="tag" href="../../tags/refactoring.html">Refactoring</a>
+          <a class="tag" href="../../tags/video.html">Video</a>
+          <a class="tag" href="../../tags/meteor.html">Meteor</a>
+          <a class="tag" href="../../tags/tutorial.html">tutorial</a>
+          <a class="tag" href="../../tags/javascript.html">Javascript</a>
+          <a class="tag" href="../../tags/confidence.html">confidence</a>
+          <a class="tag" href="../../tags/soft-skills.html">soft skills</a>
+          <a class="tag" href="../../tags/video.html">video</a>
+          <a class="tag" href="../../tags/vim.html">vim</a>
+          <a class="tag" href="../../tags/workflow.html">workflow</a>
+          <a class="tag" href="../../tags/screencast.html">screencast</a>
+          <a class="tag" href="../../tags/javascript.html">javascript</a>
+          <a class="tag" href="../../tags/tdd.html">tdd</a>
+          <a class="tag" href="../../tags/design.html">design</a>
+          <a class="tag" href="../../tags/middleman.html">middleman</a>
+          <a class="tag" href="../../tags/html.html">html</a>
+          <a class="tag" href="../../tags/css.html">css</a>
+          <a class="tag" href="../../tags/ide.html">ide</a>
+          <a class="tag" href="../../tags/health.html">health</a>
+          <a class="tag" href="../../tags/security.html">security</a>
+          <a class="tag" href="../../tags/meteor.html">meteor</a>
+          <a class="tag" href="../../tags/publications.html">publications</a>
+          <a class="tag" href="../../tags/gravatar.html">gravatar</a>
+          <a class="tag" href="../../tags/discipline.html">discipline</a>
+          <a class="tag" href="../../tags/habits.html">habits</a>
+          <a class="tag" href="../../tags/recap.html">recap</a>
+      </ol>
+    </li>
+  </ul>
+
+</aside>
+
+  </div>
+
+      </section>
+
+      
+<footer>
+<div class="flex-container">
+  <section>
+    <div class="footer-links">
+      <ul>
+        <li><a href="http://twitter.com/colbycheeze" target=_blank><i class="fa fa-2x fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/colbycheeze" target=_blank><i class="fa fa-2x fa-linkedin"></i></a></li>
+        <li><a href="http://www.github.com/colbycheeze" target: _blank><i class="fa fa-2x fa-github"></i></a></li>
+        <li><a href="mailto:colby@colbycheeze.com" target: _blank><i class="fa fa-2x fa-envelope-o"></i></a></li>
+        <li><a href="http://www.youtube.com/colbycheeze" target: _blank><i class="fa fa-2x fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <p>Design and code by Colby Williams</p>
+    <p><a target="blank" href="https://github.com/colbycheeze/colbycheeze.com/tree/master">View source on Github</a></p>
+  </section>
+</div>
+</footer>
+
+    </div>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(["_setAccount", "UA-16038536-1"]);
+  _gaq.push(["_trackPageview"]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>

@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="../../../stylesheets/all-4712ad66.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+    <script src="../../../javascripts/main-042ae7f9.js" type="text/javascript"></script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "589de0f3-0631-4114-9018-eb39f91cab0b", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />
+
+    <title>Level up your workflow with Vim and Tmux | ColbyCheeZe</title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+  </head>
+  <body class="blog blog_2015 blog_2015_02 blog_2015_02_level-up-your-workflow-with-vim-and-tmux">
+
+    <div class="wrapper">
+      <header>
+  <div class="header-container">
+
+    <h3 class="logo">
+      <a href="../../../">ColbyCheeZe</a>
+    </h3>
+
+    <nav class="js-menu sliding-panel-content">
+      <ul>
+        <li class=is-active>
+          <a class="nav-link" href="../../">Blog</a>
+        </li>
+        <li class=>
+          <a class="nav-link" href="../../../portfolio/">Portfolio</a>
+        </li>
+        <li class=>
+          <a target="_blank" class="nav-link" href="https://docs.google.com/document/d/1Ra4qSzt5JYJE25rt9srl_cXff_068EuwNYRkE8cxXBM/edit?usp=sharing">Resume</a>
+        </li>
+        <li class=>
+          <a class="nav-link" href="../../../about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button type="button" class="js-menu-trigger sliding-panel-button">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/menu-white.png" alt="Menu Icon">
+    </button>
+
+
+  </div>
+</header>
+
+<div class="js-menu-screen sliding-panel-fade-screen"></div>
+
+
+      <section class="main-content" role="main">
+          <div class="grid">
+    <section class="blog-content">
+        <article class="full-article">
+          <h1>Level up your workflow with Vim and Tmux</h1>
+<ul class="meta">
+  <i class="fa fa-calendar"></i> <span class="date">Feb 27, 2015</span> 
+    <i class="fa fa-tags"></i> 
+  <li class="tags"><a href="../../tags/tools.html">Tools</a></li>
+
+  <li class="tags"><a href="../../tags/vim.html">Vim</a></li>
+
+  <li class="tags"><a href="../../tags/tmux.html">Tmux</a></li>
+
+  <li class="tags"><a href="../../tags/workflow.html">Workflow</a></li>
+</ul>
+
+          <div class="body">
+            <p>This is my list of resources to help learn, setup, and upgrade your Vim and Tmux
+workflow. It may not be as comfortable at first coming from a visual IDE, but
+think of it as going from hunt and peck typing to touch. The difference is night
+and day and you will be a happier developer because of it.  </p>
+
+<h3 id="learning">Learning</h3>
+
+<blockquote>
+<p>As a new user of Vim, I highly recommend NOT just straight up copying
+someone else&rsquo;s massive dotfiles. Start from the basics and iteratively upgrade
+yourself.</p>
+</blockquote>
+
+<ol>
+<li><p>If you are just now learning Vim, the easiest way to get started is to simply
+open up your terminal and type in <code>vimtutor</code></p></li>
+<li><p>Next, I suggest doing at least the free levels in <a href="http://vim-adventures.com/">Vim Adventures</a></p></li>
+<li><p>At this point, you are ready to either go full in and jump into VIM or you may
+want to use a plugin for your current editor, such as Vintage mode in Sublime
+Text 3. The more you practice, the easier it will become.</p></li>
+<li><p>I recommend skimming through this amazing book, <a href="https://pragprog.com/book/dnvim/practical-vim">Practical Vim</a> (no way you can absorb it all at once). There are some amazing tips in here that will take you from Vim newbie to Vim Ninja.</p></li>
+<li><p>I got a large part of my knowledge by going through the Vim and Tmux workflow
+videos on <a href="http://www.upcase.com/join"> Upcase </a>. It is a subscription site, but
+even if you join for only 1 month it is <strong>totally</strong> worth it just for the workflow
+videos alone.</p></li>
+</ol>
+
+<h3 id="setup">Setup</h3>
+
+<blockquote>
+<p>If you are going to be using Vim / Tmux now, there are some basic defaults you
+will want to get set up such as copy paste support, color themes, etc.</p>
+</blockquote>
+
+<ol>
+<li><p>First off, I suggest that if you have a Mac you use Thoughtbot&rsquo;s &ldquo;laptop&rdquo; setup
+which puts together some sensible defaults AND installs a ton of great apps for
+developing in Ruby. They have a <a href="https://github.com/thoughtbot/laptop">script that does that on github</a>.</p></li>
+<li><p>Once you have everything set up (or just skip to this step), you can <a href="https://github.com/thoughtbot/dotfiles">take a look
+at their dotfiles.</a> They have everything structured so that you add your own &ldquo;local&rdquo;
+changes to files appended with .local. I have followed this convention, just in
+case they update their repo in the future I can stay current without running
+into problems.</p></li>
+<li><p>On a Mac, download iTerm2. This is MUCH better than the standard
+terminal.app. This will make it much easier to get the color scheme set up
+also.</p></li>
+</ol>
+
+<h3 id="customize">Customize</h3>
+
+<blockquote>
+<p>I recommend keeping your vimrc and plugins as light as possible while
+   learning, and upgrade one thing at a time so that you are SURE to know what
+you are doing. <strong>Here are my <a href="https://github.com/colbycheeze/dotfiles"> my dotfiles
+</a></strong>.</p>
+</blockquote>
+
+<p>That said, there ARE some important changes you should make in my opinion. </p>
+
+<h6 id="the-big-ones-for-me-were:">The big ones for me were:</h6>
+
+<ul>
+<li><a href="https://github.com/scrooloose/nerdtree"> NERDTree plugin </a> for viewing directory structure</li>
+</ul>
+<pre class="highlight viml"><code><span class="c">" Map ctrl+n to toggle NERDTree</span>
+map <span class="p">&lt;</span>C<span class="p">-</span><span class="k">n</span><span class="p">&gt;</span> <span class="p">:</span>NERDTreeToggle<span class="p">&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
+nnoremap <span class="p">&lt;</span>C<span class="p">-</span><span class="k">t</span><span class="p">&gt;</span> <span class="p">:</span><span class="k">call</span> NumberToggle<span class="p">()&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
+</code></pre>
+
+<ul>
+<li>Enable mouse for Tmux and Vim</li>
+</ul>
+<pre class="highlight viml"><code><span class="c">"Allow usage of mouse in iTerm</span>
+<span class="k">set</span> ttyfast
+<span class="k">set</span> mouse<span class="p">=</span><span class="k">a</span>
+<span class="k">set</span> ttymouse<span class="p">=</span>xterm2
+</code></pre>
+
+<ul>
+<li>Get copy and paste working between the system clipboard and Vim/Tmux.</li>
+</ul>
+<pre class="highlight viml"><code><span class="c">"F2 before pasting to preserve indentation</span>
+<span class="k">set</span> pastetoggle<span class="p">=&lt;</span>F2<span class="p">&gt;</span> 
+
+<span class="c">"Ctrl+c in visual mode sends selection to clipboard</span>
+vnoremap <span class="p">&lt;</span>C<span class="p">-</span><span class="k">c</span><span class="p">&gt;</span> "*<span class="k">y</span> 
+</code></pre>
+
+<ul>
+<li>Easier nav between Tmux and Vim splits. <a href="http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits">Instructions</a></li>
+</ul>
+
+<p>Once you have things set up, make sure to  use <a href="https://github.com/thoughtbot/rcm">RCM</a> to keep your dotfiles updated. I recommend
+checking it out, as it would really suck to lose your local files and not have
+backup!</p>
+
+<h3 id="level-up!">Level Up!</h3>
+
+<blockquote>
+<p>Now that you have a solid base, it&rsquo;s time to level up further by customizing and
+extending your setup. At this point, the sky is the limit. Here are some great
+ideas for what to try next.</p>
+</blockquote>
+
+<ul>
+<li>This is a great <a href="http://www.bestofvim.com/plugin/"> list of plugins </a> to check out</li>
+<li>Read the book <a href="http://learnvimscriptthehardway.stevelosh.com/">Learn Vimscript the hard
+way</a></li>
+<li>Watch these <a href="http://confreaks.tv/presenters/ben-orenstein"> awesome talks </a> by Ben Orenstein</li>
+</ul>
+
+          </div>
+          <div class="article-widgets">
+  <span class='st_reddit_large' displayText='Reddit'></span>
+  <span class='st_facebook_large' displayText='Facebook'></span>
+  <span class='st_twitter_large' displayText='Tweet'></span>
+  <span class='st_linkedin_large' displayText='LinkedIn'></span>
+  <span class='st_sharethis_large' displayText='ShareThis'></span>
+</div>
+
+        </article>
+        <section class="disqus widget">
+          <div id="disqus_thread"></div>
+<script type="text/javascript">
+//<![CDATA[
+                  var disqus_shortname = 'colbycheeze';
+          
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+//]]>
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        </section>
+    </section>
+
+    <aside class="blog-widgets">
+  <ul class="widget">
+    <li><h5 class="heading">Recent Articles</h5></li>
+    <li>
+      <ol>
+          <li>
+            <a href="../10/zero-to-developer.html">My Journey from Zero to Developer</a>
+          </li>
+          <li>
+            <a href="../07/discipline-and-habits.html">Achieving the Impossible with Simple Habits and Discipline</a>
+          </li>
+          <li>
+            <a href="../06/publishing-user-data.html">The Right Way to Publish User Data</a>
+          </li>
+          <li>
+            <a href="../06/managing-brain-fog.html">Managing Brain Fog When Programming</a>
+          </li>
+          <li>
+            <a href="../06/vim-as-an-ide.html">Vim as an IDE</a>
+          </li>
+      </ol>
+    </li>
+  </ul>
+
+  <ul class="widget">
+    <li><h5>All articles</h5></li>
+    <li>
+      <ol>
+          <li>2015</li>
+          <ol>
+              <li><a href="../10.html">October (1)</a></li>
+              <li><a href="../07.html">July (1)</a></li>
+              <li><a href="../06.html">June (4)</a></li>
+              <li><a href="../05.html">May (5)</a></li>
+              <li><a href="../04.html">April (5)</a></li>
+              <li><a href="../03.html">March (5)</a></li>
+              <li><a href="../02.html">February (2)</a></li>
+          </ol>
+      </ol>
+    </li>
+  </ul>
+
+  <ul class="widget">
+    <li><h5 class="heading">Tags</h5></li>
+    <li>
+      <ol>
+          <a class="tag" href="../../tags/design.html">Design</a>
+          <a class="tag" href="../../tags/how-to.html">How to</a>
+          <a class="tag" href="../../tags/middleman.html">Middleman</a>
+          <a class="tag" href="../../tags/tools.html">Tools</a>
+          <a class="tag" href="../../tags/vim.html">Vim</a>
+          <a class="tag" href="../../tags/tmux.html">Tmux</a>
+          <a class="tag" href="../../tags/workflow.html">Workflow</a>
+          <a class="tag" href="../../tags/learning.html">Learning</a>
+          <a class="tag" href="../../tags/recap.html">Recap</a>
+          <a class="tag" href="../../tags/resources.html">Resources</a>
+          <a class="tag" href="../../tags/rails.html">Rails</a>
+          <a class="tag" href="../../tags/productivity.html">Productivity</a>
+          <a class="tag" href="../../tags/refactoring.html">Refactoring</a>
+          <a class="tag" href="../../tags/video.html">Video</a>
+          <a class="tag" href="../../tags/meteor.html">Meteor</a>
+          <a class="tag" href="../../tags/tutorial.html">tutorial</a>
+          <a class="tag" href="../../tags/javascript.html">Javascript</a>
+          <a class="tag" href="../../tags/confidence.html">confidence</a>
+          <a class="tag" href="../../tags/soft-skills.html">soft skills</a>
+          <a class="tag" href="../../tags/video.html">video</a>
+          <a class="tag" href="../../tags/vim.html">vim</a>
+          <a class="tag" href="../../tags/workflow.html">workflow</a>
+          <a class="tag" href="../../tags/screencast.html">screencast</a>
+          <a class="tag" href="../../tags/javascript.html">javascript</a>
+          <a class="tag" href="../../tags/tdd.html">tdd</a>
+          <a class="tag" href="../../tags/design.html">design</a>
+          <a class="tag" href="../../tags/middleman.html">middleman</a>
+          <a class="tag" href="../../tags/html.html">html</a>
+          <a class="tag" href="../../tags/css.html">css</a>
+          <a class="tag" href="../../tags/ide.html">ide</a>
+          <a class="tag" href="../../tags/health.html">health</a>
+          <a class="tag" href="../../tags/security.html">security</a>
+          <a class="tag" href="../../tags/meteor.html">meteor</a>
+          <a class="tag" href="../../tags/publications.html">publications</a>
+          <a class="tag" href="../../tags/gravatar.html">gravatar</a>
+          <a class="tag" href="../../tags/discipline.html">discipline</a>
+          <a class="tag" href="../../tags/habits.html">habits</a>
+          <a class="tag" href="../../tags/recap.html">recap</a>
+      </ol>
+    </li>
+  </ul>
+
+</aside>
+
+  </div>
+
+      </section>
+
+      
+<footer>
+<div class="flex-container">
+  <section>
+    <div class="footer-links">
+      <ul>
+        <li><a href="http://twitter.com/colbycheeze" target=_blank><i class="fa fa-2x fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/colbycheeze" target=_blank><i class="fa fa-2x fa-linkedin"></i></a></li>
+        <li><a href="http://www.github.com/colbycheeze" target: _blank><i class="fa fa-2x fa-github"></i></a></li>
+        <li><a href="mailto:colby@colbycheeze.com" target: _blank><i class="fa fa-2x fa-envelope-o"></i></a></li>
+        <li><a href="http://www.youtube.com/colbycheeze" target: _blank><i class="fa fa-2x fa-youtube"></i></a></li>
+      </ul>
+    </div>
+    <p>Design and code by Colby Williams</p>
+    <p><a target="blank" href="https://github.com/colbycheeze/colbycheeze.com/tree/master">View source on Github</a></p>
+  </section>
+</div>
+</footer>
+
+    </div>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(["_setAccount", "UA-16038536-1"]);
+  _gaq.push(["_trackPageview"]);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>

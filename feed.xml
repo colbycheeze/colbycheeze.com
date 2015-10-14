@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-10-09T13:55:00-05:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>My Journey from Zero to Developer</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/10/zero-to-developer.html"/>
+    <id>http://blog.url.com/blog/2015/10/zero-to-developer.html</id>
+    <published>2015-10-09T13:55:00-05:00</published>
+    <updated>2015-10-14T05:31:38-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 id="table-of-contents"&gt;Table of Contents&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="#recap"&gt;Recap&lt;/a&gt;&lt;br&gt;
+&lt;a href="#research-/-exploration-phase"&gt;Resarch / Exploration Phase&lt;/a&gt;&lt;br&gt;
+&lt;a href="#learning-strategy"&gt;Learning Strategy&lt;/a&gt;&lt;br&gt;
+&lt;a href="#fully-commit"&gt;Fully Commit&lt;/a&gt;&lt;br&gt;
+&lt;a href="#community"&gt;Community&lt;/a&gt;&lt;br&gt;
+&lt;a href="#job-hunt"&gt;Job Hunt&lt;/a&gt;&lt;br&gt;
+&lt;a href="#got-a-job!"&gt;Got a Job!&lt;/a&gt;  &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I often get asked what caused me to give up being a &amp;ldquo;Youtube celebrity&amp;rdquo; and a
+life of playing video games for a living to go work at IBM. &lt;/p&gt;
+
+&lt;p&gt;Well, discussing reasoning behind some of my life decisions could be a conversation of it&amp;rsquo;s own,
+but for now I&amp;rsquo;d love to share the story of my journey from having no idea what I was
+doing to landing one of the most amazing jobs I could ever ask for.&lt;/p&gt;
+
+&lt;h2 id="recap:"&gt;Recap:&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ll spare you the life story, but I have to start somewhere so I&amp;rsquo;ll just say
+that when I made the decision to jump into learning web development&amp;hellip;I was at a
+point where I had no idea what I wanted to do in life.&lt;/p&gt;
+
+&lt;p&gt;Why did I make the decision? My sister had begun her CS degree (she is 10 years
+younger) and I really wanted to help her, so I skimmed a Java book and went
+through all of her homework projects with her during that first semester.&lt;/p&gt;
+
+&lt;p&gt;I was overjoyed with remembering how awesome building things from scratch and
+solving complex problems can be that I just had a lightbulb moment. I knew what
+I wanted to be doing with my life going forward.&lt;/p&gt;
+
+&lt;h2 id="research-/-exploration-phase"&gt;Research / Exploration phase&lt;/h2&gt;
+
+&lt;p&gt;I had coded flash games back in 2007, but I knew NOTHING about how the web worked, since all I&amp;rsquo;ve done since then is play video games.&lt;/p&gt;
+
+&lt;p&gt;All I knew is that I wanted to make apps that would be viewable on my phone or
+the web. For a while, I thought I was going to have to learn Java&amp;hellip;until I
+realized that was only used in extremely outdated enterprise software.&lt;/p&gt;
+
+&lt;p&gt;My first month was chaotic learning. I kept seeing information pointing me in 5
+different directions. I read an entire book on Java, then switched to Python for
+a week and read through a book on that.&lt;/p&gt;
+
+&lt;p&gt;I signed up for courses to learn &amp;ldquo;Big Data&amp;rdquo;, and algorithms, and AI, and all
+kinds of crap. I really had no idea what I was doing or what I needed to learn.&lt;/p&gt;
+
+&lt;p&gt;The one thing I am most grateful for, is that I made the decision to install
+Linux so that I could learn the Bash command line, and I did some tutorials on
+using Vim.&lt;/p&gt;
+
+&lt;h2 id="learning-strategy"&gt;Learning strategy&lt;/h2&gt;
+
+&lt;p&gt;After getting tossed around with my learning, I was getting frustrated. I began
+researching code bootcamps, colleges, and various ways of getting this shit
+down.&lt;/p&gt;
+
+&lt;p&gt;I discovered a local bootcamp teaching PHP, and looked into some colleges.
+Eventually, after realizing how bad my credit was and the fact that I couldn&amp;rsquo;t
+afford to do any of that, I stumbled across &lt;a href="http://theodinproject.com"&gt;The Odin Project&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was a free self paced online bootcamp stating it could take you from zero
+knowledge, to landing a job. PERFECT!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve always thrived in self paced conditions, and this is exactly what I needed:
+A roadmap.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; For anyone reading this, The Odin Project is an out-dated and dead
+project. I would VERY HIGHLY recommend using &lt;a href="http://freecodecamp.com"&gt;Free Code Camp&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="fully-commit"&gt;Fully Commit&lt;/h2&gt;
+
+&lt;p&gt;Now that I had a plan, I decided to take the &amp;ldquo;burn all of the ships&amp;rdquo; approach
+and fully commit to getting a job in web dev.&lt;/p&gt;
+
+&lt;p&gt;At this point I sold my gaming PC, all of my Youtube recording equipment,
+deleted all of my TV shows, and vowed to not play any games or watch TV until I
+landed a job.&lt;/p&gt;
+
+&lt;p&gt;In order to track my progress and stay focused, I wrote out a recap every other
+day as well as at the end of each week. I kept many of the recaps public as well
+here - &lt;a href="http://colbycheeze.blogspot.com/"&gt;http://colbycheeze.blogspot.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The other thing which I&amp;rsquo;m not 100% about, was I experimented with getting only
+5-6 hours of sleep each night so that I could spend more time learning. I
+probably wouldn&amp;rsquo;t skip so much sleep based on my recent sleep / learning
+research but in the end it worked out.&lt;/p&gt;
+
+&lt;h2 id="community"&gt;Community&lt;/h2&gt;
+
+&lt;p&gt;Getting things going, even with the &amp;ldquo;roadmap&amp;rdquo; was tough! I definitely got stuck
+a lot along the way.&lt;/p&gt;
+
+&lt;p&gt;The point at which I really accelerated, was when I began joining communities
+and meeting people that could help me or visa versa.&lt;/p&gt;
+
+&lt;p&gt;I began talking with people from the code buddies and code newbie community, and
+joined various active Slack channels.&lt;/p&gt;
+
+&lt;p&gt;Having people to reach out to with questions about whether I was on track or not, while also seeing other newbies
+with questions I could answer was very encouraging.&lt;/p&gt;
+
+&lt;p&gt;Eventually I began to attend as many local meetups as I could, and getting to
+know other developers.&lt;/p&gt;
+
+&lt;p&gt;Having a strong community, and connections to fall back on is probably one of
+the most important things regardless of career path you take. If this is the
+only thing you take away from this article, this was a success.&lt;/p&gt;
+
+&lt;h2 id="job-hunt"&gt;Job hunt&lt;/h2&gt;
+
+&lt;p&gt;Finally after about 4 months of hardcore learning, I began tweaking my resume
+and sending out messages to various companies.&lt;/p&gt;
+
+&lt;p&gt;I wrote down a general description of myself and sort of an intro &amp;ldquo;template&amp;rdquo; so
+I wouldn&amp;rsquo;t have to retype things each time, while slowly improving upon it.&lt;/p&gt;
+
+&lt;p&gt;While applying at various locations, I was slowly working to improve my personal
+website and portfolio to give the best first impression to anyone researching
+me.&lt;/p&gt;
+
+&lt;p&gt;All in all, I sent out 80 job applications within about a 6 week period and got
+turned down or ignored on most. I had a few phone interviews that I was turned
+down on for &amp;ldquo;not enough experience&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;This can be the most upsetting part of the journey, but my best advice is to
+just ask for feedback, and find out what skills people are looking for.
+Eventually, you will find somewhere that you are a fit if you keep improving
+yourself, and trying to meet new people.&lt;/p&gt;
+
+&lt;h2 id="got-a-job!"&gt;Got a job!&lt;/h2&gt;
+
+&lt;p&gt;Eventually I got accepted to an interview at IBM Design and another startup
+based in Austin around the same time. I went to both, and was offered a spot in
+either location.&lt;/p&gt;
+
+&lt;p&gt;I was very skeptical of being at a big company however I was blown away after
+the interview, so I turned down the startup&amp;rsquo;s offer.&lt;/p&gt;
+
+&lt;p&gt;Overall, I believe my ability to land a job was in large part due to soft
+skills. In other words, I was able to demonstrate not only a bit of knowledge,
+but I showed that I had a ton of passion and would be an enjoyable person to
+work with.&lt;/p&gt;
+
+&lt;p&gt;My best parting advice then would be to work on yourself as a person, not just
+your ability to code. Hopefully a look back on my journey was insightful.
+Definitely leave a comment or send me an e-mail if you have questions as I&amp;rsquo;d
+love to help anyone out that is treading down my path!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Achieving the Impossible with Simple Habits and Discipline</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/07/discipline-and-habits.html"/>
+    <id>http://blog.url.com/blog/2015/07/discipline-and-habits.html</id>
+    <published>2015-07-15T06:11:00-05:00</published>
+    <updated>2015-09-04T09:38:22-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Have you ever been overwhelmed by the idea of becoming truly great at programming, and accomplishing some of the things that the people you look up to do? I&amp;rsquo;ve spent some time really deconstructing how best to take myself from zero to hero and I&amp;rsquo;d love to discuss what I&amp;rsquo;ve discovered over the years. &lt;/p&gt;
+
+&lt;p&gt;Why do you think the majority of people fail at new year&amp;rsquo;s resolutions? There are several answers to that question, but I&amp;rsquo;ll give you the ones that are important to our discussion.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The goals are enormous and EASY to fail at.&lt;/li&gt;
+&lt;li&gt;When messing up, it is usually very self deprecating / painful.&lt;/li&gt;
+&lt;li&gt;There are no habits or process in place to achieve those goals.&lt;/li&gt;
+&lt;li&gt;No progress gets tracked&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whether it&amp;rsquo;s eating better, working out more, being more empathetic to others, memorizing people&amp;rsquo;s names, or quickly learning a new programming language - all can be achieved by utilizing the power of habit and discipline.&lt;/p&gt;
+
+&lt;p&gt;Over the past few years I&amp;rsquo;ve been reading many books, listening to podcasts from successful entrepreneurs, and doing personal study around this and other related topics. What I&amp;rsquo;ve discovered is just how important it is to monitor habit and discipline as a way to continually improve in life.&lt;/p&gt;
+
+&lt;p&gt;If you monitor human nature you can discover some interesting things.
+  * If we &amp;ldquo;achieve&amp;rdquo; a huge goal, it often leaves us with a feeling of emptiness.
+  * We push hard to be 100% productive and work tirelessly, but become extremely unproductive and sick of work.
+  * When overcoming huge challenges, we feel really good about ourselves.&lt;/p&gt;
+
+&lt;p&gt;So that leads me to my favorite sayings, which I live by:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;If you aren&amp;rsquo;t growing, you&amp;rsquo;re dying.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and&amp;hellip;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;If you&amp;rsquo;re not failing, you&amp;rsquo;re not trying hard enough.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I guess all I really wanted to say up to this point now is that, we really have to rethink our definition of success. It is never acheived. It is only strived for. Once you stop reaching for something, that is when you lose. It doesn&amp;rsquo;t matter where you are now, or where you will be in the future.&lt;/p&gt;
+
+&lt;p&gt;The only factor is the journey, and what we learn along the way. So in order to truly make strides, stop focusing on that elusive target in the distance and begin looking at how you can work hard TODAY, every day, and find happiness in that.&lt;/p&gt;
+
+&lt;p&gt;Okay enough of that, let&amp;rsquo;s actually talk about getting shit done!&lt;/p&gt;
+
+&lt;h3 id="discipline-is-the-answer"&gt;Discipline is the answer&lt;/h3&gt;
+
+&lt;p&gt;Discipline is the KEY to success. But, discipline is hard! Well, not really&amp;hellip; Actually, discipline is hard &lt;em&gt;without habits&lt;/em&gt;. Discipline is learned. You teach it to yourself through your habits. &lt;strong&gt;Let&amp;rsquo;s explore that&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It might seem like you will need a boatload of motivation and willpower to achieve greatness and to sustain the discipline required to overcome your biggest goals but that just isn&amp;rsquo;t the case.&lt;/p&gt;
+
+&lt;p&gt;The secret that high achievers know is that willpower and motivation are NOT reliable. They are an emotion, and like all other emotions they depend on many things that are usually outside of our control. Even when we are mostly in control of those emotions, the intensity of them comes in waves.&lt;/p&gt;
+
+&lt;p&gt;But guess what? &lt;mark&gt;Habits convey discipline&lt;/mark&gt;. That said, forming a new habit can be a brutal experience all in it&amp;rsquo;s own. If you have ever tried forming new habits or even getting rid of BAD habits, then you know I cannot get away with suggesting that lightly. &lt;/p&gt;
+
+&lt;p&gt;It can take a consistent effort of up to 30 days to solidify a new habit in our life. Many times, if you falter in that period, your time frame can reset itself and you are back to square one. I don&amp;rsquo;t know many people (including myself) that has the willpower to pull off forming big changes like that consistently.&lt;/p&gt;
+
+&lt;p&gt;So what is the trick? &lt;/p&gt;
+
+&lt;h3 id="micro-habits"&gt;Micro Habits&lt;/h3&gt;
+
+&lt;p&gt;Small and hard to fail. Barely noticeable really. That&amp;rsquo;s what I&amp;rsquo;m talking about here.&lt;/p&gt;
+
+&lt;p&gt;This is going to feel and sound really weird but the power behind it is ginormous. Please bare with me and you will not regret it.&lt;/p&gt;
+
+&lt;p&gt;When I say micro-habit, I really mean MICRO habit. Want to work out or go to the gym every day? Do one pushup. That&amp;rsquo;s your goal. You do ONE pushup and you win.&lt;/p&gt;
+
+&lt;p&gt;Want to go to the gym though? Okay, you start by putting on gym shorts and walking out the front door. You win. Maybe you don&amp;rsquo;t make it to the gym. But just put on the clothes and walk out the door.&lt;/p&gt;
+
+&lt;p&gt;Sound stupid? Yep, it does. Give it a shot though, because this concept will change your life forever.&lt;/p&gt;
+
+&lt;p&gt;The idea is that once you are in the position and you have done one pushup, you are going to say to yourself, &amp;ldquo;Why stop there, maybe I&amp;rsquo;ll do 5 more.&amp;rdquo; The great thing about this also, is that even if you are nasty sick, you can do one pushup. Anyone can put on their shorts and walk out the front door.&lt;/p&gt;
+
+&lt;h3 id="how-does-it-work?"&gt;How does it work?&lt;/h3&gt;
+
+&lt;p&gt;With micro habits you don&amp;rsquo;t experience the pain of failure, and you are constantly winning. The power comes into play when you start compounding all of these micro habits. Over time, you slowly add more and more.&lt;/p&gt;
+
+&lt;p&gt;The point is to make it so incredibly easy that it&amp;rsquo;s harder to NOT do it eventually. It needs to be locked into your routine in such a way that you don&amp;rsquo;t even think about it, you just DO it. It&amp;rsquo;s like driving a car. You don&amp;rsquo;t even think about all of the steps involved, it just happens.&lt;/p&gt;
+
+&lt;p&gt;Once something is habit, you don&amp;rsquo;t have to think about it. I always used to forget to brush my teeth, so last month I made the habit of &amp;ldquo;pick up my toothbrush every time I go to the bathroom&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Guess what, I brush my teeth every day (multiple times) and I don&amp;rsquo;t even think about it any more.&lt;/p&gt;
+
+&lt;h3 id="what-next?"&gt;What next?&lt;/h3&gt;
+
+&lt;p&gt;Eventually, those simple habits are going to become very trivial to you and you will need to ramp up to keep interested. One way to keep improving is to bump up the challenge level. You should always be looking for ways to take yourself out of your comfort zone.&lt;/p&gt;
+
+&lt;p&gt;There is REAL research to prove that we derive happiness from diversity and challenge. You never want to get a feeling of comfort, as much as it may &lt;strong&gt;sound&lt;/strong&gt; good in theory.&lt;/p&gt;
+
+&lt;p&gt;Creating challenging experiences for yourself is an extremely exhilarating experience. I won&amp;rsquo;t get into challenges and comfort zone within the scope of this article, but hopefully I can plant a seed for you to think about it.&lt;/p&gt;
+
+&lt;h4 id="need-a-suggestion?-write-code-every-day"&gt;Need a suggestion? Write code every day&lt;/h4&gt;
+
+&lt;p&gt;Well this is a programming blog after all, are you surprised? I suggested this in a chat recently, and received pushback on the basis of &amp;ldquo;having a life.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Look I get it, people have other things to do. So do I. Coding every day doesn&amp;rsquo;t mean coding ALL day. Anyone can take an hour a day to hone their most important skill, or work on an exciting personal project / portfolio.&lt;/p&gt;
+
+&lt;p&gt;John Resig, the creator of JQuery (now a big part of Khan Academy) wrote an &lt;a href="http://ejohn.org/blog/write-code-every-day/"&gt;amazing article&lt;/a&gt; about this which I recommend you open in a new tab and read after finishing this post.&lt;/p&gt;
+
+&lt;h3 id="recap-of-my-recent-habits"&gt;Recap of my recent habits&lt;/h3&gt;
+
+&lt;p&gt;Alright, just so you don&amp;rsquo;t feel I&amp;rsquo;m blowing some hot smoke at you I&amp;rsquo;d like to share some of my personal successes that I&amp;rsquo;ve had over the past couple of months by utilizing these methods. Hopefully this can give you ideas of your own!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Brush teeth every day&lt;/li&gt;
+&lt;li&gt;Workout every morning&lt;/li&gt;
+&lt;li&gt;Wake up consistently at 5am&lt;/li&gt;
+&lt;li&gt;Meditate daily&lt;/li&gt;
+&lt;li&gt;Hot &amp;amp; Cold alternating Shower (my showers are much shorter and pump me up)&lt;/li&gt;
+&lt;li&gt;Writing for at least 1 hour every morning after my meditation&lt;/li&gt;
+&lt;li&gt;Consciously learning something new every day, generally before bed.&lt;/li&gt;
+&lt;li&gt;Coding at least a little bit each day.&lt;/li&gt;
+&lt;li&gt;Listen to audiobooks daily (usually get through 4-5 books and multiple podcasts a month)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a huge topic, and entire books have been written about it but I believe I&amp;rsquo;ve summed up some of the most important takeaways. Don&amp;rsquo;t stop here. Life should be a constant journey of self improvement.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d love it if you shared your experiences with forming new habits, and let me know if this helps you out by leaving a comment below!&lt;/p&gt;
+
+&lt;p&gt;Finally, I&amp;rsquo;ll leave you with this:
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/AdKUJxjn-R8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Right Way to Publish User Data</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/06/publishing-user-data.html"/>
+    <id>http://blog.url.com/blog/2015/06/publishing-user-data.html</id>
+    <published>2015-06-23T06:04:00-05:00</published>
+    <updated>2015-09-04T09:38:22-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;In Meteor, you will always receive the information for the current logged in user, but what happens when you want to display information from other users such as avatar images, names, or other profile specific info? &lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t immediately obvious with Meteor, and my own confusion when first trying to do this is the reason I&amp;rsquo;m writing this post.&lt;/p&gt;
+
+&lt;p&gt;There are several ways of obtaining the information for non-logged in users, however you also have to consider a few security and privacy issues along the way which are very important.&lt;/p&gt;
+
+&lt;p&gt;You need to keep in mind that it is important to only publish the very minimal amount of information necessary to achieve your desired result.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start by asking for the user&amp;rsquo;s profile. First we have to actually create a publication for this.&lt;/p&gt;
+
+&lt;h5 id="publishing-user-data-is-as-simple-as..."&gt;Publishing user data is as simple as&amp;hellip;&lt;/h5&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="nx"&gt;Meteor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;publish&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'userData'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;Meteor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;users&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;find&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img alt="Publishing too much data" src="http://cheeze-blog-images.s3.amazonaws.com/Publish_private_data.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;mark&gt;Whoa, Danger!&lt;/mark&gt; We definitely don&amp;rsquo;t want to be publishing everyone&amp;rsquo;s password hash, email, and whatever other personal info that our app may be storing!&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s try that again. This time we need to be specific with what we need. For that we can pass in a &lt;code&gt;fields&lt;/code&gt; object to our publication.&lt;/p&gt;
+
+&lt;h5 id="the-right-way"&gt;The right way&lt;/h5&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="nx"&gt;Meteor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;publish&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'userData'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;Meteor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;users&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;find&lt;/span&gt;&lt;span class="p"&gt;({},&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="na"&gt;fields&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="na"&gt;profile&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;}});&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ah yes, much better. Now all we will receive is the &lt;code&gt;_id&lt;/code&gt; and the data within their profile.&lt;/p&gt;
+
+&lt;p&gt;Another cool trick that I didn&amp;rsquo;t know when first starting, is that you can drill down further and ask for specific fields within the profile by using a string, such as: &lt;code&gt;{fields: {&amp;#39;profile.specificData&amp;#39;: 1}}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, it&amp;rsquo;s that simple! There isn&amp;rsquo;t much more to say, but hopefully this saves someone some time because it was a pain for me when first getting started.&lt;/p&gt;
+
+&lt;h2 id="bonus-round!-gravatars"&gt;Bonus round! Gravatars&lt;/h2&gt;
+
+&lt;p&gt;Alright, so what happens if you need to display a Gravatar image which requires the user&amp;rsquo;s e-mail? You COULD publish the &lt;code&gt;&amp;#39;services.emails&amp;#39;&lt;/code&gt; field, but that is a no-no also. Not everybody wants their e-mail to be public.&lt;/p&gt;
+
+&lt;h5 id="well-there-are-two-options-here:"&gt;Well there are two options here:&lt;/h5&gt;
+
+&lt;ol&gt;
+&lt;li&gt;We store a hash of the e-mail, which can then be sent to the API&lt;/li&gt;
+&lt;li&gt;We take care of the API call on user creation, and store the actual Gravatar URL in the profile.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Well, I&amp;rsquo;d have to say &lt;strong&gt;BINGO!&lt;/strong&gt; with number 2. That&amp;rsquo;s the &amp;ldquo;Mongo&amp;rdquo; way. Denormalization as they call it. This also reduces the load times because we aren&amp;rsquo;t making dozens of API calls to Gravatar each time our page loads up.&lt;/p&gt;
+
+&lt;p&gt;One thing to keep in mind, is that you may have to create a hook that updates that gravatar url when the e-mail changes. Sacha, the author of Discover Meteor, recently wrote an amazing article about collection hooks and denormalization which you can &lt;a href="https://www.discovermeteor.com/blog/a-look-at-meteor-collection-hooks/"&gt;read on his blog here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Okay, so here is the snippet of code that can handle converting not only a generic e-mail login into an Avatar, but also handle a Google login. This could be extended to other services as well of course.&lt;/p&gt;
+&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="nx"&gt;Accounts&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;onCreateUser&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;options&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;attachData&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;picture&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;profileImageUrl&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;profilePicture&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;url&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;service&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;allEmails&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;firstEmail&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="nx"&gt;profileImageUrl&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;profile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;profile&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="p"&gt;{};&lt;/span&gt;
+
+  &lt;span class="c1"&gt;//If the google service exists&lt;/span&gt;
+  &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nx"&gt;service&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;services&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;!==&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="nx"&gt;service&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;google&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;emails&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+      &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="na"&gt;address&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;services&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;google&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+        &lt;span class="na"&gt;verified&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+      &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;];&lt;/span&gt;
+    &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;profile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;firstName&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;services&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;google&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;given_name&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;profile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;lastName&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;services&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;google&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;family_name&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;profile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;avatar&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;services&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;google&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;picture&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+
+  &lt;span class="c1"&gt;//No avatar defined from Google service? Okay let's get a Gravatar&lt;/span&gt;
+  &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;profile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;avatar&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;email&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nx"&gt;allEmails&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;emails&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;!==&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;firstEmail&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;allEmails&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt; &lt;span class="o"&gt;!==&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt; &lt;span class="p"&gt;?&lt;/span&gt; &lt;span class="nx"&gt;firstEmail&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;address&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;undefined&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="s1"&gt;''&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nx"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;Gravatar&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;imageUrl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;Gravatar&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;hash&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;email&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+    &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;profile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="na"&gt;avatar&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;url&lt;/span&gt; &lt;span class="p"&gt;};&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;user&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So that&amp;rsquo;s it! Want to learn more gotchas around Meteor security? Josh Owens has a great set of posts that really dives into this topic that I suggest you &lt;a href="http://joshowens.me/meteor-security-201/"&gt;check out on his blog here&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Managing Brain Fog When Programming</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/06/managing-brain-fog.html"/>
+    <id>http://blog.url.com/blog/2015/06/managing-brain-fog.html</id>
+    <published>2015-06-09T08:50:00-05:00</published>
+    <updated>2015-09-04T09:38:22-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Have you ever been working and felt like you just cannot work through some logic, or you may even feel physically exhausted? I know it has happened to me very often. &lt;strong&gt;What do you do when that happens?&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;Brain fog is something that I deal with on a daily basis, but it can be managed and the effects can be reduced significantly. Here are some of the most important tips I’ve discovered which keep me going.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Brain Fog" src="http://cheeze-blog-images.s3.amazonaws.com/Brain_Fog.png" /&gt;&lt;/p&gt;
+
+&lt;h4 id="1.-work-in-intervals."&gt;1. Work in intervals.&lt;/h4&gt;
+
+&lt;p&gt;Alright, so usually with these lists you give the best tip last, but this one is so important and it really ties into the rest of this list so pay attention!&lt;/p&gt;
+
+&lt;p&gt;One of the best ways to overcome being stuck is to give yourself regular breaks. Now these breaks need to be a context shift. In other words, you should be leaving your desk, doing some stretching, and overall trying to let go of the problem at hand.&lt;/p&gt;
+
+&lt;p&gt;This is similar to sleeping, in that it allows your brain to subconsciously process the work that was just done, and MANY times a possible solution will just pop into your head. This has happened to me many more times than I can count.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Pomodoro Zone" src="http://cheeze-blog-images.s3.amazonaws.com/Pomodoro_Zone.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Working in pomodoros is great. I used to do 25 minutes of work, followed by a 5 minute break. This is a good starting point if you have never tried Pomodoros, or if you find yourself losing focus often. Recently, however, I&amp;rsquo;ve moved to a 50/10 cycle as my optimal amount, especially coupled with the scientific focus music from &lt;a href="https://www.focusatwill.com/wp/s/fwf/?rc=7206563"&gt;Focus @ Will&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id="2.-eliminate-distractions"&gt;2. Eliminate Distractions&lt;/h4&gt;
+
+&lt;p&gt;Work is very similar to sleep, believe it or not. What do I mean? Well, in the same way that your quality of sleep is greatly diminished if you are woken up or disturbed, the quality of your work and focus is affected similarly. .&lt;/p&gt;
+
+&lt;p&gt;Have you heard of being in the state of “flow”? Well, the more uninterrupted focus time you can manage on a particular problem, the easier it will be to avoid getting bogged down with that feeling of brain fog.&lt;/p&gt;
+
+&lt;p&gt;Try turning off notifications during times of the day that you designate as your &amp;ldquo;focus&amp;rdquo; or &amp;ldquo;work&amp;rdquo; time. Overall, it&amp;rsquo;s important that you chunk your time into singular focus segments because we as humans do NOT work well when multi-tasking.&lt;/p&gt;
+
+&lt;h4 id="3.-focus-on-one-thing-at-a-time"&gt;3. Focus on ONE thing at a time&lt;/h4&gt;
+
+&lt;p&gt;Just to reiterate what I mentioned above, ideally you want to clear your mind of everything but the one task at hand.&lt;/p&gt;
+
+&lt;p&gt;Maybe you have a todo list of 20 things that need attending, but you can&amp;rsquo;t deal with that all at once so what is the point of thinking about it. Put everything you&amp;rsquo;ve got into completing ONE thing at a time. Ignore everything else, and you will find that these tasks become so much easier.&lt;/p&gt;
+
+&lt;h4 id="4.-break-up-large-tasks"&gt;4. Break up large tasks&lt;/h4&gt;
+
+&lt;p&gt;Sometimes we give ourselves these monumental chores, and this creates a sense of overwhelm, which then can lead to brain fog.&lt;/p&gt;
+
+&lt;p&gt;Building a pyramid was probably quite the job, and just thinking about how to get it done would have been mind numbing. Similar to any programming work, however, it all just comes down to breaking it down to the smallest parts and building it brick by brick.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Building a pyramid" src="http://cheeze-blog-images.s3.amazonaws.com/Building_a_pyramid.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t allow yourself to become overwhelmed by the magnitude of what you have to get done. Make it as simple as possible.&lt;/p&gt;
+
+&lt;h4 id="5.-have-a-very-clear-plan"&gt;5. Have a very clear plan&lt;/h4&gt;
+
+&lt;p&gt;Working on small tasks one at a time is great and all, but sometimes when I don&amp;rsquo;t have an obvious path of what I&amp;rsquo;m doing, that weighs me down quickly.&lt;/p&gt;
+
+&lt;p&gt;Even if we don&amp;rsquo;t realize it, our subconscious is always trying to figure things out behind the scenes. The more crap you can remove from &amp;ldquo;what I need to think about&amp;rdquo; the better.&lt;/p&gt;
+
+&lt;p&gt;In other words, what I&amp;rsquo;m telling you is that the less you have to think about, the less likely it will be that you go into that brain fog state.&lt;/p&gt;
+
+&lt;p&gt;A lot of what I&amp;rsquo;ve written about above can be accomplished by writing down and managing all of your tasks in some way or another. Whether you use a GTD system, or any other productivity method, it doesn&amp;rsquo;t matter. Just have some way of planning out your day, week, or even month.&lt;/p&gt;
+
+&lt;p&gt;There is a reason why Trello cards for managing projects has become so popular! If you need some ideas, I made a great video a while back about my &lt;a href="../04/my-kanban-productivity-workflow.html"&gt;Kanban productivity workflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id="6.-code-during-your-optimal-time-of-day"&gt;6. Code during your optimal time of day&lt;/h4&gt;
+
+&lt;p&gt;Being aware of your own natural rhythms can be really powerful. Try to track the time when you seem to be most productive and start moving your important and challenging coding to that time of day.&lt;/p&gt;
+
+&lt;p&gt;Now I&amp;rsquo;m personally under the belief that we have a finite amount of energy and focus available to us for the day after waking up, so I do my absolute best to take care of the MOST important things as soon as I wake up, before I even allow myself to read e-mails, or do anything at all.&lt;/p&gt;
+
+&lt;p&gt;I notice that my energy drops off heavily after a meal, so I eat once a day at the END of the day. (for those of you freaking out, see the &lt;a href="http://www.warriordiet.com/"&gt;Warrior Diet&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;On the other hand, I do recognize that many people do great as all night coders. Everyone is different, and only you can identify your most productive time. The main idea is to track, and make adjustments accordingly.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;What gets Measured, Gets Managed.&amp;rdquo; - Peter Drucker&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id="7.-context-switching"&gt;7. Context Switching&lt;/h4&gt;
+
+&lt;p&gt;At times, we are just faced with a really difficult problem that is inevitably going to put us into a state of brain fog.&lt;/p&gt;
+
+&lt;p&gt;If you find that even coming back from a break you are still unable to get past an issue, then you may need to do a context shift for a bit.&lt;/p&gt;
+
+&lt;p&gt;If this is a creative problem, try doing some logical or physical work for a little bit or vice versa. If I find that I&amp;rsquo;m stuck on a particularly complex issue where there are a lot of moving parts that my mind has to hold on to, I&amp;rsquo;ll take some time to do more design work, or writing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Left and Right Brain" src="http://cheeze-blog-images.s3.amazonaws.com/Sides_of_brain.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is similar to working in intervals, but really allows that one part of our brains to recharge while remaining productive by utilizing and working out all areas of our brain.&lt;/p&gt;
+
+&lt;p&gt;There is a lot more that could be said about this as an overall learning strategy in life, (working out all areas of your brain) but I&amp;rsquo;ll leave that to another post.&lt;/p&gt;
+
+&lt;h4 id="8.-train-your-mind"&gt;8. Train your mind&lt;/h4&gt;
+
+&lt;p&gt;Alright, so I am an AVID listener of podcasts and other personal development material and what I&amp;rsquo;ve found after listening to many interviews of successful entrepreneurs and high achiever&amp;rsquo;s is that, a large majority of them all have one thing in common: they all practice some form of mindfulness or meditation.&lt;/p&gt;
+
+&lt;p&gt;Now, this isn&amp;rsquo;t meant to be a religious thing because I can&amp;rsquo;t stand all of the &amp;ldquo;woo woo&amp;rdquo; talk behind some of this stuff that you hear about.&lt;/p&gt;
+
+&lt;p&gt;There is some scientific proof, and some logical sense to the idea of building up your focus muscles by teaching yourself to clear your mind and focus.&lt;/p&gt;
+
+&lt;p&gt;To recap on what I&amp;rsquo;ve said so far, brain fog happens when our brain gets overwhelmed and we lose focus. We only have so much &amp;ldquo;fuel&amp;rdquo; to deal with the stream of thoughts coming in every day, so being able to let all of that go and focus on the present moment is extremely valuable in practice.&lt;/p&gt;
+
+&lt;p&gt;Anyone can do this, you don&amp;rsquo;t have to go off and be a Buddhist monk to be mindful. It only takes 10-20 minutes a day.&lt;/p&gt;
+
+&lt;p&gt;If you want to get into meditation slowly and easily, which I highly suggest you do, I recommend beginning with the &lt;a href="http://www.headspace.com"&gt;Headspace app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id="9.-healthy-body-=-healthy-mind"&gt;9. Healthy Body = Healthy Mind&lt;/h4&gt;
+
+&lt;p&gt;I&amp;rsquo;ve left this one for last, because honestly, I would be able to write for days on the subject of health and I&amp;rsquo;ve timeboxed a certain amount of time to get this article written.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t think I need to push too hard to convince you that being in great physical health has a great impact on your mental state. If you didn&amp;rsquo;t know this, well now you do?&lt;/p&gt;
+
+&lt;p&gt;Here are just a few closing tips to give you an idea of what to think about when it comes to physical improvements that will help you perform at a higher level.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get exercise of SOME sort in. Running, biking, lifting weights, it doesn&amp;rsquo;t matter. If you can&amp;rsquo;t hit up the gym, try doing some squats, pushups, or just walking around a bit during those pomodoro breaks.&lt;/li&gt;
+&lt;li&gt;Try teas for less of a crash, and/or drink your coffee slower.&lt;/li&gt;
+&lt;li&gt;Eliminate sugar and carbs. Breads, sugars, pastas, and grains will all create brain fog and lower cognitive ability, and are VERY unnecessary in a healthy diet.&lt;/li&gt;
+&lt;li&gt;Healthy fats are the way to go for sustained energy / brain function. Try to consume more Avacados, Coconut oil, Fish oils, Organic 100% butter/cream (great in coffee), animal fats.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Vim as an IDE</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/06/vim-as-an-ide.html"/>
+    <id>http://blog.url.com/blog/2015/06/vim-as-an-ide.html</id>
+    <published>2015-06-05T10:01:00-05:00</published>
+    <updated>2015-09-04T09:38:22-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YD9aFIvlQYs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Within this video I show you the setup and plugins you can use to make your Vim environment as powerful as an actual editor such as Sublime Text.&lt;/p&gt;
+
+&lt;p&gt;You can view my Vim and Tmux config files that make all of this possible through my &lt;a href="https://github.com/colbycheeze/dotfiles"&gt;dotfiles on Github&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>May Site Redesign Breakdown</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/06/may-site-redesign-breakdown.html"/>
+    <id>http://blog.url.com/blog/2015/06/may-site-redesign-breakdown.html</id>
+    <published>2015-06-02T06:30:00-05:00</published>
+    <updated>2015-09-04T09:38:22-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;During the beginning of May I decided to focus on getting better at design as a whole, so I began to REALLY take a hard look at great looking websites for inspiration in addition to working my way through &lt;a href="https://hackdesign.org/"&gt;Hack Design&lt;/a&gt;. I decided my website was absolute crap and needed some work, so here is the progress that I made during that time. &lt;/p&gt;
+
+&lt;h2 id="responsive-design"&gt;Responsive Design&lt;/h2&gt;
+
+&lt;p&gt;So this was the big one. I wanted my website to look great on phone, tablet, laptop, and desktop so therefore I worked hard to get that experience nailed down.  I started by working on the navbar and building in some code which created a sidebar on smaller screens.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Responsive Navbar" src="http://cheeze-blog-images.s3.amazonaws.com/responsive-navbar.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next up was dealing with the sidebar, which would be really odd for smaller screens, so I forced it to the bottom on smaller sizes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Responsive Widgets" src="http://cheeze-blog-images.s3.amazonaws.com/sidebar-widgets-at-bottom.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Moving content around is one thing, but as I read more and more about typography I realized that my font sucked. I decided to go with a heading/body combo of &lt;strong&gt;Roboto&lt;/strong&gt; and &lt;strong&gt;Open Sans&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only did I not like my font face that I was using, but I also wanted the text itself to be responsive.
+I learned that as the screen size shrinks you can change line height, size, and spacing for smaller screens as tablets and phones will be held closer to the user&amp;rsquo;s eyes.&lt;/p&gt;
+
+&lt;p&gt;Materialize framework has a way of dealing with this called &amp;ldquo;Flow Text.&amp;rdquo; Since I&amp;rsquo;m not using that, I just manually adjusted the text sizing at various breakpoints. The idea being that you want between 50-80 characters on a line for optimal human readable text.&lt;/p&gt;
+&lt;pre class="highlight css"&gt;&lt;code&gt;&lt;span class="nt"&gt;body&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-font-size&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+  &lt;span class="err"&gt;@include&lt;/span&gt; &lt;span class="err"&gt;media($tablet-only)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-font-size&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.9&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;mobile-only&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-font-size&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.7&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+
+  &lt;span class="nt"&gt;line-height&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="nt"&gt;base-line-height&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+
+  &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;tablet-only&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-line-height&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.9&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;mobile-only&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-line-height&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.7&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I noticed that a lot of websites actually VIOLATE this rule and you can clearly tell it is much more annoying to read articles on these sites. The funny thing is that many of them LOOK amazing, but the reading experience itself sucks.&lt;/p&gt;
+
+&lt;p&gt;I decided to make my reading experience great, because that&amp;rsquo;s what people are here for!&lt;/p&gt;
+
+&lt;h4 id="text-on-large-screens"&gt;Text on large screens&lt;/h4&gt;
+
+&lt;p&gt;&lt;img alt="Text on Large screens" src="http://cheeze-blog-images.s3.amazonaws.com/text_on_large.png" /&gt;&lt;/p&gt;
+
+&lt;h4 id="text-on-small-screens"&gt;Text on small screens&lt;/h4&gt;
+
+&lt;p&gt;&lt;img alt="Text on small screens" src="http://cheeze-blog-images.s3.amazonaws.com/Text_on_small_screens.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="animations"&gt;Animations&lt;/h2&gt;
+
+&lt;p&gt;Animations are fun! I did my best to add in some spiffy animations to help with the jarring page flash on transition / page load. What I learned is that animations can REALLY be done wrong. The idea is that you want them to be somewhere in the range of 300ms, and DEFINITELY no longer than 1 second. Our eyes move in saccades and can process 3 saccades per second (hence the 300ms)&lt;/p&gt;
+
+&lt;p&gt;That said, here is what I came up with (which will look much better if you refresh your page).
+&lt;img alt="Page Transition Animations" src="http://cheeze-blog-images.s3.amazonaws.com/page_load_transition.gif" /&gt;&lt;/p&gt;
+
+&lt;h2 id="some-final-touches"&gt;Some final touches&lt;/h2&gt;
+
+&lt;p&gt;So for some extra detail here and there I have a couple of changes that I feel improved the overall experience.&lt;/p&gt;
+
+&lt;p&gt;I converted several pieces of text to Font Awesome icons, such as the post meta, as well as the social media icons.&lt;/p&gt;
+
+&lt;p&gt;Posts now also have sharing links so you can easily send them to friends.&lt;/p&gt;
+
+&lt;p&gt;After reading through the Google design specs, I decided to touch up my shadows and make them more &amp;ldquo;Material&amp;rdquo; like. I actually came up with a two part shadow to accomplish this, and stuck to the 5 level approach, such that the content is 1 level up, and the navbar would be at level 2 in height.&lt;/p&gt;
+
+&lt;p&gt;And finally, I wanted to make that background look a bit better so I chose to use a textured approach.&lt;/p&gt;
+
+&lt;p&gt;If you want to see the previous iterations of how I&amp;rsquo;ve built my website, be sure to check out the previous recaps in the article, &lt;a href="../02/building-my-middleman-blog.html"&gt;Building my Middleman Blog&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
