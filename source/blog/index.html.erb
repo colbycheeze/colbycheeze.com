@@ -19,14 +19,25 @@ per_page: 5
 </ul>
 
 <% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+  <div class="pagination">
 
-  <% if prev_page %>
-    <%= link_to 'Previous page', prev_page %>
-  <% end %>
+    <div class="prev">
+      <% if prev_page %>
+        <%= link_to 'Previous page', prev_page %>
+      <% else %>
+        <p> </p>
+      <% end %>
+    </div>
 
-  <% if next_page %>
-    <%= link_to 'Next page', next_page %>
-  <% end %>
+    <p class="page-num">Page <%= page_number %> of <%= num_pages %></p>
+
+    <div class="next">
+      <% if next_page %>
+        <%= link_to 'Next page', next_page %>
+      <% else %>
+        <p> </p>
+      <% end %>
+    </div>
+  </div>
 <% end %>
 
