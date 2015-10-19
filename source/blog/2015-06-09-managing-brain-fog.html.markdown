@@ -1,7 +1,7 @@
 ---
 title: Managing Brain Fog When Programming
 date: 2015-06-09 08:50 CDT
-tags: soft skills, health
+tags: soft skills, health, productivity
 ---
 
 Have you ever been working and felt like you just cannot work through some logic, or you may even feel physically exhausted? I know it has happened to me very often. **What do you do when that happens?** READMORE

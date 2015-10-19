@@ -75,8 +75,9 @@ knowledge, to landing a job. PERFECT!
 I've always thrived in self paced conditions, and this is exactly what I needed:
 A roadmap.
 
-> **NOTE:** For anyone reading this, The Odin Project is an out-dated and dead
-> project. I would VERY HIGHLY recommend using [Free Code Camp](http://freecodecamp.com)
+> **NOTE:** For anyone reading this, The Odin Project is a great resource for learning Ruby and Rails,
+> although now days I would VERY HIGHLY recommend using [Free Code Camp](http://freecodecamp.com)
+> which has become an amazing project with a huge community backing it.
 
 ## Fully Commit
 
