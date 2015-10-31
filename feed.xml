@@ -5,10 +5,56 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-10-09T13:55:00-05:00</updated>
+  <updated>2015-10-31T07:00:00-05:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Power Hour - How to deal with long lists of "unimportant" tasks</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/10/power-hour.html"/>
+    <id>http://blog.url.com/blog/2015/10/power-hour.html</id>
+    <published>2015-10-31T07:00:00-05:00</published>
+    <updated>2015-10-31T07:54:53-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;In an attempt to get a lot of shit done, I have done what many books and
+productivity systems have recommended over the years, which is to create a &amp;ldquo;todo&amp;rdquo; list and I&amp;rsquo;ll do my best to work through that.&lt;/p&gt;
+
+&lt;p&gt;The interesting thing is that the longer I stick to one of these systems, the
+longer that list gets of things that just don&amp;rsquo;t ever seem to get done. Ughh, how
+annoying. &lt;/p&gt;
+
+&lt;p&gt;Usually it&amp;rsquo;s the less important tasks, or things I just don&amp;rsquo;t REALLY want to do
+and won&amp;rsquo;t have a severe effect if I put them off. It could be  something like, &amp;ldquo;write that e-mail to my buddy,&amp;rdquo; or &amp;ldquo;search for a dentist that is closer for my regular checkups.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I have a pretty big procrastinator tendancy, which is helpful when I am given
+deadlines and constraints. I can do great work under pressure, but these tiny
+tasks just find ways to annoy me week after week as they pile up because I have
+&amp;ldquo;other more important&amp;rdquo; things to do.&lt;/p&gt;
+
+&lt;p&gt;In order to combat this issue, I have come up with a strategy called &lt;strong&gt;Power Hour.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id="simple"&gt;Simple&lt;/h3&gt;
+
+&lt;p&gt;It&amp;rsquo;s really as easy as this&amp;hellip;each day (or sometimes every few days) I&amp;rsquo;ll just
+schedule in an hour where I scramble and try to knock out as many of these
+little &amp;ldquo;unimportant&amp;rdquo; tasks as possible.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s actually kind of fun sometimes. I&amp;rsquo;ve made it into a bit of a game to see
+how much I can do. There is no real feeling of loss if I don&amp;rsquo;t do these tasks,
+but they have a huge happy feeling for marking them off as &amp;ldquo;done.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;The way it works, is when you are planning out your days or week, identify when
+something isn&amp;rsquo;t extremely important and stick it under a &amp;ldquo;Power Hour&amp;rdquo; list. You
+can safely stop staring at that huge list of never complete tasks now, and only
+pull it out during your scheduled times.&lt;/p&gt;
+
+&lt;p&gt;Woot. Let me know if you guys come up with any similar ways to get through those
+small tasks without them bleeding into your main focus or stressing you out each
+week.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>My Journey from Zero to Developer</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/10/zero-to-developer.html"/>
@@ -524,88 +570,6 @@ love to help anyone out that is treading down my path!&lt;/p&gt;
 &lt;p&gt;Within this video I show you the setup and plugins you can use to make your Vim environment as powerful as an actual editor such as Sublime Text.&lt;/p&gt;
 
 &lt;p&gt;You can view my Vim and Tmux config files that make all of this possible through my &lt;a href="https://github.com/colbycheeze/dotfiles"&gt;dotfiles on Github&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>May Site Redesign Breakdown</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2015/06/may-site-redesign-breakdown.html"/>
-    <id>http://blog.url.com/blog/2015/06/may-site-redesign-breakdown.html</id>
-    <published>2015-06-02T06:30:00-05:00</published>
-    <updated>2015-09-04T09:38:22-05:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;During the beginning of May I decided to focus on getting better at design as a whole, so I began to REALLY take a hard look at great looking websites for inspiration in addition to working my way through &lt;a href="https://hackdesign.org/"&gt;Hack Design&lt;/a&gt;. I decided my website was absolute crap and needed some work, so here is the progress that I made during that time. &lt;/p&gt;
-
-&lt;h2 id="responsive-design"&gt;Responsive Design&lt;/h2&gt;
-
-&lt;p&gt;So this was the big one. I wanted my website to look great on phone, tablet, laptop, and desktop so therefore I worked hard to get that experience nailed down.  I started by working on the navbar and building in some code which created a sidebar on smaller screens.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Responsive Navbar" src="http://cheeze-blog-images.s3.amazonaws.com/responsive-navbar.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Next up was dealing with the sidebar, which would be really odd for smaller screens, so I forced it to the bottom on smaller sizes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Responsive Widgets" src="http://cheeze-blog-images.s3.amazonaws.com/sidebar-widgets-at-bottom.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Moving content around is one thing, but as I read more and more about typography I realized that my font sucked. I decided to go with a heading/body combo of &lt;strong&gt;Roboto&lt;/strong&gt; and &lt;strong&gt;Open Sans&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Not only did I not like my font face that I was using, but I also wanted the text itself to be responsive.
-I learned that as the screen size shrinks you can change line height, size, and spacing for smaller screens as tablets and phones will be held closer to the user&amp;rsquo;s eyes.&lt;/p&gt;
-
-&lt;p&gt;Materialize framework has a way of dealing with this called &amp;ldquo;Flow Text.&amp;rdquo; Since I&amp;rsquo;m not using that, I just manually adjusted the text sizing at various breakpoints. The idea being that you want between 50-80 characters on a line for optimal human readable text.&lt;/p&gt;
-&lt;pre class="highlight css"&gt;&lt;code&gt;&lt;span class="nt"&gt;body&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-font-size&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-
-  &lt;span class="err"&gt;@include&lt;/span&gt; &lt;span class="err"&gt;media($tablet-only)&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-font-size&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.9&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-  &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;mobile-only&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-font-size&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.7&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-
-  &lt;span class="nt"&gt;line-height&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="nt"&gt;base-line-height&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
-
-  &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;tablet-only&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-line-height&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.9&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-  &lt;span class="k"&gt;@include&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;mobile-only&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nl"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;base-line-height&lt;/span&gt; &lt;span class="err"&gt;*&lt;/span&gt; &lt;span class="m"&gt;0.7&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-  &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="err"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I noticed that a lot of websites actually VIOLATE this rule and you can clearly tell it is much more annoying to read articles on these sites. The funny thing is that many of them LOOK amazing, but the reading experience itself sucks.&lt;/p&gt;
-
-&lt;p&gt;I decided to make my reading experience great, because that&amp;rsquo;s what people are here for!&lt;/p&gt;
-
-&lt;h4 id="text-on-large-screens"&gt;Text on large screens&lt;/h4&gt;
-
-&lt;p&gt;&lt;img alt="Text on Large screens" src="http://cheeze-blog-images.s3.amazonaws.com/text_on_large.png" /&gt;&lt;/p&gt;
-
-&lt;h4 id="text-on-small-screens"&gt;Text on small screens&lt;/h4&gt;
-
-&lt;p&gt;&lt;img alt="Text on small screens" src="http://cheeze-blog-images.s3.amazonaws.com/Text_on_small_screens.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="animations"&gt;Animations&lt;/h2&gt;
-
-&lt;p&gt;Animations are fun! I did my best to add in some spiffy animations to help with the jarring page flash on transition / page load. What I learned is that animations can REALLY be done wrong. The idea is that you want them to be somewhere in the range of 300ms, and DEFINITELY no longer than 1 second. Our eyes move in saccades and can process 3 saccades per second (hence the 300ms)&lt;/p&gt;
-
-&lt;p&gt;That said, here is what I came up with (which will look much better if you refresh your page).
-&lt;img alt="Page Transition Animations" src="http://cheeze-blog-images.s3.amazonaws.com/page_load_transition.gif" /&gt;&lt;/p&gt;
-
-&lt;h2 id="some-final-touches"&gt;Some final touches&lt;/h2&gt;
-
-&lt;p&gt;So for some extra detail here and there I have a couple of changes that I feel improved the overall experience.&lt;/p&gt;
-
-&lt;p&gt;I converted several pieces of text to Font Awesome icons, such as the post meta, as well as the social media icons.&lt;/p&gt;
-
-&lt;p&gt;Posts now also have sharing links so you can easily send them to friends.&lt;/p&gt;
-
-&lt;p&gt;After reading through the Google design specs, I decided to touch up my shadows and make them more &amp;ldquo;Material&amp;rdquo; like. I actually came up with a two part shadow to accomplish this, and stuck to the 5 level approach, such that the content is 1 level up, and the navbar would be at level 2 in height.&lt;/p&gt;
-
-&lt;p&gt;And finally, I wanted to make that background look a bit better so I chose to use a textured approach.&lt;/p&gt;
-
-&lt;p&gt;If you want to see the previous iterations of how I&amp;rsquo;ve built my website, be sure to check out the previous recaps in the article, &lt;a href="../02/building-my-middleman-blog.html"&gt;Building my Middleman Blog&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
