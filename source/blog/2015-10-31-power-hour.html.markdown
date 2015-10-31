@@ -1,6 +1,6 @@
 ---
 title: Power Hour - How to deal with long lists of "unimportant" tasks
-date: 2015-10-31 21:06 CDT
+date: 2015-10-31 07:00 CDT
 tags: productivity, habits
 published: true
 ---
