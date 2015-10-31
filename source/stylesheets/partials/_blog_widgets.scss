@@ -36,12 +36,14 @@
   .tag {
     font-variant: small-caps;
     text-transform: lowercase;
-    padding: 2px $small-spacing 2px $small-spacing;
-    margin: 2px;
+    padding: 5px 10px;
+    line-height: 1;
+    margin: 3px;
     display: block;
     float: left;
+    font-weight: 600;
 
-    border: $base-border;
-    border-radius: $base-border-radius;
+    border: 1px solid $action-color;
+    border-radius: 50px;
   }
 }

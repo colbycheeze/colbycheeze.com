@@ -1,5 +1,5 @@
 ---
-pageable: true
+pageable: false
 ---
 <article>
   <h1>Archive for
@@ -13,23 +13,46 @@ pageable: true
 <% end %>
   </h1>
 
-  <% if paginate && num_pages > 1 %>
-    <p>Page <%= page_number %> of <%= num_pages %></p>
-
-    <% if prev_page %>
-      <p><%= link_to 'Previous page', prev_page %></p>
-    <% end %>
-  <% end %>
-
-  <ul>
+  <ul class="archive">
     <% page_articles.each_with_index do |article, i| %>
-      <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+      <li>
+        <h4 class="title">
+          <%= link_to article.title, article %>
+        </h4>
+
+        <ul class="meta">
+          <i class="fa fa-calendar"></i> <span class="date"><%= article.date.strftime('%b %e') %></span>
+
+          <i class="fa fa-tags"></i>
+          <% article.tags.each do |tag| %>
+            <li class="tags"><%= link_to tag, tag_path(tag) %></li>
+          <% end %>
+        </ul>
+
+      </li>
     <% end %>
   </ul>
 </article>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
+<% if paginate && num_pages > 1 %>
+  <div class="pagination">
+
+    <div class="prev">
+      <% if prev_page %>
+        <%= link_to 'Previous page', prev_page %>
+      <% else %>
+        <p> </p>
+      <% end %>
+    </div>
+
+    <p class="page-num">Page <%= page_number %> of <%= num_pages %></p>
+
+    <div class="next">
+      <% if next_page %>
+        <%= link_to 'Next page', next_page %>
+      <% else %>
+        <p> </p>
+      <% end %>
+    </div>
+  </div>
 <% end %>
