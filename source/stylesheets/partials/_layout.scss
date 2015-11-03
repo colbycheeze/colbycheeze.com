@@ -22,15 +22,25 @@ body {
 }
 
 .main-content {
-  padding-top: $nav-height;
+  padding: $nav-height 0.5rem 0 0.5rem;
   flex: 1;
   @include outer-container;
+
+  @include media($tablet) {
+    max-width: 80%;
+  }
+  @include media($medium) {
+    max-width: $max-width;
+  }
+  @include media($desktop) {
+    padding: $nav-height 0 0 0;
+  }
 }
 
 .blog-content {
   @include span-columns(12 of 12);
 
-  @include media($tablet) {
+  @include media($medium) {
     @include span-columns(8 of 12);
   }
 }

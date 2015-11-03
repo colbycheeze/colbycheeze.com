@@ -8,6 +8,7 @@ $max-width: em(960);
 
 // Neat Breakpoints
 $desktop: min-width em(1120);
+$medium: min-width em(1000);
 $tablet: min-width em(730);
 $mobile: min-width em(480);
 $desktop-only: max-width em(1119);
