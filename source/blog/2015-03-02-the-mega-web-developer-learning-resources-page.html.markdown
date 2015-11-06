@@ -151,7 +151,7 @@ http://www.reddit.com/r/learnprogramming/comments/218ca9/list_of_beginner_progra
     skills.
 
 [True Ability]: https://trueability.com/
-[ryans]: http://royanstutorials.net/
+[ryans]: http://ryanstutorials.net/
 
 ### Vim
   * [Vim Adventures][] - Fun game for getting the hang of Vim movement

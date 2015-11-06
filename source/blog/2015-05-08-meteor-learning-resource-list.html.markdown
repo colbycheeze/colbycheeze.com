@@ -211,7 +211,7 @@ Meteor is PURE Javascript, so many of these resources will help hone your JS ski
   * [True Ability][] - A real-world, real-server test of Linux and DevOps skills.
 
 [True Ability]: https://trueability.com/
-[ryans]: http://royanstutorials.net/
+[ryans]: http://ryanstutorials.net/
 
 ## Miscellaneous
 

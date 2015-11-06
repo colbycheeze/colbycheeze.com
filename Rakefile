@@ -21,9 +21,9 @@ task :build do
   puts status ? "OK" : "FAILED"
 end
 
-desc "Deploy website"
+desc "Deploy website with Middleman Deploy"
 task :deploy do
-  puts "## Deploying website (middleman deploy)"
+  puts "## Deploying website to github pages (middleman deploy)"
   status = system("bundle exec middleman deploy")
   puts status ? "OK" : "FAILED"
 end
