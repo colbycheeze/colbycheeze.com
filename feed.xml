@@ -5,10 +5,24 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-10-31T07:00:00-05:00</updated>
+  <updated>2015-11-20T09:47:00-06:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>How to set up a workflow for local web development</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/11/15-local-web-dev-workflow.html"/>
+    <id>http://blog.url.com/blog/2015/11/15-local-web-dev-workflow.html</id>
+    <published>2015-11-20T09:47:00-06:00</published>
+    <updated>2015-11-20T10:05:39-06:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WD73ZvuoCFQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;If you are just starting out and are only familiar with editors such as Codepen, JSFiddle, and Codecademy etc, this tutorial will show you everything you need to know to get set up locally.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Power Hour - How to deal with long lists of "unimportant" tasks</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/10/power-hour.html"/>
@@ -554,22 +568,6 @@ love to help anyone out that is treading down my path!&lt;/p&gt;
 &lt;li&gt;Eliminate sugar and carbs. Breads, sugars, pastas, and grains will all create brain fog and lower cognitive ability, and are VERY unnecessary in a healthy diet.&lt;/li&gt;
 &lt;li&gt;Healthy fats are the way to go for sustained energy / brain function. Try to consume more Avacados, Coconut oil, Fish oils, Organic 100% butter/cream (great in coffee), animal fats.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Vim as an IDE</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2015/06/vim-as-an-ide.html"/>
-    <id>http://blog.url.com/blog/2015/06/vim-as-an-ide.html</id>
-    <published>2015-06-05T10:01:00-05:00</published>
-    <updated>2015-09-04T09:38:22-05:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YD9aFIvlQYs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Within this video I show you the setup and plugins you can use to make your Vim environment as powerful as an actual editor such as Sublime Text.&lt;/p&gt;
-
-&lt;p&gt;You can view my Vim and Tmux config files that make all of this possible through my &lt;a href="https://github.com/colbycheeze/dotfiles"&gt;dotfiles on Github&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>
