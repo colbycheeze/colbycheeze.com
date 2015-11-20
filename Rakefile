@@ -32,6 +32,13 @@ desc "One Line deploy"
 task :go, [:msg] => [:commit, :push, :build, :deploy] do |t, args|
 end
 
-desc "One Line deploy --no files to commit"
-task :default => [:push, :build, :deploy]
+desc "Starts up the Middleman Server"
+task :serve do
+  puts "## Starting Middleman (bundle exec middleman)"
+  status = system("bundle exec middleman")
+  puts status ? "OK" : "FAILED"
+end
+
+desc "Default, just start up the server"
+task :default => [:serve]
 

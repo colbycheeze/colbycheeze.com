@@ -1,25 +1,40 @@
 ---
-title: Creating a static site generator workflow with Gulp
+title: Building and releasing my own open source project
 date: 2015-11-03 07:39 CST
 tags: tools, workflow
 published: false
 ---
 
-This month I have been upgrading my understanding of the various tools and
-workflows outside of the Meteor ecosystem now that I am working at IBM.
+As part of my goal of constantly leveling up my abilities in web development,
+I decided to learn all about building layouts from scratch, as well as learn
+various build tools used by project teams.
 
-In the course of building my new Blue Grid library, I realized I didn't have
-a good way to actually build the files into something that could be distributed
-or even viewed really outside of using Meteor.
+After playing around with tons of frameworks out there, I got tired of dealing
+with all of the bloated stuff available and ended up just building my own simple
+grid that is based off of current web standards (IE: Flexbox).
 
-Gulp is one of the most widely accepted build tools, so it only made sense for
-me to start there. After spending some time writing everything up, I now have
-something that can be reused in any future projects and I wanted to share.
+I learned a lot in the process of making it work, interviewing people about what
+they wanted, and the entire distribution process so that is what I wanted to
+share today.
 READMORE
 
-#### I just want it to run!
-Perhaps many of you are already using ES6 features within your Node code as of
-the Node 4 update, which supports most of it. Using modules such as `import gulp from 'gulp'` however, will not work as of yet. Luckily, there is a [great post by Mark Goodyear](https://markgoodyear.com/2015/06/using-es6-with-gulp/) which explains how to get it working.
+## Why another grid?
+Blue Grid is a simple, easy to use, grid based on flexbox. I was tired of
+using float based layouts and living in the past. I thought something had to be
+out there, and there is one called "Flexbox Grid" which does a pretty good job.
+
+Overall, after checking it out...it just wasn't enough. Also it isn't the most
+semantic, NOR is it the best for rapid prototyping. Since I have experience with
+a wide range of frameworks, I felt qualified to just build my own by taking the
+best parts of everything out there and combining it into an updated grid!
+
+I made Blue Grid both for rapid prototyping (hence all of the classes) AND for
+more semantic project building via mixins. You can do one or the other, or
+both...depending on your project needs. Anyway, I'm not here to talk about Blue
+Grid, if you want to learn more you can just go to the
+[Github project page](http://www.github.com/colbycheeze/bluegrid) or [Docs](http://colbycheeze.github.io/bluegrid/).
+
+I'd rather chat about the whole experience and how you can go through the
+process of releasing a project yourself.
 
 ## Enhancing Gulp
-As for how to utilize ES6 in fun ways, mostly you can 
