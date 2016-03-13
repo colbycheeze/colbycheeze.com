@@ -5,16 +5,30 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-11-20T09:47:00-06:00</updated>
+  <updated>2016-03-13T08:57:00-05:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Functional Reactive Programming for Beginners</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2016/03/functional-reactive-programming-for-beginners.html"/>
+    <id>http://blog.url.com/blog/2016/03/functional-reactive-programming-for-beginners.html</id>
+    <published>2016-03-13T08:57:00-05:00</published>
+    <updated>2016-03-13T09:09:00-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/vLmaZxegahk" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;It is my opinion that functional programming will be huge this year, and thus very beneficial to begin learning. The problem, is that learning functional programming from scratch can be so confusing because of the vast amount of jargon associated with it. After toying with it for a month, I decided to put together an intro for anyone who wants to know what it is all about.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>How to set up a workflow for local web development</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/11/15-local-web-dev-workflow.html"/>
     <id>http://blog.url.com/blog/2015/11/15-local-web-dev-workflow.html</id>
     <published>2015-11-20T09:47:00-06:00</published>
-    <updated>2015-11-20T10:05:39-06:00</updated>
+    <updated>2016-03-08T06:14:36-06:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -28,7 +42,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2015/10/power-hour.html"/>
     <id>http://blog.url.com/blog/2015/10/power-hour.html</id>
     <published>2015-10-31T07:00:00-05:00</published>
-    <updated>2015-10-31T08:05:43-05:00</updated>
+    <updated>2016-03-08T06:14:36-06:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -74,7 +88,7 @@ week.&lt;/p&gt;
     <link rel="alternate" href="http://blog.url.com/blog/2015/10/zero-to-developer.html"/>
     <id>http://blog.url.com/blog/2015/10/zero-to-developer.html</id>
     <published>2015-10-09T13:55:00-05:00</published>
-    <updated>2015-10-19T07:46:22-05:00</updated>
+    <updated>2016-03-08T06:14:36-06:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -239,7 +253,7 @@ love to help anyone out that is treading down my path!&lt;/p&gt;
     <link rel="alternate" href="http://blog.url.com/blog/2015/07/discipline-and-habits.html"/>
     <id>http://blog.url.com/blog/2015/07/discipline-and-habits.html</id>
     <published>2015-07-15T06:11:00-05:00</published>
-    <updated>2015-09-04T09:38:22-05:00</updated>
+    <updated>2016-03-08T06:14:36-06:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -364,7 +378,7 @@ love to help anyone out that is treading down my path!&lt;/p&gt;
     <link rel="alternate" href="http://blog.url.com/blog/2015/06/publishing-user-data.html"/>
     <id>http://blog.url.com/blog/2015/06/publishing-user-data.html</id>
     <published>2015-06-23T06:04:00-05:00</published>
-    <updated>2015-09-04T09:38:22-05:00</updated>
+    <updated>2016-03-08T06:14:36-06:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -447,127 +461,6 @@ love to help anyone out that is treading down my path!&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;So that&amp;rsquo;s it! Want to learn more gotchas around Meteor security? Josh Owens has a great set of posts that really dives into this topic that I suggest you &lt;a href="http://joshowens.me/meteor-security-201/"&gt;check out on his blog here&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Managing Brain Fog When Programming</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2015/06/managing-brain-fog.html"/>
-    <id>http://blog.url.com/blog/2015/06/managing-brain-fog.html</id>
-    <published>2015-06-09T08:50:00-05:00</published>
-    <updated>2015-10-14T06:47:34-05:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;Have you ever been working and felt like you just cannot work through some logic, or you may even feel physically exhausted? I know it has happened to me very often. &lt;strong&gt;What do you do when that happens?&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;Brain fog is something that I deal with on a daily basis, but it can be managed and the effects can be reduced significantly. Here are some of the most important tips I’ve discovered which keep me going.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Brain Fog" src="http://cheeze-blog-images.s3.amazonaws.com/Brain_Fog.png" /&gt;&lt;/p&gt;
-
-&lt;h4 id="1.-work-in-intervals."&gt;1. Work in intervals.&lt;/h4&gt;
-
-&lt;p&gt;Alright, so usually with these lists you give the best tip last, but this one is so important and it really ties into the rest of this list so pay attention!&lt;/p&gt;
-
-&lt;p&gt;One of the best ways to overcome being stuck is to give yourself regular breaks. Now these breaks need to be a context shift. In other words, you should be leaving your desk, doing some stretching, and overall trying to let go of the problem at hand.&lt;/p&gt;
-
-&lt;p&gt;This is similar to sleeping, in that it allows your brain to subconsciously process the work that was just done, and MANY times a possible solution will just pop into your head. This has happened to me many more times than I can count.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Pomodoro Zone" src="http://cheeze-blog-images.s3.amazonaws.com/Pomodoro_Zone.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Working in pomodoros is great. I used to do 25 minutes of work, followed by a 5 minute break. This is a good starting point if you have never tried Pomodoros, or if you find yourself losing focus often. Recently, however, I&amp;rsquo;ve moved to a 50/10 cycle as my optimal amount, especially coupled with the scientific focus music from &lt;a href="https://www.focusatwill.com/wp/s/fwf/?rc=7206563"&gt;Focus @ Will&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id="2.-eliminate-distractions"&gt;2. Eliminate Distractions&lt;/h4&gt;
-
-&lt;p&gt;Work is very similar to sleep, believe it or not. What do I mean? Well, in the same way that your quality of sleep is greatly diminished if you are woken up or disturbed, the quality of your work and focus is affected similarly. .&lt;/p&gt;
-
-&lt;p&gt;Have you heard of being in the state of “flow”? Well, the more uninterrupted focus time you can manage on a particular problem, the easier it will be to avoid getting bogged down with that feeling of brain fog.&lt;/p&gt;
-
-&lt;p&gt;Try turning off notifications during times of the day that you designate as your &amp;ldquo;focus&amp;rdquo; or &amp;ldquo;work&amp;rdquo; time. Overall, it&amp;rsquo;s important that you chunk your time into singular focus segments because we as humans do NOT work well when multi-tasking.&lt;/p&gt;
-
-&lt;h4 id="3.-focus-on-one-thing-at-a-time"&gt;3. Focus on ONE thing at a time&lt;/h4&gt;
-
-&lt;p&gt;Just to reiterate what I mentioned above, ideally you want to clear your mind of everything but the one task at hand.&lt;/p&gt;
-
-&lt;p&gt;Maybe you have a todo list of 20 things that need attending, but you can&amp;rsquo;t deal with that all at once so what is the point of thinking about it. Put everything you&amp;rsquo;ve got into completing ONE thing at a time. Ignore everything else, and you will find that these tasks become so much easier.&lt;/p&gt;
-
-&lt;h4 id="4.-break-up-large-tasks"&gt;4. Break up large tasks&lt;/h4&gt;
-
-&lt;p&gt;Sometimes we give ourselves these monumental chores, and this creates a sense of overwhelm, which then can lead to brain fog.&lt;/p&gt;
-
-&lt;p&gt;Building a pyramid was probably quite the job, and just thinking about how to get it done would have been mind numbing. Similar to any programming work, however, it all just comes down to breaking it down to the smallest parts and building it brick by brick.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Building a pyramid" src="http://cheeze-blog-images.s3.amazonaws.com/Building_a_pyramid.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Don&amp;rsquo;t allow yourself to become overwhelmed by the magnitude of what you have to get done. Make it as simple as possible.&lt;/p&gt;
-
-&lt;h4 id="5.-have-a-very-clear-plan"&gt;5. Have a very clear plan&lt;/h4&gt;
-
-&lt;p&gt;Working on small tasks one at a time is great and all, but sometimes when I don&amp;rsquo;t have an obvious path of what I&amp;rsquo;m doing, that weighs me down quickly.&lt;/p&gt;
-
-&lt;p&gt;Even if we don&amp;rsquo;t realize it, our subconscious is always trying to figure things out behind the scenes. The more crap you can remove from &amp;ldquo;what I need to think about&amp;rdquo; the better.&lt;/p&gt;
-
-&lt;p&gt;In other words, what I&amp;rsquo;m telling you is that the less you have to think about, the less likely it will be that you go into that brain fog state.&lt;/p&gt;
-
-&lt;p&gt;A lot of what I&amp;rsquo;ve written about above can be accomplished by writing down and managing all of your tasks in some way or another. Whether you use a GTD system, or any other productivity method, it doesn&amp;rsquo;t matter. Just have some way of planning out your day, week, or even month.&lt;/p&gt;
-
-&lt;p&gt;There is a reason why Trello cards for managing projects has become so popular! If you need some ideas, I made a great video a while back about my &lt;a href="../04/my-kanban-productivity-workflow.html"&gt;Kanban productivity workflow&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id="6.-code-during-your-optimal-time-of-day"&gt;6. Code during your optimal time of day&lt;/h4&gt;
-
-&lt;p&gt;Being aware of your own natural rhythms can be really powerful. Try to track the time when you seem to be most productive and start moving your important and challenging coding to that time of day.&lt;/p&gt;
-
-&lt;p&gt;Now I&amp;rsquo;m personally under the belief that we have a finite amount of energy and focus available to us for the day after waking up, so I do my absolute best to take care of the MOST important things as soon as I wake up, before I even allow myself to read e-mails, or do anything at all.&lt;/p&gt;
-
-&lt;p&gt;I notice that my energy drops off heavily after a meal, so I eat once a day at the END of the day. (for those of you freaking out, see the &lt;a href="http://www.warriordiet.com/"&gt;Warrior Diet&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;On the other hand, I do recognize that many people do great as all night coders. Everyone is different, and only you can identify your most productive time. The main idea is to track, and make adjustments accordingly.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;What gets Measured, Gets Managed.&amp;rdquo; - Peter Drucker&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id="7.-context-switching"&gt;7. Context Switching&lt;/h4&gt;
-
-&lt;p&gt;At times, we are just faced with a really difficult problem that is inevitably going to put us into a state of brain fog.&lt;/p&gt;
-
-&lt;p&gt;If you find that even coming back from a break you are still unable to get past an issue, then you may need to do a context shift for a bit.&lt;/p&gt;
-
-&lt;p&gt;If this is a creative problem, try doing some logical or physical work for a little bit or vice versa. If I find that I&amp;rsquo;m stuck on a particularly complex issue where there are a lot of moving parts that my mind has to hold on to, I&amp;rsquo;ll take some time to do more design work, or writing.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Left and Right Brain" src="http://cheeze-blog-images.s3.amazonaws.com/Sides_of_brain.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is similar to working in intervals, but really allows that one part of our brains to recharge while remaining productive by utilizing and working out all areas of our brain.&lt;/p&gt;
-
-&lt;p&gt;There is a lot more that could be said about this as an overall learning strategy in life, (working out all areas of your brain) but I&amp;rsquo;ll leave that to another post.&lt;/p&gt;
-
-&lt;h4 id="8.-train-your-mind"&gt;8. Train your mind&lt;/h4&gt;
-
-&lt;p&gt;Alright, so I am an AVID listener of podcasts and other personal development material and what I&amp;rsquo;ve found after listening to many interviews of successful entrepreneurs and high achiever&amp;rsquo;s is that, a large majority of them all have one thing in common: they all practice some form of mindfulness or meditation.&lt;/p&gt;
-
-&lt;p&gt;Now, this isn&amp;rsquo;t meant to be a religious thing because I can&amp;rsquo;t stand all of the &amp;ldquo;woo woo&amp;rdquo; talk behind some of this stuff that you hear about.&lt;/p&gt;
-
-&lt;p&gt;There is some scientific proof, and some logical sense to the idea of building up your focus muscles by teaching yourself to clear your mind and focus.&lt;/p&gt;
-
-&lt;p&gt;To recap on what I&amp;rsquo;ve said so far, brain fog happens when our brain gets overwhelmed and we lose focus. We only have so much &amp;ldquo;fuel&amp;rdquo; to deal with the stream of thoughts coming in every day, so being able to let all of that go and focus on the present moment is extremely valuable in practice.&lt;/p&gt;
-
-&lt;p&gt;Anyone can do this, you don&amp;rsquo;t have to go off and be a Buddhist monk to be mindful. It only takes 10-20 minutes a day.&lt;/p&gt;
-
-&lt;p&gt;If you want to get into meditation slowly and easily, which I highly suggest you do, I recommend beginning with the &lt;a href="http://www.headspace.com"&gt;Headspace app&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id="9.-healthy-body-=-healthy-mind"&gt;9. Healthy Body = Healthy Mind&lt;/h4&gt;
-
-&lt;p&gt;I&amp;rsquo;ve left this one for last, because honestly, I would be able to write for days on the subject of health and I&amp;rsquo;ve timeboxed a certain amount of time to get this article written.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t think I need to push too hard to convince you that being in great physical health has a great impact on your mental state. If you didn&amp;rsquo;t know this, well now you do?&lt;/p&gt;
-
-&lt;p&gt;Here are just a few closing tips to give you an idea of what to think about when it comes to physical improvements that will help you perform at a higher level.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Get exercise of SOME sort in. Running, biking, lifting weights, it doesn&amp;rsquo;t matter. If you can&amp;rsquo;t hit up the gym, try doing some squats, pushups, or just walking around a bit during those pomodoro breaks.&lt;/li&gt;
-&lt;li&gt;Try teas for less of a crash, and/or drink your coffee slower.&lt;/li&gt;
-&lt;li&gt;Eliminate sugar and carbs. Breads, sugars, pastas, and grains will all create brain fog and lower cognitive ability, and are VERY unnecessary in a healthy diet.&lt;/li&gt;
-&lt;li&gt;Healthy fats are the way to go for sustained energy / brain function. Try to consume more Avacados, Coconut oil, Fish oils, Organic 100% butter/cream (great in coffee), animal fats.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
